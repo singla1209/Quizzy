@@ -1,1 +1,222 @@
-[]
+[
+  {
+    "qno": 1,
+    "question": "The angle between the line of sight when looking downward from the horizontal is called:",
+    "options": [
+      "Angle of elevation",
+      "Angle of depression",
+      "Horizontal angle",
+      "Line of sight angle"
+    ],
+    "answer": "Angle of depression"
+  },
+  {
+    "qno": 2,
+    "question": "When the length of a tower’s shadow equals its height, the sun’s altitude is:",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "45°"
+  },
+  {
+    "qno": 3,
+    "question": "The ratio of the height of a tower to the length of its shadow is √3:1. The angle of elevation of the sun is:",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "60°"
+  },
+  {
+    "qno": 4,
+    "question": "The angle between the line of sight and the horizontal when the object is above the horizontal is the:",
+    "options": [
+      "Angle of depression",
+      "Angle of elevation",
+      "Complementary angle",
+      "Inclination angle"
+    ],
+    "answer": "Angle of elevation"
+  },
+  {
+    "qno": 5,
+    "question": "If an observer 1.5 m tall stands 28.5 m away from a 30 m high tower, the angle of elevation of the top of the tower from his eye is:",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "75°"
+    ],
+    "answer": "45°"
+  },
+  {
+    "qno": 6,
+    "question": "A 10 m ladder is placed against a wall, with its foot 6 m from the wall. The angle of inclination with the ground is:",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "60°"
+  },
+  {
+    "qno": 7,
+    "question": "The height of a tower is 50 m. An observer 20 m away observes the top at 60°. The actual height of the tower is:",
+    "options": [
+      "25 m",
+      "50.43 m",
+      "36.64 m",
+      "100 m"
+    ],
+    "answer": "36.64 m"
+  },
+  {
+    "qno": 8,
+    "question": "Two boats sail toward a cliff, 80 m apart. From the cliff top, angles of depression are 30° and 45°. The height of the cliff is:",
+    "options": [
+      "40(√3 – 1) m",
+      "40(√3 + 1) m",
+      "80(√3 + 1) m",
+      "80(√3 – 1) m"
+    ],
+    "answer": "40(√3 + 1) m"
+  },
+  {
+    "qno": 9,
+    "question": "The angles of elevation of the top of a tower from two points on opposite sides are 30° and 60°, and the tower’s height is 50 m. The height of the building other than the tower is:",
+    "options": [
+      "16.67 m",
+      "25 m",
+      "50 m",
+      "86.6 m"
+    ],
+    "answer": "16.67 m"
+  },
+  {
+    "qno": 10,
+    "question": "From the top of a cliff (25 m high), the angle of elevation of a tower equals the angle of depression of its foot. The height of the tower is:",
+    "options": [
+      "25 m",
+      "50 m",
+      "75 m",
+      "100 m"
+    ],
+    "answer": "50 m"
+  },
+  {
+    "qno": 11,
+    "question": "From a point on a bridge across a river (height 8 m), angles of depression to opposite banks are 30° and 45°. The width of the river is approximately:",
+    "options": [
+      "8(√3 + 1) m",
+      "8(√3 – 1) m",
+      "8√3 m",
+      "16 m"
+    ],
+    "answer": "8(√3 + 1) m"
+  },
+  {
+    "qno": 12,
+    "question": "An aircraft at 3125 m altitude passes below another. Angles of elevation are 30° and 60° from the same ground point. The distance between planes is:",
+    "options": [
+      "3125 m",
+      "6250 m",
+      "9375 m",
+      "12500 m"
+    ],
+    "answer": "6250 m"
+  },
+  {
+    "qno": 13,
+    "question": "Two men stand on opposite sides of a 75 m high cliff. Angles of elevation to the top are 30° and 60°. Distance between the men is:",
+    "options": [
+      "75(√3 + 1) m",
+      "75(√3 – 1) m",
+      "75 m",
+      "75√3 m"
+    ],
+    "answer": "75(√3 + 1) m"
+  },
+  {
+    "qno": 14,
+    "question": "A highway runs to the foot of a tower. A car is first observed from the top at 30° depression. Later (10 s later) depression becomes 60°. The time to reach the foot is:",
+    "options": [
+      "5 s",
+      "10 s",
+      "15 s",
+      "20 s"
+    ],
+    "answer": "5 s"
+  },
+  {
+    "qno": 15,
+    "question": "Two poles of height 20 m and 28 m are connected by a wire making 30° with the horizontal. The horizontal distance between poles is:",
+    "options": [
+      "8 m",
+      "13.84 m",
+      "16 m",
+      "15.46 m"
+    ],
+    "answer": "13.84 m"
+  },
+  {
+    "qno": 16,
+    "question": "A man on top of a 7 m high building sees a tower top at 60° and its foot at 45° depression. The ladder-like height of the tower is:",
+    "options": [
+      "7 m",
+      "14 m",
+      "21 m",
+      "28 m"
+    ],
+    "answer": "14 m"
+  },
+  {
+    "qno": 17,
+    "question": "A kite festival scene: Elevations of kites A and B from ground point C are 30° and 60°, with string lengths AD=50 m, BE=60 m. String lengths used are:",
+    "options": [
+      "100 m and 60√3 m",
+      "50 m and 60 m",
+      "50√3 m and 100 m",
+      "100 m and 40√3 m"
+    ],
+    "answer": "100 m and 60√3 m"
+  },
+  {
+    "qno": 18,
+    "question": "A rod AC is 1.5 m, and CD is 3 m, forming a right angle. The values of tanθ and secθ + cscθ are:",
+    "options": [
+      "√3, (2 + √2)",
+      "√3/2, (1 + √3)",
+      "√3, (1 + √3)",
+      "2, (2 + √3)"
+    ],
+    "answer": "√3, (1 + √3)"
+  },
+  {
+    "qno": 19,
+    "question": "Angle of depression of both the top and bottom of an 8 m building from the top of a tower is 30° and 45° respectively. The height of the tower is approximately:",
+    "options": [
+      "16 m",
+      "24 m",
+      "8 m",
+      "32 m"
+    ],
+    "answer": "16 m"
+  },
+  {
+    "qno": 20,
+    "question": "Two poles of equal height have their tops connected by a wire at angle 30° to horizontal. The difference in heights is 8 m. The horizontal distance between poles is:",
+    "options": [
+      "8√3 m",
+      "13.84 m",
+      "16 m",
+      "8 m"
+    ],
+    "answer": "8√3 m"
+  }
+]
