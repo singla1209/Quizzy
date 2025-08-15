@@ -3,37 +3,528 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quiz App - Main Menu</title>
-  <link rel="stylesheet" href="data/stylesheet.css" />
+  <title>BrainQuest</title>
+  <style>
+    :root { --bg:#2d0159; --card:#243b55; --card-2:#3b2e4f; --accent:orange; --text:#fff; --green:#00C49F; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);text-align:center}
+    h1,h2,h3{margin:.4rem 0}
+    .container{max-width:980px;margin:0 auto;padding:24px 16px}
+
+    /* Buttons / inputs */
+    .btn{cursor:pointer;border:none;border-radius:12px;padding:12px 16px;background:var(--accent);color:#2d0159;font-weight:700;box-shadow:0 6px 16px rgba(0,0,0,.25)}
+    .btn:disabled{opacity:.6;cursor:not-allowed}
+    .btn.secondary{background:#eee;color:#333}
+    input{width:100%;padding:12px;border:none;border-radius:10px;background:var(--card-2);color:#fff;margin:.5rem 0}
+    a{color:var(--accent);text-decoration:none}
+
+    /* Sections */
+    section{display:none}
+    section.active{display:block}
+
+    /* Subject buttons */
+    .row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+    .subject{min-width:240px;text-align:left;background:var(--card);color:#fff}
+    .subject:hover{background:var(--card-2)}
+
+    /* Quiz UI */
+    #question{font-size:18px;font-weight:700;margin:10px auto 18px;width:90%;max-width:680px;line-height:1.35}
+    .option{width:90%;max-width:600px;margin:10px auto;padding:12px 14px;background:var(--card);border-radius:12px;cursor:pointer;transition:background .25s;user-select:none}
+    .option:hover{background:var(--card-2)}
+    .option.correct{background:#0a8f3d !important}
+    .option.wrong{background:#b00020 !important}
+    .bar{height:10px;width:100%;max-width:480px;margin:8px auto;background:var(--card-2);border-radius:8px;overflow:hidden}
+    .bar>div{height:100%;width:0%;background:var(--accent);transition:width .35s}
+    .stats{margin:.5rem 0 .25rem;font-size:14px;opacity:.9}
+    #welcome-banner{margin:.5rem 0 1rem;font-weight:700}
+    #welcome-banner .name{color:var(--green);font-weight:900}
+    .top-actions{display:flex;gap:10px;justify-content:center;margin-top:10px}
+
+    /* Last 5 results */
+    #results-panel{margin:18px auto 0;max-width:940px;text-align:left}
+    #results-panel h3{margin:0 0 10px}
+    .results-box{background:#243b55;border-radius:14px;padding:12px;box-shadow:0 6px 16px rgba(0,0,0,.25)}
+    table{width:100%;border-collapse:collapse}
+    th, td{padding:10px;border-bottom:1px solid rgba(255,255,255,.15);font-size:14px}
+    th{text-align:left;background:transparent;color:#fff;opacity:.9}
+    tr:hover{background:rgba(255,255,255,.06);cursor:pointer}
+    .muted{opacity:.8}
+
+    /* Modal */
+    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:16px;z-index:9999}
+    .modal{background:#243b55;border-radius:14px;max-width:820px;width:100%;max-height:80vh;overflow:auto;position:relative;padding:16px 16px 10px}
+    .modal .close{position:absolute;top:8px;right:10px;background:transparent;border:none;color:#fff;font-size:22px;cursor:pointer;line-height:1}
+    .qrow{padding:8px 0;border-bottom:1px solid rgba(255,255,255,.15);text-align:left}
+    .qrow .q{font-weight:700;margin-bottom:6px}
+    .tag{display:inline-block;padding:2px 8px;border-radius:999px;background:#1f3b5f;font-size:12px;margin-left:6px}
+
+    /* ======= NEW: Compact auth card style (like your screenshot) ======= */
+    #auth .shell{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+    #auth .card-auth{width:92%;max-width:360px;background:rgba(255,255,255,.06);border-radius:14px;padding:22px 18px;box-shadow:0 8px 24px rgba(0,0,0,.35);text-align:center}
+    #brand{font-weight:900;font-size:26px;letter-spacing:.3px;margin:6px 0 14px}
+    #auth .subtitle{opacity:.9;margin:-6px 0 16px}
+    .splitter{margin:12px 0;border-top:1px solid rgba(255,255,255,.15)}
+    .google-btn{display:flex;align-items:center;justify-content:center;gap:8px;background:#fff;color:#111;border-radius:10px;padding:10px 12px;font-weight:700;cursor:pointer;border:none;width:100%}
+    .tiny{font-size:12px;opacity:.85}
+  </style>
 </head>
 <body>
   <div class="container">
-    <h1 class="title">🎯 Welcome to the Quizzy App</h1>
 
-    <div class="buttons">
-      <button onclick="startQuiz()">Start Quiz</button>
-      <button onclick="openLeaderboard()">Leaderboard</button>
-    </div>
+    <!-- ======= AUTH (single card: login + signup + Google) ======= -->
+    <section id="auth" class="active">
+      <div class="shell">
+        <div class="card-auth">
+          <div id="brand">BrainQuest</div>
+          <div class="subtitle">Sign in to start your quizzes</div>
 
-    <div class="footer">
-      Developed by: Arvind Singla
-    </div>
+          <!-- Login -->
+          <input id="login-id" placeholder="Email or Mobile*" />
+          <input id="login-pass" type="password" placeholder="Password*" />
+          <button class="btn" id="login-btn" style="width:100%">Log In</button>
 
-    <button class="dark-toggle" onclick="toggleDarkMode()">🌓</button>
+          <div class="splitter"></div>
+
+          <!-- Google Sign-In (optional) -->
+          <button class="google-btn" id="google-btn" aria-label="Sign in with Google">
+            <span>🔑</span> Sign in with Google
+          </button>
+
+          <div class="splitter"></div>
+
+          <!-- Signup (inside same card) -->
+          <div class="tiny" style="margin-bottom:6px">Don't have an account? Create one:</div>
+          <input id="signup-name" placeholder="Full Name*" />
+          <input id="signup-id" placeholder="Email or Mobile*" />
+          <input id="signup-pass" type="password" placeholder="Password (min 6)*" />
+          <button class="btn" id="signup-btn" style="width:100%">Sign Up</button>
+
+          <p id="auth-msg" style="min-height:22px;margin:.6rem 0 0;color:#ffd966"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= SUBJECTS ======= -->
+    <section id="subjects">
+      <h2 id="hello"></h2>
+      <p>Select a subject to begin:</p>
+      <div class="row" id="subject-list"></div>
+      <div class="top-actions">
+        <button class="btn secondary" id="logout-1">Logout</button>
+      </div>
+    </section>
+
+    <!-- ======= QUIZ ======= -->
+    <section id="quiz">
+      <h2 id="welcome-banner"></h2>
+      <div class="stats" id="stats">✅ Correct: 0 &nbsp; | &nbsp; ❌ Incorrect: 0</div>
+      <div id="qprogress" class="muted">Question 1/1</div>
+      <div class="bar"><div id="bar-inner"></div></div>
+
+      <div class="card" style="background:#243b55;border-radius:14px;padding:16px;box-shadow:0 6px 18px rgba(0,0,0,.25)">
+        <div id="question">Loading…</div>
+        <div id="options"></div>
+      </div>
+
+      <div id="end-screen" style="display:none;margin-top:14px"></div>
+
+      <!-- Last 5 results panel (always visible during quiz run) -->
+      <div id="results-panel">
+        <h3>Last 5 Results</h3>
+        <div class="results-box">
+          <table>
+            <thead>
+              <tr>
+                <th style="width:20%">Date & Time</th>
+                <th style="width:20%">Subject</th>
+                <th style="width:12%">Correct</th>
+                <th style="width:14%">Incorrect</th>
+                <th style="width:14%">Total</th>
+                <th style="width:20%">Time Taken</th>
+              </tr>
+            </thead>
+            <tbody id="last5-body">
+              <tr><td class="muted" colspan="6">Loading…</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="top-actions" style="margin-top:14px">
+        <button class="btn secondary" id="back-to-subjects">Choose another subject</button>
+        <button class="btn secondary" id="logout-2">Logout</button>
+      </div>
+
+      <audio id="correct-sound" src="correct.mp3" preload="auto"></audio>
+      <audio id="wrong-sound" src="wrong.mp3" preload="auto"></audio>
+    </section>
   </div>
 
-  <script>
-    function startQuiz() {
-      window.location.href = 'data/main.html';
+  <!-- ======= MODAL (result details) ======= -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal">
+      <button class="close" id="modal-close" aria-label="Close">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <!-- ================== APP ================== -->
+  <script type="module">
+    /* ---------- Firebase SDK (v12) ---------- */
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-app.js";
+    import {
+      getAuth, onAuthStateChanged, signInWithEmailAndPassword,
+      createUserWithEmailAndPassword, updateProfile, signOut,
+      GoogleAuthProvider, signInWithPopup
+    } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-auth.js";
+    import {
+      getFirestore, doc, setDoc, getDoc,
+      collection, addDoc, serverTimestamp, query, orderBy, limit, getDocs
+    } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
+
+    /* ---------- Config (your existing project) ---------- */
+    const firebaseConfig = {
+      apiKey: "AIzaSyBWTOgHmlJmCtpb2LQ7g3wj_IMsTwyTNDE",
+      authDomain: "quizzy-ea14d.firebaseapp.com",
+      projectId: "quizzy-ea14d",
+      storageBucket: "quizzy-ea14d.appspot.com",
+      messagingSenderId: "452576898646",
+      appId: "1:452576898646:web:9fa8dbc2e106bcce8615f7",
+      measurementId: "G-VKNVF4YZCB"
+    };
+
+    const app  = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db   = getFirestore(app);
+    const googleProvider = new GoogleAuthProvider();
+
+    /* ---------- Helpers ---------- */
+    const $ = (id) => document.getElementById(id);
+    function show(id){ document.querySelectorAll('section').forEach(s=>s.classList.remove('active')); $(id).classList.add('active'); }
+    function msg(text){ $("auth-msg").textContent = text || ""; }
+
+    const SUBJECTS = [
+      { key:"science", label:"Science",          file:"questions.json" },
+      { key:"sst",     label:"Social Studies",   file:"questions_sst.json" },
+      { key:"eng",     label:"English",          file:"questions_eng.json" },
+      { key:"math",    label:"Mathematics",      file:"questions_math.json" },
+      { key:"cs",      label:"Computer Science", file:"questions_cs.json" }
+    ];
+    const GITHUB_BASE = "https://singla1209.github.io/Quiz_App/";
+
+    /* ---------- State ---------- */
+    let userName = "";
+    let userId   = null;
+    let subject  = null;
+    let questions = [];
+    let idx = 0, correct = 0, incorrect = 0, responses = [];
+    let quizStartMs = null;
+
+    /* Build subject buttons */
+    const list = $("subject-list");
+    SUBJECTS.forEach(s => {
+      const btn = document.createElement("button");
+      btn.className = "btn subject";
+      btn.textContent = s.label;
+      btn.onclick = () => startSubject(s);
+      list.appendChild(btn);
+    });
+
+    /* ---------- Auth actions ---------- */
+    $("login-btn").onclick = async () => {
+      msg();
+      let id = $("login-id").value.trim();
+      const pass = $("login-pass").value;
+      if(!id || !pass){ msg("Enter email/mobile and password."); return; }
+      if(!id.includes("@")) id += "@mobile.com"; // simple alias for mobile login
+      try { await signInWithEmailAndPassword(auth, id, pass); }
+      catch(e){ msg(humanAuthError(e)); }
+    };
+
+    $("google-btn").onclick = async () => {
+      msg();
+      try {
+        const cred = await signInWithPopup(auth, googleProvider);
+        // ensure user doc exists
+        await setDoc(doc(db, "users", cred.user.uid), {
+          name: cred.user.displayName || "",
+          emailOrMobile: cred.user.email || "",
+          createdAt: serverTimestamp()
+        }, { merge:true });
+      } catch(e){ msg(humanAuthError(e)); }
+    };
+
+    $("signup-btn").onclick = async () => {
+      msg();
+      const name = $("signup-name").value.trim();
+      let id = $("signup-id").value.trim();
+      const pass = $("signup-pass").value;
+      if(!name || !id || !pass){ msg("Fill all sign up fields."); return; }
+      const rawId = id;
+      if(!id.includes("@")) id += "@mobile.com";
+      try {
+        const cred = await createUserWithEmailAndPassword(auth, id, pass);
+        await updateProfile(cred.user, { displayName: name });
+        await setDoc(doc(db, "users", cred.user.uid), {
+          name, emailOrMobile: rawId, createdAt: serverTimestamp()
+        }, { merge:true });
+      } catch(e){ msg(humanAuthError(e)); }
+    };
+
+    $("logout-1").onclick = () => signOut(auth);
+    $("logout-2").onclick = () => signOut(auth);
+
+    onAuthStateChanged(auth, async (user) => {
+      if(user){
+        userId = user.uid;
+        userName = user.displayName || "";
+        if(!userName){
+          const snap = await getDoc(doc(db,"users",user.uid));
+          userName = (snap.exists() && snap.data().name) ? snap.data().name : (user.email || "User");
+        }
+        $("hello").textContent = `Hi ${userName}!`;
+        show("subjects");
+      }else{
+        userId = null;
+        $("login-pass").value = "";
+        $("signup-pass").value = "";
+        show("auth");
+      }
+    });
+
+    /* ---------- Quiz flow ---------- */
+    async function startSubject(s){
+      if(!auth.currentUser){ show("auth"); return; } // guard
+      subject = s;
+      idx = 0; correct = 0; incorrect = 0; responses = [];
+      quizStartMs = null;
+      $("stats").textContent = `✅ Correct: 0  |  ❌ Incorrect: 0`;
+      $("qprogress").textContent = `Question 1/1`;
+      $("bar-inner").style.width = "0%";
+      $("end-screen").style.display = "none";
+      $("welcome-banner").innerHTML = `Welcome <span class="name">${userName}</span> in BrainQuest of <b>${s.label}</b>`;
+      show("quiz");
+
+      try{
+        const res = await fetch(GITHUB_BASE + s.file, {cache:"no-store"});
+        questions = await res.json();
+      }catch(e){ questions = []; }
+
+      if(!questions || !questions.length){
+        $("question").textContent = "Could not load questions.";
+        $("options").innerHTML = "";
+        fetchLastFive();
+        return;
+      }
+      renderQuestion();
+      fetchLastFive(); // show while answering
     }
 
-    function openLeaderboard() {
-      window.location.href = 'leaderboard.html';
+    function renderQuestion(){
+      const q = questions[idx];
+      $("question").textContent = `Q${idx+1}. ${q.question}`;
+      const optionsDiv = $("options");
+      optionsDiv.innerHTML = "";
+      for(const key in q.options){
+        const div = document.createElement("div");
+        div.className = "option";
+        div.textContent = `${key}: ${q.options[key]}`;
+        div.onclick = () => choose(key, div);
+        optionsDiv.appendChild(div);
+      }
+      $("qprogress").textContent = `Question ${idx+1}/${questions.length}`;
+      $("bar-inner").style.width = `${((idx)/questions.length)*100}%`;
+      if(quizStartMs === null) quizStartMs = Date.now();
     }
 
-    function toggleDarkMode() {
-      document.body.classList.toggle('dark');
+    function choose(selectedKey, el){
+      document.querySelectorAll(".option").forEach(o => o.style.pointerEvents = "none");
+      const q = questions[idx];
+      const correctKey = q.correct;
+
+      document.querySelectorAll(".option").forEach(o=>{
+        const isCorrect = o.textContent.startsWith(correctKey + ":");
+        if(isCorrect) o.classList.add("correct");
+      });
+      if(!el.textContent.startsWith(correctKey + ":")) el.classList.add("wrong");
+
+      const selectedAnswer = q.options[selectedKey];
+      const correctAnswer  = q.options[correctKey];
+      responses.push({ question: q.question, selected: selectedAnswer || "No answer", correct: correctAnswer });
+
+      if(selectedKey === correctKey){ correct++; $("correct-sound").play(); }
+      else { incorrect++; $("wrong-sound").play(); }
+
+      $("stats").textContent = `✅ Correct: ${correct}  |  ❌ Incorrect: ${incorrect}`;
+      $("bar-inner").style.width = `${((idx+1)/questions.length)*100}%`;
+
+      setTimeout(()=>{
+        if(idx < questions.length-1){ idx++; renderQuestion(); }
+        else { finishQuiz(); }
+      }, 900);
     }
+
+    function secsToText(s){
+      s = Math.max(0, Math.round(s));
+      const m = Math.floor(s/60);
+      const r = s%60;
+      return `${m}m ${r}s`;
+    }
+    function toMillis(df){
+      if(!df) return 0;
+      if(typeof df.toDate === "function") return df.toDate().getTime();
+      return new Date(df).getTime() || 0;
+    }
+
+    async function finishQuiz(){
+      $("question").textContent = "All done!";
+      $("options").innerHTML = "";
+      $("end-screen").style.display = "block";
+      $("end-screen").innerHTML = `
+        <h3>Score: ${correct} / ${questions.length}</h3>
+        <button class="btn" onclick="location.reload()">Play Again</button>
+      `;
+
+      const timeTakenSec = quizStartMs ? (Date.now() - quizStartMs)/1000 : 0;
+
+      try{
+        const current = auth.currentUser;
+        await addDoc(collection(db, "quiz_results"), {
+          name: (userName || current?.displayName || ""),
+          score: correct,
+          totalQuestions: questions.length,
+          correctAnswers: correct,
+          incorrectAnswers: questions.length - correct,
+          responses: responses,
+          date: serverTimestamp(),
+          subject: subject ? subject.label : null,
+          userId: current ? current.uid : null,
+          userEmail: current ? current.email : null,
+          timeTakenSec: Math.round(timeTakenSec)
+        });
+        fetchLastFive();
+      }catch(e){
+        console.error("Save failed:", e);
+      }
+    }
+
+    /* ---------- Last 5 results (no composite index needed) ---------- */
+    async function fetchLastFive(){
+      const body = $("last5-body");
+      body.innerHTML = `<tr><td class="muted" colspan="6">Loading…</td></tr>`;
+      try{
+        const snap = await getDocs(query(
+          collection(db, "quiz_results"),
+          orderBy("date","desc"),
+          limit(50)
+        ));
+
+        const current = auth.currentUser;
+        const email = current?.email || null;
+        const list = [];
+        snap.forEach(docSnap=>{
+          const d = docSnap.data();
+          const match =
+            (d.userId && userId && d.userId === userId) ||
+            (d.userEmail && email && d.userEmail === email) ||
+            (d.name && userName && String(d.name).trim().toLowerCase() === String(userName).trim().toLowerCase());
+          if(match) list.push(d);
+        });
+
+        if(!list.length){
+          body.innerHTML = `<tr><td class="muted" colspan="6">No results yet. Finish a quiz to see it here.</td></tr>`;
+          return;
+        }
+
+        list.sort((a,b)=> toMillis(b.date) - toMillis(a.date));
+        const top5 = list.slice(0,5);
+
+        body.innerHTML = "";
+        top5.forEach(d=>{
+          const dt = d.date?.toDate ? d.date.toDate() : (d.date ? new Date(d.date) : null);
+          const dtTxt = dt ? dt.toLocaleString() : "";
+          const total = Number(d.totalQuestions)||0;
+          const corr  = Number(d.correctAnswers)||0;
+          const inc   = Number(d.incorrectAnswers) || Math.max(0,total-corr);
+          const secs  = Number(d.timeTakenSec)||0;
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${dtTxt}</td>
+            <td>${d.subject||"N/A"}</td>
+            <td>${corr}</td>
+            <td>${inc}</td>
+            <td>${total}</td>
+            <td>${secsToText(secs)}</td>
+          `;
+          tr.onclick = ()=> openModalForResult(d);
+          body.appendChild(tr);
+        });
+      }catch(err){
+        console.error(err);
+        body.innerHTML = `<tr><td class="muted" colspan="6">Couldn't load results.</td></tr>`;
+      }
+    }
+
+    /* ---------- Modal helpers ---------- */
+    function openModalForResult(data){
+      const content = $("modal-content");
+      const dt = data.date?.toDate ? data.date.toDate().toLocaleString() :
+                 (data.date ? new Date(data.date).toLocaleString() : "");
+      const total = Number(data.totalQuestions)||0;
+      const corr  = Number(data.correctAnswers)||0;
+      const secs  = Number(data.timeTakenSec)||0;
+
+      let html = `
+        <h3 style="margin:0 24px 6px 6px;text-align:left">
+          ${data.subject || "Result"} 
+          <span class="tag">${dt}</span>
+        </h3>
+        <p class="muted" style="text-align:left;margin:0 0 10px 6px">
+          Score: <b>${corr}/${total}</b> &nbsp; • &nbsp; Time: <b>${secsToText(secs)}</b>
+        </p>
+      `;
+
+      if(Array.isArray(data.responses) && data.responses.length){
+        data.responses.forEach((r,i)=>{
+          html += `
+            <div class="qrow">
+              <div class="q">Q${i+1}. ${r.question || ""}</div>
+              <div>Attempted: <b>${r.selected || ""}</b></div>
+              <div>Correct: <b>${r.correct || ""}</b></div>
+            </div>
+          `;
+        });
+      }else{
+        html += `<div class="qrow">No response details saved.</div>`;
+      }
+
+      content.innerHTML = html;
+      $("modal-overlay").style.display = "flex";
+    }
+    $("modal-close").onclick = ()=> $("modal-overlay").style.display = "none";
+    $("modal-overlay").addEventListener("click", (e)=>{
+      if(e.target.id === "modal-overlay") $("modal-overlay").style.display = "none";
+    });
+
+    /* ---------- Errors ---------- */
+    function humanAuthError(e){
+      const code = (e && e.code) ? e.code : "";
+      switch(code){
+        case "auth/invalid-email": return "Please enter a valid email.";
+        case "auth/missing-password": return "Please enter your password.";
+        case "auth/invalid-credential":
+        case "auth/wrong-password":
+        case "auth/user-not-found": return "Invalid email/mobile or password.";
+        case "auth/cancelled-popup-request":
+        case "auth/popup-closed-by-user": return "Google sign-in was closed. Try again.";
+        case "auth/email-already-in-use": return "This email/mobile is already registered. Try logging in.";
+        case "auth/weak-password": return "Password should be at least 6 characters.";
+        default: return e.message || "Authentication error.";
+      }
+    }
+
+    /* ---------- Nav ---------- */
+    $("back-to-subjects").onclick = () => show("subjects");
   </script>
 </body>
 </html>
