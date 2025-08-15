@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Circles: The tangent to a circle is perpendicular to:",
+    "options": {
+      "A": "The diameter",
+      "B": "The radius at the point of contact",
+      "C": "The chord",
+      "D": "The secant"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Circles: How many tangents can be drawn to a circle from a point outside the circle?",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Infinite"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Circles: Tangents drawn from an external point to a circle are:",
+    "options": {
+      "A": "Equal in length",
+      "B": "Unequal in length",
+      "C": "Parallel",
+      "D": "Intersecting"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Circles: The distance from the center to the point of contact of the tangent is equal to:",
+    "options": {
+      "A": "Radius",
+      "B": "Diameter",
+      "C": "Chord length",
+      "D": "Arc length"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Circles: If two tangents are drawn from an external point, they subtend equal angles at:",
+    "options": {
+      "A": "The center",
+      "B": "The circumference",
+      "C": "Any chord",
+      "D": "The arc"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Circles: The point where a tangent touches the circle is called:",
+    "options": {
+      "A": "Center",
+      "B": "Point of contact",
+      "C": "Chord point",
+      "D": "Intersection"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Circles: From a point inside the circle, how many tangents can be drawn?",
+    "options": {
+      "A": "Zero",
+      "B": "One",
+      "C": "Two",
+      "D": "Infinite"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Circles: Which theorem states that the lengths of tangents from an external point to a circle are equal?",
+    "options": {
+      "A": "Pythagoras theorem",
+      "B": "Tangent-secant theorem",
+      "C": "Two tangents theorem",
+      "D": "Chord theorem"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Circles: If the radius of a circle is 5 cm and a tangent is drawn from a point 13 cm away from the center, the length of the tangent is:",
+    "options": {
+      "A": "12 cm",
+      "B": "10 cm",
+      "C": "8 cm",
+      "D": "15 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Circles: Tangents can be drawn to a circle from:",
+    "options": {
+      "A": "Only outside points",
+      "B": "Only on the circle",
+      "C": "Both inside and outside points",
+      "D": "Any point in the plane"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The length of a tangent drawn from a point 5 cm away from the center of a circle is 4 cm. Find the radius of the circle.",
+    "options": {
+      "A": "3 cm",
+      "B": "4 cm",
+      "C": "5 cm",
+      "D": "6 cm"
+    },
+    "correct": "A"
+  }
+]

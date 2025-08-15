@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Coordinate Geometry: The distance between points (3, 4) and (7, 1) is:",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "6"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Coordinate Geometry: The coordinates of the midpoint of line segment joining (x\u2081, y\u2081) and (x\u2082, y\u2082) are given by:",
+    "options": {
+      "A": "((x\u2081+x\u2082)/2, (y\u2081+y\u2082)/2)",
+      "B": "((x\u2081\u2212x\u2082)/2, (y\u2081\u2212y\u2082)/2)",
+      "C": "((x\u2081x\u2082)/2, (y\u2081y\u2082)/2)",
+      "D": "None of these"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Coordinate Geometry: The slope of a line joining (2, 3) and (4, 7) is:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Coordinate Geometry: The coordinates of centroid of triangle with vertices (0, 0), (6, 0) and (0, 6) are:",
+    "options": {
+      "A": "(2, 2)",
+      "B": "(3, 3)",
+      "C": "(4, 4)",
+      "D": "(1, 1)"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Coordinate Geometry: The distance between (\u22122, 1) and (4, 5) is:",
+    "options": {
+      "A": "\u221a40",
+      "B": "\u221a36",
+      "C": "\u221a28",
+      "D": "\u221a52"
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Coordinate Geometry: The section formula divides a line segment in ratio m:n at point:",
+    "options": {
+      "A": "((mx\u2082+nx\u2081)/(m+n), (my\u2082+ny\u2081)/(m+n))",
+      "B": "((mx\u2081+nx\u2082)/(m+n), (my\u2081+ny\u2082)/(m+n))",
+      "C": "((mx\u2082\u2212nx\u2081)/(m\u2212n), (my\u2082\u2212ny\u2081)/(m\u2212n))",
+      "D": "None"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Coordinate Geometry: The distance of point (x\u2081, y\u2081) from origin is:",
+    "options": {
+      "A": "\u221a(x\u2081\u00b2+y\u2081\u00b2)",
+      "B": "x\u2081\u00b2+y\u2081\u00b2",
+      "C": "\u221a(x\u2081+y\u2081)",
+      "D": "None"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Coordinate Geometry: If the coordinates of a point are (a, b), then its reflection in the x-axis is:",
+    "options": {
+      "A": "(a, \u2212b)",
+      "B": "(\u2212a, b)",
+      "C": "(\u2212a, \u2212b)",
+      "D": "(a, b)"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Coordinate Geometry: The slope of a vertical line is:",
+    "options": {
+      "A": "0",
+      "B": "Undefined",
+      "C": "1",
+      "D": "Infinity"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Coordinate Geometry: The slope of a horizontal line is:",
+    "options": {
+      "A": "0",
+      "B": "Undefined",
+      "C": "1",
+      "D": "Infinity"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The distance between the points (3, -4) and (0, 0) is:",
+    "options": {
+      "A": "5 units",
+      "B": "4 units",
+      "C": "3 units",
+      "D": "7 units"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If a point is equidistant from (2, 0) and (-2, 0), it lies on:",
+    "options": {
+      "A": "x-axis",
+      "B": "y-axis",
+      "C": "Line y = x",
+      "D": "Line y = -x"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The coordinates of the midpoint of (2, 3) and (4, 7) are:",
+    "options": {
+      "A": "(3, 5)",
+      "B": "(3, 4)",
+      "C": "(2, 5)",
+      "D": "(4, 5)"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If the distance between (x, 0) and (0, 4) is 5, then x equals:",
+    "options": {
+      "A": "3",
+      "B": "-3",
+      "C": "\u00b13",
+      "D": "5"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "The slope of the line joining (1, 2) and (3, 6) is:",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "1",
+      "D": "4"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If the coordinates of a point are (x, 7) and it lies on the y-axis, then x is:",
+    "options": {
+      "A": "0",
+      "B": "7",
+      "C": "1",
+      "D": "-7"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The distance between (a, b) and (-a, -b) is:",
+    "options": {
+      "A": "\u221a(a\u00b2 + b\u00b2)",
+      "B": "2\u221a(a\u00b2 + b\u00b2)",
+      "C": "a\u00b2 + b\u00b2",
+      "D": "2(a\u00b2 + b\u00b2)"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The coordinates of the point dividing the segment joining (2, 4) and (6, 8) in the ratio 1:1 are:",
+    "options": {
+      "A": "(4, 6)",
+      "B": "(3, 5)",
+      "C": "(5, 7)",
+      "D": "(2, 4)"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The distance between (1, 2) and (4, 6) is:",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "6"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If the distance between (k, 0) and (0, 8) is 10, then k equals:",
+    "options": {
+      "A": "6",
+      "B": "-6",
+      "C": "\u00b16",
+      "D": "8"
+    },
+    "correct": "C"
+  }
+]

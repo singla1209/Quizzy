@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Triangles: In two similar triangles, the ratio of their corresponding altitudes is 3:5. The ratio of their areas is:",
+    "options": {
+      "A": "3:5",
+      "B": "9:25",
+      "C": "5:3",
+      "D": "25:9"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Triangles: If a line divides two sides of a triangle in the same ratio, it is:",
+    "options": {
+      "A": "Perpendicular to base",
+      "B": "Parallel to third side",
+      "C": "Angle bisector",
+      "D": "Median"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Triangles: In \u0394ABC, DE || BC and AD/DB = 2/3. Then AE/EC equals:",
+    "options": {
+      "A": "2/3",
+      "B": "3/2",
+      "C": "1",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Triangles: The areas of two similar triangles are in the ratio 16:25. The ratio of their corresponding sides is:",
+    "options": {
+      "A": "4:5",
+      "B": "5:4",
+      "C": "16:25",
+      "D": "25:16"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Triangles: The Pythagoras theorem is applicable in:",
+    "options": {
+      "A": "Any triangle",
+      "B": "Right-angled triangle",
+      "C": "Acute-angled triangle",
+      "D": "Obtuse-angled triangle"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Triangles: In \u0394PQR, PS is the bisector of \u2220P meeting QR at S. If QS = 3 cm, SR = 2 cm, then PQ/PR =:",
+    "options": {
+      "A": "2/3",
+      "B": "3/2",
+      "C": "3/5",
+      "D": "5/3"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Triangles: In a right triangle, if the square of one side equals the sum of squares of the other two sides, the triangle is:",
+    "options": {
+      "A": "Equilateral",
+      "B": "Right-angled",
+      "C": "Obtuse",
+      "D": "Acute"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Triangles: In \u0394ABC, AB = AC and AD \u27c2 BC. Then BD = DC. This shows:",
+    "options": {
+      "A": "AD is the perpendicular bisector of BC",
+      "B": "\u0394ABC is right-angled",
+      "C": "AD is the median",
+      "D": "AB = BC"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Triangles: The ratio of areas of two similar triangles is equal to the square of the ratio of their:",
+    "options": {
+      "A": "Heights",
+      "B": "Sides",
+      "C": "Medians",
+      "D": "All of these"
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Triangles: In \u0394DEF, DE\u00b2 + EF\u00b2 = DF\u00b2. Which angle is 90\u00b0?",
+    "options": {
+      "A": "\u2220D",
+      "B": "\u2220E",
+      "C": "\u2220F",
+      "D": "Cannot be determined"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Two triangles are similar if their corresponding:",
+    "options": {
+      "A": "Angles are equal",
+      "B": "Sides are equal",
+      "C": "Angles are equal and sides are in proportion",
+      "D": "Sides are parallel"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "In \u2206ABC ~ \u2206DEF, if AB/DE = 2/3, then area(ABC)/area(DEF) =",
+    "options": {
+      "A": "2/3",
+      "B": "4/9",
+      "C": "3/2",
+      "D": "9/4"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Pythagoras theorem is applicable only to:",
+    "options": {
+      "A": "Acute-angled triangles",
+      "B": "Obtuse-angled triangles",
+      "C": "Right-angled triangles",
+      "D": "All triangles"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "In right triangle, the square of the hypotenuse is equal to:",
+    "options": {
+      "A": "Sum of the squares of the other two sides",
+      "B": "Difference of the squares of the other two sides",
+      "C": "Twice the product of the other two sides",
+      "D": "None of these"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "In a triangle, if a line is drawn parallel to one side, it divides the other two sides:",
+    "options": {
+      "A": "Equally",
+      "B": "In equal ratio",
+      "C": "Proportionally",
+      "D": "At random"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which criterion is NOT used to prove similarity of triangles?",
+    "options": {
+      "A": "AA",
+      "B": "SAS",
+      "C": "SSS",
+      "D": "ASA"
+    },
+    "correct": "D"
+  },
+  {
+    "question": "If two triangles are similar, the ratio of their perimeters is:",
+    "options": {
+      "A": "Equal to the ratio of their altitudes",
+      "B": "Equal to the ratio of their medians",
+      "C": "Equal to the ratio of their corresponding sides",
+      "D": "All of the above"
+    },
+    "correct": "D"
+  },
+  {
+    "question": "The converse of Pythagoras theorem is used to prove:",
+    "options": {
+      "A": "A triangle is isosceles",
+      "B": "A triangle is equilateral",
+      "C": "A triangle is right-angled",
+      "D": "A triangle is obtuse-angled"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "If in \u2206PQR, PS is the median and PQ\u00b2 + PR\u00b2 = 2(PS\u00b2 + QS\u00b2), then triangle PQR is:",
+    "options": {
+      "A": "Equilateral",
+      "B": "Isosceles",
+      "C": "Right-angled",
+      "D": "Scalene"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "In a right triangle, if one angle is 30\u00b0, then the side opposite to it is:",
+    "options": {
+      "A": "Half of hypotenuse",
+      "B": "Twice the hypotenuse",
+      "C": "Equal to hypotenuse",
+      "D": "None of these"
+    },
+    "correct": "A"
+  }
+]

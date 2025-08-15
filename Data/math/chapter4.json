@@ -1,0 +1,202 @@
+[
+  {
+    "question": "If \u03b1 and \u03b2 are the roots of the quadratic equation x\u00b2 - 5x + 6 = 0, then \u03b1 + \u03b2 is:",
+    "options": {
+      "A": "5",
+      "B": "6",
+      "C": "11",
+      "D": "1"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The roots of the equation 2x\u00b2 - 3x - 5 = 0 are:",
+    "options": {
+      "A": "5/2, -1",
+      "B": "2, -5/2",
+      "C": "5/2, 1",
+      "D": "1, -5/2"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If one root of the equation 3x\u00b2 - kx + 4 = 0 is 2, then k equals:",
+    "options": {
+      "A": "5",
+      "B": "10",
+      "C": "2",
+      "D": "8"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The quadratic equation whose roots are 3 and -4 is:",
+    "options": {
+      "A": "x\u00b2 + x - 12 = 0",
+      "B": "x\u00b2 - x - 12 = 0",
+      "C": "x\u00b2 - x + 12 = 0",
+      "D": "x\u00b2 + x + 12 = 0"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The value of k for which the equation kx\u00b2 + 4x + 4 = 0 has equal roots is:",
+    "options": {
+      "A": "2",
+      "B": "1",
+      "C": "4",
+      "D": "0"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The nature of roots of the equation x\u00b2 + 2x + 5 = 0 is:",
+    "options": {
+      "A": "Real and equal",
+      "B": "Real and distinct",
+      "C": "Imaginary",
+      "D": "One real, one imaginary"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "The sum of roots of the equation 5x\u00b2 - 7x + 2 = 0 is:",
+    "options": {
+      "A": "7/5",
+      "B": "-7/5",
+      "C": "2/5",
+      "D": "-2/5"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The product of roots of the equation 3x\u00b2 + 5x - 2 = 0 is:",
+    "options": {
+      "A": "5/3",
+      "B": "-2/3",
+      "C": "2/3",
+      "D": "-5/3"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The roots of the equation x\u00b2 - 4x + 4 = 0 are:",
+    "options": {
+      "A": "2, 2",
+      "B": "2, -2",
+      "C": "-2, -2",
+      "D": "0, 4"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The equation (x - 3)\u00b2 = 0 has:",
+    "options": {
+      "A": "Two equal real roots",
+      "B": "Two distinct real roots",
+      "C": "Two imaginary roots",
+      "D": "One real root only"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If the sum of roots is 8 and product of roots is 15, the quadratic equation is:",
+    "options": {
+      "A": "x\u00b2 - 8x + 15 = 0",
+      "B": "x\u00b2 + 8x + 15 = 0",
+      "C": "x\u00b2 - 15x + 8 = 0",
+      "D": "x\u00b2 + 15x + 8 = 0"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The discriminant of the equation x\u00b2 - 6x + 9 = 0 is:",
+    "options": {
+      "A": "0",
+      "B": "36",
+      "C": "9",
+      "D": "-9"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If \u03b1 and \u03b2 are the roots of the equation 2x\u00b2 - 4x + 3 = 0, then \u03b1\u03b2 equals:",
+    "options": {
+      "A": "2/3",
+      "B": "3/2",
+      "C": "-3/2",
+      "D": "-2/3"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The roots of the equation 4x\u00b2 + 4\u221a3 x + 3 = 0 are:",
+    "options": {
+      "A": "Equal",
+      "B": "Distinct",
+      "C": "Imaginary",
+      "D": "Zero"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The equation 2x\u00b2 + 3x + 1 = 0 has roots:",
+    "options": {
+      "A": "-1, -1/2",
+      "B": "1, 1/2",
+      "C": "-1, 1/2",
+      "D": "1, -1/2"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If the equation x\u00b2 + px + 16 = 0 has equal roots, then p is:",
+    "options": {
+      "A": "8",
+      "B": "-8",
+      "C": "\u00b18",
+      "D": "4"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "The roots of the equation x\u00b2 + x + 1 = 0 are:",
+    "options": {
+      "A": "Real",
+      "B": "Equal",
+      "C": "Imaginary",
+      "D": "Zero"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "The value of k for which the roots of 3x\u00b2 + kx + 27 = 0 are equal is:",
+    "options": {
+      "A": "18",
+      "B": "-18",
+      "C": "\u00b118",
+      "D": "9"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "If the roots of x\u00b2 - 2x + k = 0 are equal, then k equals:",
+    "options": {
+      "A": "1",
+      "B": "2",
+      "C": "4",
+      "D": "0"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The roots of the equation 6x\u00b2 - x - 2 = 0 are:",
+    "options": {
+      "A": "2/3, -1/2",
+      "B": "-2/3, 1/2",
+      "C": "2/3, 1/2",
+      "D": "-2/3, -1/2"
+    },
+    "correct": "A"
+  }
+]

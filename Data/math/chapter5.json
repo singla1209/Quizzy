@@ -1,0 +1,202 @@
+[
+  {
+    "question": "The nth term of an AP is given by a + (n\u22121)d. If a = 3, d = 2, find the 10th term.",
+    "options": {
+      "A": "21",
+      "B": "22",
+      "C": "20",
+      "D": "23"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If the sum of first n terms of an AP is S\u2099 = 5n\u00b2 + 3n, find the first term.",
+    "options": {
+      "A": "5",
+      "B": "8",
+      "C": "3",
+      "D": "10"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "In an AP, a = 7 and d = 3. Find the sum of first 15 terms.",
+    "options": {
+      "A": "255",
+      "B": "270",
+      "C": "300",
+      "D": "345"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The sum of first 20 terms of an AP is 610, and its first term is 5. Find the common difference.",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "4",
+      "D": "1.5"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If the 4th term of an AP is 12 and the 8th term is 20, find the first term.",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The sum of first n natural numbers is an example of:",
+    "options": {
+      "A": "AP",
+      "B": "GP",
+      "C": "HP",
+      "D": "None"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If the 5th term of an AP is zero, and d = -3, find the first term.",
+    "options": {
+      "A": "12",
+      "B": "10",
+      "C": "15",
+      "D": "8"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The 12th term of an AP is 50, and the first term is 5. Find d.",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Find the sum of first 50 natural numbers.",
+    "options": {
+      "A": "1225",
+      "B": "1250",
+      "C": "1275",
+      "D": "1300"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "If three terms are in AP, then the middle term is:",
+    "options": {
+      "A": "Average of the other two",
+      "B": "Sum of the other two",
+      "C": "Difference of the other two",
+      "D": "None"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The 7th term of an AP is 17, and d = 2. Find the first term.",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "If a = 2, d = 5, find the sum of first 20 terms.",
+    "options": {
+      "A": "1020",
+      "B": "1050",
+      "C": "1000",
+      "D": "1010"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The sum of first n terms of an AP is given by S\u2099 = 3n\u00b2 + 2n. Find the common difference.",
+    "options": {
+      "A": "6",
+      "B": "5",
+      "C": "4",
+      "D": "3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The first term of an AP is -3 and the common difference is 2. Find the 25th term.",
+    "options": {
+      "A": "45",
+      "B": "43",
+      "C": "44",
+      "D": "46"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "If the sum of first 10 terms is 155 and the first term is 5, find the common difference.",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "The sum of first n odd natural numbers is:",
+    "options": {
+      "A": "n\u00b2",
+      "B": "n(n+1)/2",
+      "C": "n\u00b2 + n",
+      "D": "(n\u00b2)/2"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The sum of first n even natural numbers is:",
+    "options": {
+      "A": "n\u00b2",
+      "B": "n(n+1)",
+      "C": "(n(n+1))/2",
+      "D": "n(n\u22121)"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "If a = 4 and the 9th term is 40, find d.",
+    "options": {
+      "A": "4",
+      "B": "5",
+      "C": "6",
+      "D": "7"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "If the first term is 1 and the common difference is 3, find the sum of first 15 terms.",
+    "options": {
+      "A": "315",
+      "B": "330",
+      "C": "300",
+      "D": "345"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "If a = 10, d = \u22122, find the 15th term.",
+    "options": {
+      "A": "-18",
+      "B": "-20",
+      "C": "-22",
+      "D": "-24"
+    },
+    "correct": "A"
+  }
+]

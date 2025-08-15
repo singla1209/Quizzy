@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Introduction to Trigonometry: sin 30\u00b0 equals:",
+    "options": {
+      "A": "1/2",
+      "B": "\u221a3/2",
+      "C": "1",
+      "D": "0"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Introduction to Trigonometry: cos 60\u00b0 equals:",
+    "options": {
+      "A": "1/2",
+      "B": "\u221a3/2",
+      "C": "0",
+      "D": "1"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Introduction to Trigonometry: tan 45\u00b0 equals:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "\u221a3",
+      "D": "\u221e"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Introduction to Trigonometry: cot 45\u00b0 equals:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "\u221a3",
+      "D": "\u221e"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Introduction to Trigonometry: sec 0\u00b0 equals:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "\u221e",
+      "D": "Undefined"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Introduction to Trigonometry: csc 90\u00b0 equals:",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "\u221e",
+      "D": "Undefined"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Introduction to Trigonometry: The value of sin\u00b2\u03b8 + cos\u00b2\u03b8 is:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "\u221e"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Introduction to Trigonometry: tan \u03b8 is equal to:",
+    "options": {
+      "A": "sin \u03b8 / cos \u03b8",
+      "B": "cos \u03b8 / sin \u03b8",
+      "C": "1 / sin \u03b8",
+      "D": "1 / cos \u03b8"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Introduction to Trigonometry: cot \u03b8 is equal to:",
+    "options": {
+      "A": "sin \u03b8 / cos \u03b8",
+      "B": "cos \u03b8 / sin \u03b8",
+      "C": "1 / sin \u03b8",
+      "D": "1 / cos \u03b8"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Introduction to Trigonometry: sec\u00b2\u03b8 \u2212 tan\u00b2\u03b8 equals:",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "\u221e"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If sin A = 3/5, find cos A.",
+    "options": {
+      "A": "4/5",
+      "B": "3/4",
+      "C": "5/4",
+      "D": "5/3"
+    },
+    "correct": "A"
+  }
+]
