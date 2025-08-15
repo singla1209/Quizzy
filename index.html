@@ -7,10 +7,17 @@
   <style>
     :root { --bg:#2d0159; --card:#243b55; --card-2:#3b2e4f; --accent:orange; --text:#fff; --green:#00C49F; }
     *{box-sizing:border-box}
+    html,body{height:100%}
     body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);}
     h1,h2,h3{margin:.4rem 0}
+
+    /* ===== App layout ===== */
     .container{min-height:100vh;display:flex;flex-direction:column}
-    main{flex:1;display:flex;align-items:center;justify-content:center;padding:20px}
+    main{flex:1;display:flex;padding:20px}
+
+    /* IMPORTANT: show one screen at a time */
+    section{display:none;width:100%;flex:0 0 100%;opacity:0;transition:opacity .3s ease}
+    section.active{display:flex;align-items:center;justify-content:center;opacity:1}
 
     /* Buttons / inputs */
     .btn{cursor:pointer;border:none;border-radius:12px;padding:12px 16px;background:var(--accent);color:#2d0159;font-weight:700;box-shadow:0 6px 16px rgba(0,0,0,.25)}
@@ -19,14 +26,30 @@
     input{width:100%;padding:12px;border:none;border-radius:10px;background:var(--card-2);color:#fff;margin:.5rem 0}
     a{color:var(--accent);text-decoration:none}
 
-    /* Sections */
-    section{display:none;width:100%}
-    section.active{display:block}
-
-    /* Subject buttons */
-    .row{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
-    .subject{min-width:240px;text-align:left;background:var(--card);color:#fff}
-    .subject:hover{background:var(--card-2)}
+    /* Subject selection: centered card + responsive grid */
+    #subjects > div, #chapters > div {
+      width: 100%;
+      max-width: 980px;
+      background: rgba(255,255,255,.06);
+      border-radius: 14px;
+      padding: 22px 18px;
+      box-shadow: 0 8px 24px rgba(0,0,0,.35);
+      text-align: center;
+    }
+    #subject-list, #chapter-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+      margin-top: 14px;
+    }
+    @media (min-width: 520px){
+      #subject-list, #chapter-list { grid-template-columns: repeat(2, minmax(0,1fr)); }
+    }
+    @media (min-width: 900px){
+      #subject-list, #chapter-list { grid-template-columns: repeat(3, minmax(0,1fr)); }
+    }
+    .subject, .chapter{background:var(--card);color:#fff;padding:12px;border-radius:12px;cursor:pointer;text-align:center}
+    .subject:hover, .chapter:hover{background:var(--card-2)}
 
     /* Quiz UI */
     #quiz-wrapper{width:100%;max-width:980px;margin:0 auto}
@@ -40,13 +63,13 @@
     .stats{margin:.5rem 0 .25rem;font-size:14px;opacity:.9;text-align:center}
     #welcome-banner{margin:.5rem 0 1rem;font-weight:700;text-align:center}
     #welcome-banner .name{color:var(--green);font-weight:900}
-    .top-actions{display:flex;gap:10px;justify-content:center;margin-top:10px}
+    .top-actions{display:flex;gap:10px;justify-content:center;margin-top:10px;flex-wrap:wrap}
 
     /* Last 5 results */
-    #results-panel{margin:18px auto 0;max-width:940px;text-align:left}
+    #results-panel{margin:18px auto 0;max-width:940px;text-align:left;width:100%}
     #results-panel h3{margin:0 0 10px}
-    .results-box{background:#243b55;border-radius:14px;padding:12px;box-shadow:0 6px 16px rgba(0,0,0,.25)}
-    table{width:100%;border-collapse:collapse}
+    .results-box{background:#243b55;border-radius:14px;padding:12px;box-shadow:0 6px 16px rgba(0,0,0,.25);overflow:auto}
+    table{width:100%;border-collapse:collapse;min-width:560px}
     th, td{padding:10px;border-bottom:1px solid rgba(255,255,255,.15);font-size:14px}
     th{text-align:left;background:transparent;color:#fff;opacity:.9}
     tr:hover{background:rgba(255,255,255,.06);cursor:pointer}
@@ -60,15 +83,15 @@
     .qrow .q{font-weight:700;margin-bottom:6px}
     .tag{display:inline-block;padding:2px 8px;border-radius:999px;background:#1f3b5f;font-size:12px;margin-left:6px}
 
-    /* AUTH card (your preferred compact look) */
-    #auth .shell{display:flex;align-items:center;justify-content:center;min-height:80vh;padding:24px}
+    /* AUTH */
+    #auth .shell{display:flex;align-items:center;justify-content:center;min-height:80vh;padding:24px;width:100%}
     #auth .card-auth{width:92%;max-width:360px;background:rgba(255,255,255,.06);border-radius:14px;padding:22px 18px;box-shadow:0 8px 24px rgba(0,0,0,.35);text-align:center}
     #brand{font-weight:900;font-size:26px;letter-spacing:.3px;margin:6px 0 14px}
     #auth .subtitle{opacity:.9;margin:-6px 0 16px}
     .splitter{margin:12px 0;border-top:1px solid rgba(255,255,255,.15)}
     .tiny{font-size:12px;opacity:.85}
 
-    /* Google professional button */
+    /* Google button */
     .google-btn{
       width:100%;border:1px solid rgba(255,255,255,.2);border-radius:10px;background:#fff;color:#111;
       display:flex;align-items:center;justify-content:center;gap:10px;font-weight:700;cursor:pointer;padding:10px 12px;
@@ -92,7 +115,7 @@
       text-align:center;
       max-width:520px;width:92%;
       backdrop-filter: blur(6px);
-      pointer-events:auto; /* allow clicking Play Again */
+      pointer-events:auto;
     }
     #big-name{
       font-size:28px;font-weight:900;letter-spacing:.4px;color:#00e6b0;margin:6px 0 10px;
@@ -126,7 +149,6 @@
 
             <!-- Google Sign-In -->
             <button class="google-btn" id="google-btn" aria-label="Sign in with Google">
-              <!-- Google G logo -->
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.8 31.7 29.4 35 24 35c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.9 5.1 29.7 3 24 3 12.4 3 3 12.4 3 24s9.4 21 21 21c10.5 0 19.2-7.6 20.6-17.5.3-1.5.4-3 .4-4.5 0-1.5-.1-3-.4-4.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.9C14.7 16.1 19 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.9 5.1 29.7 3 24 3 16.1 3 9.2 7.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 45c5.2 0 9.9-2 13.4-5.2l-6.2-5.1C29.2 36.2 26.8 37 24 37c-5.3 0-9.8-3.4-11.5-8.1l-6.6 5.1C9 41 15.9 45 24 45z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3C34.7 31.7 29.4 35 24 35v10c10.5 0 19.2-7.6 20.6-17.5.3-1.5.4-3 .4-4.5z"/></svg>
               Sign in with Google
             </button>
@@ -147,12 +169,24 @@
 
       <!-- ======= SUBJECTS ======= -->
       <section id="subjects">
-        <div style="max-width:980px;margin:0 auto;text-align:center">
+        <div>
           <h2 id="hello"></h2>
           <p>Select a subject to begin:</p>
-          <div class="row" id="subject-list"></div>
+          <div id="subject-list"></div>
           <div class="top-actions">
             <button class="btn secondary" id="logout-1">Logout</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ======= CHAPTERS (for dynamic subjects) ======= -->
+      <section id="chapters">
+        <div>
+          <h2 id="chapters-title">Choose a chapter</h2>
+          <p id="chapters-subtitle" class="muted"></p>
+          <div id="chapter-list"></div>
+          <div class="top-actions">
+            <button class="btn secondary" id="back-to-subjects-2">Back to subjects</button>
           </div>
         </div>
       </section>
@@ -261,22 +295,59 @@
     /* ---------- Helpers ---------- */
     const $ = (id) => document.getElementById(id);
     function show(id){
-      document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
-      $(id).classList.add('active');
-      if(id === "quiz" && auth.currentUser){ // keep results table fresh
+      // Ensure ONLY one section visible at a time (prevents side-by-side)
+      document.querySelectorAll('section').forEach(s=>{
+        s.classList.remove('active');
+        s.style.display = 'none';
+        s.style.opacity = '0';
+      });
+      const target = $(id);
+      target.style.display = 'flex';
+      requestAnimationFrame(()=>{ target.style.opacity = '1'; target.classList.add('active'); });
+
+      if(id === "quiz" && auth.currentUser){
         fetchLastFive();
       }
     }
     function msg(text){ $("auth-msg").textContent = text || ""; }
 
+    /* ---------------- Dynamic config ---------------- */
+    // Data/ uses capital D; chapters are lowercase json files (chapter1.json, ...)
+    const RAW_BASE = "https://raw.githubusercontent.com/singla1209/Quizzy/main/";
+    const API_BASE = "https://api.github.com/repos/singla1209/Quizzy/contents/";
+
+    // Subjects: Science & Math are dynamic (list chapters from GitHub), the rest remain static as before
     const SUBJECTS = [
-      { key:"science", label:"Science",          file:"questions.json" },
-      { key:"sst",     label:"Social Studies",   file:"questions_sst.json" },
-      { key:"eng",     label:"English",          file:"questions_eng.json" },
-      { key:"math",    label:"Mathematics",      file:"questions_math.json" },
-      { key:"cs",      label:"Computer Science", file:"questions_cs.json" }
+      { key:"science", label:"Science",  dynamic:true,  path:"Data/science/" },
+      { key:"math",    label:"Mathematics", dynamic:true, path:"Data/math/" },
+      // The following three can point to your previous static JSONs (update if you move them)
+      { key:"sst",     label:"Social Studies",   file:"questions_sst.json", host:"https://singla1209.github.io/Quiz_App/" },
+      { key:"eng",     label:"English",          file:"questions_eng.json", host:"https://singla1209.github.io/Quiz_App/" },
+      { key:"cs",      label:"Computer Science", file:"questions_cs.json",  host:"https://singla1209.github.io/Quiz_App/" }
     ];
-    const GITHUB_BASE = "https://singla1209.github.io/Quiz_App/";
+
+    function prettifyChapterName(filename){
+      // "chapter12.json" -> "Chapter 12"
+      const m = filename.match(/chapter\s*(\d+)/i);
+      if(m) return `Chapter ${parseInt(m[1],10)}`;
+      // fallback: remove .json and capitalize first letter
+      return filename.replace(/\.json$/,'')
+                     .replace(/(^|_|\-)([a-z])/g, (p, _a, b)=> ' ' + b.toUpperCase())
+                     .trim();
+    }
+
+    async function listChapters(path){
+      const res = await fetch(API_BASE + path, { cache:"no-store" });
+      if(!res.ok) throw new Error("GitHub API error");
+      const items = await res.json();
+      return items
+        .filter(x => x.type === "file" && x.name.endsWith(".json"))
+        .sort((a,b)=>{
+          const na = parseInt((a.name.match(/\d+/)||[9999])[0],10);
+          const nb = parseInt((b.name.match(/\d+/)||[9999])[0],10);
+          return na - nb;
+        });
+    }
 
     /* ---------- State ---------- */
     let userName = "";
@@ -349,7 +420,7 @@
         }
         $("hello").textContent = `Hi ${userName}!`;
         show("subjects");
-        fetchLastFive(); // load last 5 immediately after login
+        fetchLastFive();
       }else{
         userId = null;
         $("login-pass").value = "";
@@ -358,21 +429,64 @@
       }
     });
 
-    /* ---------- Quiz flow ---------- */
+    /* ---------- Quiz + Dynamic Chapters ---------- */
     async function startSubject(s){
       if(!auth.currentUser){ show("auth"); return; }
       subject = s;
+
+      if(s.dynamic){
+        // Step 1: list chapters
+        $("chapters-title").textContent = `Choose a chapter – ${s.label}`;
+        $("chapters-subtitle").textContent = `Loaded from GitHub: ${s.path}`;
+        const container = $("chapter-list");
+        container.innerHTML = `<div class="muted" style="grid-column:1/-1">Loading chapters…</div>`;
+
+        try{
+          const items = await listChapters(s.path);
+          if(!items.length){
+            container.innerHTML = `<div class="muted" style="grid-column:1/-1">No chapter files found.</div>`;
+          }else{
+            container.innerHTML = "";
+            items.forEach(file=>{
+              const btn = document.createElement("button");
+              btn.className = "btn chapter";
+              btn.textContent = prettifyChapterName(file.name);
+              btn.onclick = () => startChapterQuiz(s, file.path); // file.path already includes Data/...
+              container.appendChild(btn);
+            });
+          }
+        }catch(err){
+          console.error(err);
+          container.innerHTML = `<div class="muted" style="grid-column:1/-1">Couldn't load chapters.</div>`;
+        }
+        show("chapters");
+        return;
+      }
+
+      // Non-dynamic subjects: keep previous static behavior
+      await beginQuizFromUrl((s.host || "") + s.file, s.label);
+    }
+
+    $("back-to-subjects-2").onclick = () => show("subjects");
+
+    async function startChapterQuiz(s, ghPath){
+      // ghPath like "Data/science/chapter1.json"
+      const url = RAW_BASE + ghPath; // raw github
+      await beginQuizFromUrl(url, `${s.label} – ${prettifyChapterName(ghPath.split('/').pop())}`);
+    }
+
+    async function beginQuizFromUrl(url, bannerLabel){
       idx = 0; correct = 0; incorrect = 0; responses = [];
       quizStartMs = null;
       $("stats").textContent = `✅ Correct: 0  |  ❌ Incorrect: 0`;
       $("qprogress").textContent = `Question 1/1`;
       $("bar-inner").style.width = "0%";
       $("end-screen").style.display = "none";
-      $("welcome-banner").innerHTML = `Welcome <span class="name">${userName}</span> in BrainQuest of <b>${s.label}</b>`;
+      $("welcome-banner").innerHTML = `Welcome <span class="name">${userName}</span> in BrainQuest of <b>${bannerLabel}</b>`;
       show("quiz");
 
       try{
-        const res = await fetch(GITHUB_BASE + s.file, {cache:"no-store"});
+        const res = await fetch(url, {cache:"no-store"});
         questions = await res.json();
       }catch(e){ questions = []; }
 
@@ -443,7 +557,6 @@
     }
 
     async function finishQuiz(){
-      // Basic end UI (kept for safety)
       $("question").textContent = "All done!";
       $("options").innerHTML = "";
       $("end-screen").style.display = "block";
@@ -473,7 +586,6 @@
         console.error("Save failed:", e);
       }
 
-      // Celebration
       const pct = questions.length ? (correct / questions.length) * 100 : 0;
       launchCelebration(Math.round(pct));
     }
@@ -605,7 +717,6 @@
     let confettiParticles = [];
     let ribbons = [];
     let confettiAnimating = false;
-    let confettiRAF = null;
 
     const messagesLow = [
       "Every step counts — keep going!",
@@ -684,7 +795,7 @@
       });
       confettiParticles = confettiParticles.filter(p => p.y < confettiCanvas.height + 40);
 
-      // ribbons (sine waves)
+      // ribbons
       ribbons.forEach(r=>{
         r.y += r.vy;
         r.phase += 0.08;
@@ -701,14 +812,13 @@
       ribbons = ribbons.filter(r => r.y < confettiCanvas.height + r.len);
 
       if(confettiParticles.length || ribbons.length){
-        confettiRAF = requestAnimationFrame(drawConfetti);
+        requestAnimationFrame(drawConfetti);
       }else{
         confettiAnimating = false;
       }
     }
 
     function startConfetti(level){
-      // level: "low" | "mid" | "high"
       sizeCanvas();
       if(level === "low"){
         spawnConfetti(120, 2, 3.5);
@@ -717,10 +827,8 @@
         spawnConfetti(280, 2.5, 4.2);
         spawnRibbons(10);
       }else{
-        // high — a big burst + extra ribbons
         spawnConfetti(480, 3, 5);
         spawnRibbons(16);
-        // additional bursts from edges
         for(let i=0;i<4;i++){
           setTimeout(()=>spawnConfetti(120, 3, 5), i*220);
         }
@@ -747,7 +855,7 @@
       ctx.stroke();
 
       // value arc
-      let color = "#ffb703"; // default
+      let color = "#ffb703";
       if(pct >= 0.8) color = "#00e6b0";
       else if(pct >= 0.5) color = "#5ab0ff";
 
@@ -770,16 +878,14 @@
     }
 
     function launchCelebration(pct){
-      // choose message set
       let level = "low";
-      let msg = pickRandom(messagesLow);
-      if(pct >= 80){ level = "high"; msg = pickRandom(messagesHigh); }
-      else if(pct >= 50){ level = "mid"; msg = pickRandom(messagesMid); }
+      let m = pickRandom(messagesLow);
+      if(pct >= 80){ level = "high"; m = pickRandom(messagesHigh); }
+      else if(pct >= 50){ level = "mid"; m = pickRandom(messagesMid); }
 
-      // show overlay
       $("celebrate-overlay").style.display = "flex";
       $("big-name").textContent = `${userName || "Great Job!"}`;
-      $("motivation").textContent = msg;
+      $("motivation").textContent = m;
 
       renderDonut(correct, questions.length);
       startConfetti(level);
@@ -790,7 +896,6 @@
     };
     $("play-again-btn").onclick = () => {
       $("celebrate-overlay").style.display = "none";
-      // go back to subjects to choose again (as you requested)
       show("subjects");
     };
   </script>
