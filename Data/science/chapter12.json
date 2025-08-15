@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Magnetic field lines emerge from:",
+    "options": {
+      "A": "South to north",
+      "B": "North to south",
+      "C": "North to south outside the magnet",
+      "D": "Random"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Right‑hand thumb rule gives direction of:",
+    "options": {
+      "A": "Current",
+      "B": "Magnetic field around a current‑carrying conductor",
+      "C": "Force",
+      "D": "Voltage"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The device that converts electrical energy into mechanical energy:",
+    "options": {
+      "A": "Galvanometer",
+      "B": "Electric motor",
+      "C": "Generator",
+      "D": "Transformer"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Fleming’s left‑hand rule is used for:",
+    "options": {
+      "A": "Generators",
+      "B": "Motors (force on conductor)",
+      "C": "Transformers",
+      "D": "Batteries"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "A soft iron core in electromagnet is used to:",
+    "options": {
+      "A": "Increase magnetic field strength",
+      "B": "Decrease field",
+      "C": "Store charge",
+      "D": "Insulate"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The SI unit of magnetic field (B) is:",
+    "options": {
+      "A": "Tesla",
+      "B": "Weber",
+      "C": "Ampere",
+      "D": "Henry"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The function of split‑ring commutator in DC motor is to:",
+    "options": {
+      "A": "Reverse current every half rotation",
+      "B": "Increase speed only",
+      "C": "Decrease resistance",
+      "D": "Supply voltage"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Electromagnetic induction was discovered by:",
+    "options": {
+      "A": "Faraday",
+      "B": "Oersted",
+      "C": "Ampere",
+      "D": "Maxwell"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Fleming’s right‑hand rule is used to find direction of:",
+    "options": {
+      "A": "Force",
+      "B": "Magnetic field",
+      "C": "Induced current",
+      "D": "Charge"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "A current‑carrying conductor in a magnetic field experiences:",
+    "options": {
+      "A": "No effect",
+      "B": "A force",
+      "C": "Heating only",
+      "D": "Radiation"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The domestic fuse is connected in:",
+    "options": {
+      "A": "Parallel with device",
+      "B": "Series with live wire",
+      "C": "Series with neutral",
+      "D": "Across supply"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Magnetic field due to a straight current‑carrying conductor is:",
+    "options": {
+      "A": "Radial lines",
+      "B": "Concentric circles around conductor",
+      "C": "Straight lines",
+      "D": "Random"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Direction of field around a solenoid depends on:",
+    "options": {
+      "A": "Material only",
+      "B": "Polarity (current direction)",
+      "C": "Length only",
+      "D": "Core only"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The Earth’s magnetic field is due to:",
+    "options": {
+      "A": "Permanent magnet inside",
+      "B": "Electric currents in molten core",
+      "C": "Sunlight",
+      "D": "Wind"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The force on a current‑carrying conductor is maximum when angle with field is:",
+    "options": {
+      "A": "0°",
+      "B": "90°",
+      "C": "45°",
+      "D": "180°"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "In an AC generator, slip rings are used to:",
+    "options": {
+      "A": "Provide DC",
+      "B": "Provide AC output",
+      "C": "Reverse current in coil",
+      "D": "Rectify"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The unit of magnetic flux is:",
+    "options": {
+      "A": "Tesla",
+      "B": "Weber",
+      "C": "Henry",
+      "D": "Joule"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "A compass needle aligns along:",
+    "options": {
+      "A": "Electric field",
+      "B": "Magnetic field",
+      "C": "Gravitational field",
+      "D": "None"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Increasing number of turns in a solenoid:",
+    "options": {
+      "A": "Decreases field",
+      "B": "Increases field strength",
+      "C": "No effect",
+      "D": "Reverses direction"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "A relay uses:",
+    "options": {
+      "A": "Permanent magnets only",
+      "B": "Electromagnet to switch circuits",
+      "C": "Resistors",
+      "D": "Capacitors"
+    },
+    "correct": "B"
+  }
+]

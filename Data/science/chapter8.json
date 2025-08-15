@@ -1,0 +1,202 @@
+[
+  {
+    "question": "A cross between individuals differing in a single trait is:",
+    "options": {
+      "A": "Dihybrid cross",
+      "B": "Monohybrid cross",
+      "C": "Back cross",
+      "D": "Test cross only"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Mendel's law of segregation states that:",
+    "options": {
+      "A": "Factors blend",
+      "B": "Alleles separate during gamete formation",
+      "C": "Dominant alleles disappear",
+      "D": "Traits skip generations only"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Phenotype refers to:",
+    "options": {
+      "A": "Genetic makeup",
+      "B": "Observable traits",
+      "C": "Chromosome number",
+      "D": "Gamete type"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Genotype of tall pea plant with dominant trait could be:",
+    "options": {
+      "A": "tt",
+      "B": "TT or Tt",
+      "C": "Tt only",
+      "D": "TT only"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "A test cross is performed by crossing with:",
+    "options": {
+      "A": "Homozygous dominant",
+      "B": "Homozygous recessive",
+      "C": "Heterozygote",
+      "D": "Any"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "In dihybrid cross, the phenotypic ratio in F2 is:",
+    "options": {
+      "A": "3:1",
+      "B": "1:2:1",
+      "C": "9:3:3:1",
+      "D": "1:1"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Sex of a human baby is determined by:",
+    "options": {
+      "A": "Mother’s gamete",
+      "B": "Father’s gamete (X or Y)",
+      "C": "Both equally always",
+      "D": "Environment"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Traits controlled by genes located on X chromosome are called:",
+    "options": {
+      "A": "Autosomal",
+      "B": "Sex‑linked",
+      "C": "Mitochondrial",
+      "D": "Y‑linked"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "DNA is the carrier of:",
+    "options": {
+      "A": "Proteins",
+      "B": "Genetic information",
+      "C": "Lipids",
+      "D": "Carbohydrates"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Blood group inheritance in humans is due to:",
+    "options": {
+      "A": "Two alleles only",
+      "B": "Multiple alleles (A, B, O)",
+      "C": "Linkage only",
+      "D": "Mitochondrial DNA"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Heterozygous tall (Tt) × tt gives tall:short ratio of:",
+    "options": {
+      "A": "1:1",
+      "B": "3:1",
+      "C": "All tall",
+      "D": "All short"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "If both parents are carriers for a recessive disease, chance of affected child is:",
+    "options": {
+      "A": "0%",
+      "B": "25%",
+      "C": "50%",
+      "D": "75%"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Variation in asexually reproducing organisms is:",
+    "options": {
+      "A": "High",
+      "B": "Very low",
+      "C": "Impossible",
+      "D": "Same as sexual"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Chromosomes are located in:",
+    "options": {
+      "A": "Mitochondria",
+      "B": "Nucleus",
+      "C": "Golgi body",
+      "D": "Ribosome"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Unit of inheritance is:",
+    "options": {
+      "A": "Chromosome",
+      "B": "Gene",
+      "C": "Protein",
+      "D": "RNA"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "DNA double helix model was given by:",
+    "options": {
+      "A": "Watson and Crick",
+      "B": "Mendel",
+      "C": "Darwin",
+      "D": "Lamarck"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Genetic makeup of an organism is its:",
+    "options": {
+      "A": "Phenotype",
+      "B": "Genotype",
+      "C": "Karyotype",
+      "D": "Proteome"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "A woman with genotype XX will produce ova carrying:",
+    "options": {
+      "A": "Only X",
+      "B": "Only Y",
+      "C": "Both X and Y",
+      "D": "No sex chromosome"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Colour blindness is more common in males because:",
+    "options": {
+      "A": "Y causes it",
+      "B": "It is X‑linked recessive",
+      "C": "Autosomal dominant",
+      "D": "Mitochondrial"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "If both parents are AB blood group, child cannot be:",
+    "options": {
+      "A": "A",
+      "B": "B",
+      "C": "AB",
+      "D": "O"
+    },
+    "correct": "D"
+  }
+]

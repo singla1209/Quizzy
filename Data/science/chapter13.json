@@ -1,0 +1,202 @@
+[
+  {
+    "question": "The correct sequence of trophic levels in a food chain is:",
+    "options": {
+      "A": "Producer → Secondary consumer → Primary consumer → Tertiary consumer",
+      "B": "Producer → Primary consumer → Secondary consumer → Tertiary consumer",
+      "C": "Primary consumer → Producer → Secondary consumer → Tertiary consumer",
+      "D": "Producer → Decomposer → Consumer → Producer"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "10% law of energy transfer was given by:",
+    "options": {
+      "A": "Lindeman",
+      "B": "Darwin",
+      "C": "Mendel",
+      "D": "Lamarck"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Biomagnification refers to:",
+    "options": {
+      "A": "Increase of energy up the chain",
+      "B": "Increase of pollutants along food chain",
+      "C": "Decrease of biomass",
+      "D": "Increase of population"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Ozone layer protects us from:",
+    "options": {
+      "A": "Infrared",
+      "B": "Ultraviolet radiation",
+      "C": "Microwaves",
+      "D": "Visible light"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Decomposers are:",
+    "options": {
+      "A": "Producers",
+      "B": "Green plants",
+      "C": "Bacteria and fungi",
+      "D": "Herbivores"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Greater number of organisms are present at:",
+    "options": {
+      "A": "Higher trophic levels",
+      "B": "Lower trophic levels (producers)",
+      "C": "Top predators",
+      "D": "Equal at all"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which gas is a greenhouse gas?",
+    "options": {
+      "A": "O2",
+      "B": "N2",
+      "C": "CO2",
+      "D": "He"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which practice is eco‑friendly?",
+    "options": {
+      "A": "Open burning",
+      "B": "Recycling and reuse",
+      "C": "Excess plastic use",
+      "D": "Deforestation"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The correct waste management hierarchy is:",
+    "options": {
+      "A": "Recycle → Reduce → Reuse",
+      "B": "Reduce → Reuse → Recycle",
+      "C": "Reuse → Reduce → Recycle",
+      "D": "Dump → Burn → Bury"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Biodegradable waste is:",
+    "options": {
+      "A": "Plastic",
+      "B": "Glass",
+      "C": "Vegetable peels",
+      "D": "Metals"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Ozone depletion is caused by:",
+    "options": {
+      "A": "CO2",
+      "B": "CFCs",
+      "C": "SO2",
+      "D": "N2"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Primary consumers are:",
+    "options": {
+      "A": "Herbivores",
+      "B": "Carnivores",
+      "C": "Top predators",
+      "D": "Decomposers"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Ecological pyramids represent:",
+    "options": {
+      "A": "Energy, biomass, or number",
+      "B": "Only number",
+      "C": "Only energy",
+      "D": "Only biomass"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Which level has maximum energy in a food chain?",
+    "options": {
+      "A": "Producers",
+      "B": "Primary consumers",
+      "C": "Secondary consumers",
+      "D": "Tertiary consumers"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Eutrophication is caused by excess of:",
+    "options": {
+      "A": "Oxygen",
+      "B": "Nutrients (nitrates/phosphates)",
+      "C": "CO2",
+      "D": "Salts"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Apex predators occupy which trophic level?",
+    "options": {
+      "A": "First",
+      "B": "Second",
+      "C": "Third/Fourth",
+      "D": "Decomposer level"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Plastic bags harm environment because they are:",
+    "options": {
+      "A": "Biodegradable",
+      "B": "Non‑biodegradable",
+      "C": "Edible",
+      "D": "Nutritional"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Food web represents:",
+    "options": {
+      "A": "Single pathway of energy",
+      "B": "Interconnected food chains",
+      "C": "Only producers",
+      "D": "Only decomposers"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Ozone is formed in the stratosphere by:",
+    "options": {
+      "A": "Ionisation",
+      "B": "Photochemical reaction of O2 with UV",
+      "C": "Combustion",
+      "D": "Respiration"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which statement about energy flow is correct?",
+    "options": {
+      "A": "It is cyclic",
+      "B": "It is unidirectional",
+      "C": "It flows from consumers to producers",
+      "D": "It is bidirectional"
+    },
+    "correct": "B"
+  }
+]

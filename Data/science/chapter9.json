@@ -1,0 +1,202 @@
+[
+  {
+    "question": "The mirror that converges parallel rays to a point is:",
+    "options": {
+      "A": "Plane mirror",
+      "B": "Convex mirror",
+      "C": "Concave mirror",
+      "D": "Cylindrical mirror"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "For a concave mirror, the focal length is:",
+    "options": {
+      "A": "Positive",
+      "B": "Negative",
+      "C": "Zero",
+      "D": "Depends on object"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Mirror formula is:",
+    "options": {
+      "A": "1/f = 1/v + 1/u",
+      "B": "f = v + u",
+      "C": "v = fu",
+      "D": "m = v/u only"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "A convex mirror always forms image that is:",
+    "options": {
+      "A": "Real and inverted",
+      "B": "Virtual, erect, diminished",
+      "C": "Real and enlarged",
+      "D": "Virtual and enlarged always"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The refractive index n is defined as:",
+    "options": {
+      "A": "n = c/v",
+      "B": "n = v/c",
+      "C": "n = c×v",
+      "D": "n = 1/c"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Snell’s law is:",
+    "options": {
+      "A": "sin i / sin r = constant",
+      "B": "i = r",
+      "C": "i + r = constant",
+      "D": "n1 + n2 = constant"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Power of a lens (in dioptres) is:",
+    "options": {
+      "A": "1/f (m)",
+      "B": "f (cm)",
+      "C": "1/f (cm)",
+      "D": "f (m)"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "A diverging lens is:",
+    "options": {
+      "A": "Concave lens",
+      "B": "Convex lens",
+      "C": "Cylindrical lens",
+      "D": "Plano lens"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "A ray passing through optical centre of a thin lens:",
+    "options": {
+      "A": "Deviates maximum",
+      "B": "Emerges undeviated",
+      "C": "Gets reflected",
+      "D": "Forms virtual focus"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Magnification (m) for mirrors is:",
+    "options": {
+      "A": "m = u/v",
+      "B": "m = −v/u",
+      "C": "m = v/u",
+      "D": "m = f/u"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "If object is at C in concave mirror, image is formed at:",
+    "options": {
+      "A": "Beyond C",
+      "B": "At C, same size, inverted",
+      "C": "Between F and C",
+      "D": "At focus F"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Critical angle is the angle of incidence for which:",
+    "options": {
+      "A": "r = 0",
+      "B": "r = 90°",
+      "C": "i = r",
+      "D": "i = 0°"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Total internal reflection occurs when light travels from:",
+    "options": {
+      "A": "Rarer to denser",
+      "B": "Denser to rarer with i > ic",
+      "C": "Vacuum to air",
+      "D": "Air to glass at small i"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Unit of power of lens is:",
+    "options": {
+      "A": "Metre",
+      "B": "Dioptre",
+      "C": "Newton",
+      "D": "Joule"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "A convex lens forms a real, inverted image when object is:",
+    "options": {
+      "A": "Between F and 2F",
+      "B": "Beyond 2F",
+      "C": "At 2F",
+      "D": "All of these (except within F)"
+    },
+    "correct": "D"
+  },
+  {
+    "question": "If u = −20 cm and f = −10 cm for a concave lens, v is approximately:",
+    "options": {
+      "A": "−10 cm",
+      "B": "−6.7 cm",
+      "C": "−20 cm",
+      "D": "+6.7 cm"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The speed of light is maximum in:",
+    "options": {
+      "A": "Glass",
+      "B": "Air",
+      "C": "Water",
+      "D": "Diamond"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "A plane mirror forms image that is:",
+    "options": {
+      "A": "Real and inverted",
+      "B": "Virtual and same size",
+      "C": "Real and magnified",
+      "D": "Virtual and diminished"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "If power of a lens is +2 D, focal length is:",
+    "options": {
+      "A": "+0.5 m",
+      "B": "+2 m",
+      "C": "−0.5 m",
+      "D": "−2 m"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "For a concave mirror, the sign of u is:",
+    "options": {
+      "A": "Positive",
+      "B": "Negative (object in front)",
+      "C": "Zero",
+      "D": "Depends on height"
+    },
+    "correct": "B"
+  }
+]
