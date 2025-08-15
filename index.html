@@ -7,9 +7,10 @@
   <style>
     :root { --bg:#2d0159; --card:#243b55; --card-2:#3b2e4f; --accent:orange; --text:#fff; --green:#00C49F; }
     *{box-sizing:border-box}
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);text-align:center}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);}
     h1,h2,h3{margin:.4rem 0}
-    .container{max-width:980px;margin:0 auto;padding:24px 16px}
+    .container{min-height:100vh;display:flex;flex-direction:column}
+    main{flex:1;display:flex;align-items:center;justify-content:center;padding:20px}
 
     /* Buttons / inputs */
     .btn{cursor:pointer;border:none;border-radius:12px;padding:12px 16px;background:var(--accent);color:#2d0159;font-weight:700;box-shadow:0 6px 16px rgba(0,0,0,.25)}
@@ -19,7 +20,7 @@
     a{color:var(--accent);text-decoration:none}
 
     /* Sections */
-    section{display:none}
+    section{display:none;width:100%}
     section.active{display:block}
 
     /* Subject buttons */
@@ -28,15 +29,16 @@
     .subject:hover{background:var(--card-2)}
 
     /* Quiz UI */
-    #question{font-size:18px;font-weight:700;margin:10px auto 18px;width:90%;max-width:680px;line-height:1.35}
+    #quiz-wrapper{width:100%;max-width:980px;margin:0 auto}
+    #question{font-size:18px;font-weight:700;margin:10px auto 18px;width:90%;max-width:680px;line-height:1.35;text-align:center}
     .option{width:90%;max-width:600px;margin:10px auto;padding:12px 14px;background:var(--card);border-radius:12px;cursor:pointer;transition:background .25s;user-select:none}
     .option:hover{background:var(--card-2)}
     .option.correct{background:#0a8f3d !important}
     .option.wrong{background:#b00020 !important}
     .bar{height:10px;width:100%;max-width:480px;margin:8px auto;background:var(--card-2);border-radius:8px;overflow:hidden}
     .bar>div{height:100%;width:0%;background:var(--accent);transition:width .35s}
-    .stats{margin:.5rem 0 .25rem;font-size:14px;opacity:.9}
-    #welcome-banner{margin:.5rem 0 1rem;font-weight:700}
+    .stats{margin:.5rem 0 .25rem;font-size:14px;opacity:.9;text-align:center}
+    #welcome-banner{margin:.5rem 0 1rem;font-weight:700;text-align:center}
     #welcome-banner .name{color:var(--green);font-weight:900}
     .top-actions{display:flex;gap:10px;justify-content:center;margin-top:10px}
 
@@ -51,152 +53,171 @@
     .muted{opacity:.8}
 
     /* Modal */
-    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:16px;z-index:9999}
+    .modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:center;justify-content:center;padding:16px;z-index:40}
     .modal{background:#243b55;border-radius:14px;max-width:820px;width:100%;max-height:80vh;overflow:auto;position:relative;padding:16px 16px 10px}
     .modal .close{position:absolute;top:8px;right:10px;background:transparent;border:none;color:#fff;font-size:22px;cursor:pointer;line-height:1}
     .qrow{padding:8px 0;border-bottom:1px solid rgba(255,255,255,.15);text-align:left}
     .qrow .q{font-weight:700;margin-bottom:6px}
     .tag{display:inline-block;padding:2px 8px;border-radius:999px;background:#1f3b5f;font-size:12px;margin-left:6px}
 
-    /* ======= Compact auth card style ======= */
-    #auth .shell{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px}
+    /* AUTH card (your preferred compact look) */
+    #auth .shell{display:flex;align-items:center;justify-content:center;min-height:80vh;padding:24px}
     #auth .card-auth{width:92%;max-width:360px;background:rgba(255,255,255,.06);border-radius:14px;padding:22px 18px;box-shadow:0 8px 24px rgba(0,0,0,.35);text-align:center}
     #brand{font-weight:900;font-size:26px;letter-spacing:.3px;margin:6px 0 14px}
     #auth .subtitle{opacity:.9;margin:-6px 0 16px}
     .splitter{margin:12px 0;border-top:1px solid rgba(255,255,255,.15)}
-    .google-btn{display:flex;align-items:center;justify-content:center;gap:8px;background:#fff;color:#111;border-radius:10px;padding:10px 12px;font-weight:700;cursor:pointer;border:none;width:100%}
     .tiny{font-size:12px;opacity:.85}
 
-    /* ======= Celebration Overlay ======= */
-    #celebrate{
-      position:fixed; inset:0; display:none; place-items:center; z-index:10000;
-      background: radial-gradient(1200px 600px at 50% -20%, rgba(255,255,255,.08), transparent 40%),
-                  radial-gradient(800px 400px at 10% 110%, rgba(255,255,255,.06), transparent 40%);
+    /* Google professional button */
+    .google-btn{
+      width:100%;border:1px solid rgba(255,255,255,.2);border-radius:10px;background:#fff;color:#111;
+      display:flex;align-items:center;justify-content:center;gap:10px;font-weight:700;cursor:pointer;padding:10px 12px;
     }
-    #fx-canvas{position:absolute; inset:0; width:100%; height:100%}
-    .cele-content{
-      position:relative; text-align:center; padding:18px 22px; max-width:90%;
-      background:rgba(36,59,85,.35); border:1px solid rgba(255,255,255,.15);
-      border-radius:16px; backdrop-filter: blur(6px);
-      box-shadow:0 10px 30px rgba(0,0,0,.35);
-      animation: popin .6s cubic-bezier(.2,.8,.2,1);
+    .google-btn svg{width:18px;height:18px}
+
+    /* Quiz card */
+    .quiz-card{background:#243b55;border-radius:14px;padding:16px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+
+    /* Celebration overlay */
+    #celebrate-overlay{
+      position:fixed;inset:0;display:none;align-items:center;justify-content:center;flex-direction:column;
+      z-index:50;pointer-events:none;
     }
-    .cele-name{
-      font-size: clamp(28px, 5vw, 54px);
-      font-weight:900; letter-spacing:.4px; margin:0 0 6px;
-      text-shadow:0 4px 22px rgba(0,0,0,.6);
-      background:linear-gradient(90deg, #fff, #ffd166, #fff);
-      -webkit-background-clip:text; background-clip:text; color:transparent;
-      animation: shimmer 2.5s linear infinite;
+    #confetti{position:fixed;inset:0;z-index:49;pointer-events:none}
+    #celebrate-card{
+      background:rgba(0,0,0,.55);
+      border:1px solid rgba(255,255,255,.2);
+      border-radius:16px;
+      padding:18px 16px;
+      text-align:center;
+      max-width:520px;width:92%;
+      backdrop-filter: blur(6px);
+      pointer-events:auto; /* allow clicking Play Again */
     }
-    .cele-line{
-      font-size: clamp(16px, 3.2vw, 22px);
-      margin:0 0 6px; opacity:.95;
+    #big-name{
+      font-size:28px;font-weight:900;letter-spacing:.4px;color:#00e6b0;margin:6px 0 10px;
+      animation: pop 800ms ease forwards;
     }
-    .cele-quote{
-      font-size: clamp(14px, 2.8vw, 18px);
-      opacity:.9; margin:6px 0 0;
-    }
-    @keyframes popin{
-      0%{transform:translateY(10px) scale(.96); opacity:0}
-      100%{transform:translateY(0) scale(1); opacity:1}
-    }
-    @keyframes shimmer{
-      0%{background-position:0% 50%}
-      100%{background-position:200% 50%}
+    #motivation{font-size:18px;margin:6px 0 12px}
+    #donut{width:180px;height:180px;margin:10px auto 16px;display:block}
+    @keyframes pop {
+      0%{transform:scale(.6);opacity:0}
+      60%{transform:scale(1.1);opacity:1}
+      100%{transform:scale(1)}
     }
   </style>
 </head>
 <body>
   <div class="container">
+    <main>
+      <!-- ======= AUTH ======= -->
+      <section id="auth" class="active">
+        <div class="shell">
+          <div class="card-auth">
+            <div id="brand">BrainQuest</div>
+            <div class="subtitle">Sign in to start your quizzes</div>
 
-    <!-- ======= AUTH (single card) ======= -->
-    <section id="auth" class="active">
-      <div class="shell">
-        <div class="card-auth">
-          <div id="brand">BrainQuest</div>
-          <div class="subtitle">Sign in to start your quizzes</div>
+            <!-- Login -->
+            <input id="login-id" placeholder="Email or Mobile*" />
+            <input id="login-pass" type="password" placeholder="Password*" />
+            <button class="btn" id="login-btn" style="width:100%">Log In</button>
 
-          <!-- Login -->
-          <input id="login-id" placeholder="Email or Mobile*" />
-          <input id="login-pass" type="password" placeholder="Password*" />
-          <button class="btn" id="login-btn" style="width:100%">Log In</button>
+            <div class="splitter"></div>
 
-          <div class="splitter"></div>
+            <!-- Google Sign-In -->
+            <button class="google-btn" id="google-btn" aria-label="Sign in with Google">
+              <!-- Google G logo -->
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.8 31.7 29.4 35 24 35c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.9 5.1 29.7 3 24 3 12.4 3 3 12.4 3 24s9.4 21 21 21c10.5 0 19.2-7.6 20.6-17.5.3-1.5.4-3 .4-4.5 0-1.5-.1-3-.4-4.5z"/><path fill="#FF3D00" d="M6.3 14.7l6.6 4.9C14.7 16.1 19 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.9 5.1 29.7 3 24 3 16.1 3 9.2 7.3 6.3 14.7z"/><path fill="#4CAF50" d="M24 45c5.2 0 9.9-2 13.4-5.2l-6.2-5.1C29.2 36.2 26.8 37 24 37c-5.3 0-9.8-3.4-11.5-8.1l-6.6 5.1C9 41 15.9 45 24 45z"/><path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3C34.7 31.7 29.4 35 24 35v10c10.5 0 19.2-7.6 20.6-17.5.3-1.5.4-3 .4-4.5z"/></svg>
+              Sign in with Google
+            </button>
 
-          <!-- Google Sign-In -->
-          <button class="google-btn" id="google-btn" aria-label="Sign in with Google">
-            <span>🔑</span> Sign in with Google
-          </button>
+            <div class="splitter"></div>
 
-          <div class="splitter"></div>
+            <!-- Signup -->
+            <div class="tiny" style="margin-bottom:6px">Don't have an account? Create one:</div>
+            <input id="signup-name" placeholder="Full Name*" />
+            <input id="signup-id" placeholder="Email or Mobile*" />
+            <input id="signup-pass" type="password" placeholder="Password (min 6)*" />
+            <button class="btn" id="signup-btn" style="width:100%">Sign Up</button>
 
-          <!-- Signup (inside same card) -->
-          <div class="tiny" style="margin-bottom:6px">Don't have an account? Create one:</div>
-          <input id="signup-name" placeholder="Full Name*" />
-          <input id="signup-id" placeholder="Email or Mobile*" />
-          <input id="signup-pass" type="password" placeholder="Password (min 6)*" />
-          <button class="btn" id="signup-btn" style="width:100%">Sign Up</button>
-
-          <p id="auth-msg" style="min-height:22px;margin:.6rem 0 0;color:#ffd966"></p>
+            <p id="auth-msg" style="min-height:22px;margin:.6rem 0 0;color:#ffd966"></p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- ======= SUBJECTS ======= -->
-    <section id="subjects">
-      <h2 id="hello"></h2>
-      <p>Select a subject to begin:</p>
-      <div class="row" id="subject-list"></div>
-      <div class="top-actions">
-        <button class="btn secondary" id="logout-1">Logout</button>
-      </div>
-    </section>
-
-    <!-- ======= QUIZ ======= -->
-    <section id="quiz">
-      <h2 id="welcome-banner"></h2>
-      <div class="stats" id="stats">✅ Correct: 0 &nbsp; | &nbsp; ❌ Incorrect: 0</div>
-      <div id="qprogress" class="muted">Question 1/1</div>
-      <div class="bar"><div id="bar-inner"></div></div>
-
-      <div class="card" style="background:#243b55;border-radius:14px;padding:16px;box-shadow:0 6px 18px rgba(0,0,0,.25)">
-        <div id="question">Loading…</div>
-        <div id="options"></div>
-      </div>
-
-      <div id="end-screen" style="display:none;margin-top:14px"></div>
-
-      <!-- Last 5 results panel -->
-      <div id="results-panel">
-        <h3>Last 5 Results</h3>
-        <div class="results-box">
-          <table>
-            <thead>
-              <tr>
-                <th style="width:20%">Date & Time</th>
-                <th style="width:20%">Subject</th>
-                <th style="width:12%">Correct</th>
-                <th style="width:14%">Incorrect</th>
-                <th style="width:14%">Total</th>
-                <th style="width:20%">Time Taken</th>
-              </tr>
-            </thead>
-            <tbody id="last5-body">
-              <tr><td class="muted" colspan="6">Loading…</td></tr>
-            </tbody>
-          </table>
+      <!-- ======= SUBJECTS ======= -->
+      <section id="subjects">
+        <div style="max-width:980px;margin:0 auto;text-align:center">
+          <h2 id="hello"></h2>
+          <p>Select a subject to begin:</p>
+          <div class="row" id="subject-list"></div>
+          <div class="top-actions">
+            <button class="btn secondary" id="logout-1">Logout</button>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="top-actions" style="margin-top:14px">
-        <button class="btn secondary" id="back-to-subjects">Choose another subject</button>
-        <button class="btn secondary" id="logout-2">Logout</button>
-      </div>
+      <!-- ======= QUIZ ======= -->
+      <section id="quiz">
+        <div id="quiz-wrapper">
+          <h2 id="welcome-banner"></h2>
+          <div class="stats" id="stats">✅ Correct: 0 &nbsp; | &nbsp; ❌ Incorrect: 0</div>
+          <div id="qprogress" class="muted" style="text-align:center">Question 1/1</div>
+          <div class="bar"><div id="bar-inner"></div></div>
 
-      <audio id="correct-sound" src="correct.mp3" preload="auto"></audio>
-      <audio id="wrong-sound" src="wrong.mp3" preload="auto"></audio>
-    </section>
+          <div class="quiz-card">
+            <div id="question">Loading…</div>
+            <div id="options"></div>
+          </div>
+
+          <div id="end-screen" style="display:none;margin-top:14px;text-align:center"></div>
+
+          <!-- Last 5 results panel -->
+          <div id="results-panel">
+            <h3>Last 5 Results</h3>
+            <div class="results-box">
+              <table>
+                <thead>
+                  <tr>
+                    <th style="width:20%">Date & Time</th>
+                    <th style="width:20%">Subject</th>
+                    <th style="width:12%">Correct</th>
+                    <th style="width:14%">Incorrect</th>
+                    <th style="width:14%">Total</th>
+                    <th style="width:20%">Time Taken</th>
+                  </tr>
+                </thead>
+                <tbody id="last5-body">
+                  <tr><td class="muted" colspan="6">Loading…</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="top-actions" style="margin-top:14px">
+            <button class="btn secondary" id="back-to-subjects">Choose another subject</button>
+            <button class="btn secondary" id="logout-2">Logout</button>
+          </div>
+
+          <audio id="correct-sound" src="correct.mp3" preload="auto"></audio>
+          <audio id="wrong-sound" src="wrong.mp3" preload="auto"></audio>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- ======= Celebration overlay + canvas ======= -->
+  <canvas id="confetti"></canvas>
+  <div id="celebrate-overlay" aria-hidden="true">
+    <div id="celebrate-card">
+      <div id="big-name"></div>
+      <div id="motivation"></div>
+      <canvas id="donut" width="180" height="180"></canvas>
+      <div style="display:flex;gap:10px;justify-content:center;margin-top:8px">
+        <button class="btn" id="play-again-btn">Play Again</button>
+        <button class="btn secondary" id="celebrate-close">Close</button>
+      </div>
+    </div>
   </div>
 
   <!-- ======= MODAL (result details) ======= -->
@@ -204,16 +225,6 @@
     <div class="modal">
       <button class="close" id="modal-close" aria-label="Close">✕</button>
       <div id="modal-content"></div>
-    </div>
-  </div>
-
-  <!-- ======= CELEBRATION OVERLAY ======= -->
-  <div id="celebrate">
-    <canvas id="fx-canvas"></canvas>
-    <div class="cele-content" id="cele-content">
-      <div class="cele-name" id="cele-name">Great job!</div>
-      <div class="cele-line" id="cele-line"></div>
-      <div class="cele-quote" id="cele-quote"></div>
     </div>
   </div>
 
@@ -231,7 +242,7 @@
       collection, addDoc, serverTimestamp, query, orderBy, limit, getDocs
     } from "https://www.gstatic.com/firebasejs/12.1.0/firebase-firestore.js";
 
-    /* ---------- Config ---------- */
+    /* ---------- Config (your existing project) ---------- */
     const firebaseConfig = {
       apiKey: "AIzaSyBWTOgHmlJmCtpb2LQ7g3wj_IMsTwyTNDE",
       authDomain: "quizzy-ea14d.firebaseapp.com",
@@ -249,7 +260,13 @@
 
     /* ---------- Helpers ---------- */
     const $ = (id) => document.getElementById(id);
-    function show(id){ document.querySelectorAll('section').forEach(s=>s.classList.remove('active')); $(id).classList.add('active'); }
+    function show(id){
+      document.querySelectorAll('section').forEach(s=>s.classList.remove('active'));
+      $(id).classList.add('active');
+      if(id === "quiz" && auth.currentUser){ // keep results table fresh
+        fetchLastFive();
+      }
+    }
     function msg(text){ $("auth-msg").textContent = text || ""; }
 
     const SUBJECTS = [
@@ -279,7 +296,7 @@
       list.appendChild(btn);
     });
 
-    /* ---------- Auth ---------- */
+    /* ---------- Auth actions ---------- */
     $("login-btn").onclick = async () => {
       msg();
       let id = $("login-id").value.trim();
@@ -332,6 +349,7 @@
         }
         $("hello").textContent = `Hi ${userName}!`;
         show("subjects");
+        fetchLastFive(); // load last 5 immediately after login
       }else{
         userId = null;
         $("login-pass").value = "";
@@ -342,7 +360,7 @@
 
     /* ---------- Quiz flow ---------- */
     async function startSubject(s){
-      if(!auth.currentUser){ show("auth"); return; } // guard
+      if(!auth.currentUser){ show("auth"); return; }
       subject = s;
       idx = 0; correct = 0; incorrect = 0; responses = [];
       quizStartMs = null;
@@ -425,18 +443,18 @@
     }
 
     async function finishQuiz(){
+      // Basic end UI (kept for safety)
       $("question").textContent = "All done!";
       $("options").innerHTML = "";
       $("end-screen").style.display = "block";
       $("end-screen").innerHTML = `
         <h3>Score: ${correct} / ${questions.length}</h3>
-        <button class="btn" onclick="location.reload()">Play Again</button>
       `;
 
       const timeTakenSec = quizStartMs ? (Date.now() - quizStartMs)/1000 : 0;
-      const current = auth.currentUser;
 
       try{
+        const current = auth.currentUser;
         await addDoc(collection(db, "quiz_results"), {
           name: (userName || current?.displayName || ""),
           score: correct,
@@ -455,17 +473,15 @@
         console.error("Save failed:", e);
       }
 
-      // ===== Celebration (score-based) =====
-      const pct = (questions.length > 0) ? (correct / questions.length) * 100 : 0;
-      runCelebration({
-        userName: userName || "Great job!",
-        percentage: pct
-      });
+      // Celebration
+      const pct = questions.length ? (correct / questions.length) * 100 : 0;
+      launchCelebration(Math.round(pct));
     }
 
     /* ---------- Last 5 results ---------- */
     async function fetchLastFive(){
       const body = $("last5-body");
+      if(!auth.currentUser){ body.innerHTML = `<tr><td class="muted" colspan="6">Please log in to see results.</td></tr>`; return; }
       body.innerHTML = `<tr><td class="muted" colspan="6">Loading…</td></tr>`;
       try{
         const snap = await getDocs(query(
@@ -578,206 +594,205 @@
       }
     }
 
-    /* ---------- Celebration Engine (Canvas-based) ---------- */
-    const MOTIVATION_LOW = [
-      "Nice try—keep going!",
-      "Every step builds strength.",
-      "You’re learning fast—don’t stop!",
-      "Progress over perfection.",
-      "Good start—next round is yours!"
+    /* ---------- Nav ---------- */
+    $("back-to-subjects").onclick = () => show("subjects");
+
+    /* =======================================================
+       Celebration: confetti (canvas), donut, random messages
+       ======================================================= */
+    const confettiCanvas = $("confetti");
+    const ctxC = confettiCanvas.getContext("2d");
+    let confettiParticles = [];
+    let ribbons = [];
+    let confettiAnimating = false;
+    let confettiRAF = null;
+
+    const messagesLow = [
+      "Every step counts — keep going!",
+      "Good try! Let’s push a little more next time.",
+      "You’re learning fast — don’t stop!",
+      "Progress over perfection!",
+      "Nice effort — keep at it!"
     ];
-    const MOTIVATION_MID = [
-      "Solid performance—well done!",
+    const messagesMid = [
+      "Nice work — you’re getting there!",
+      "Solid score! Keep the momentum.",
       "You’re on the right track!",
-      "Great momentum—keep it up!",
-      "Strong effort and it shows!",
-      "Nice work—confidence rising!"
+      "Nice rhythm — consistency wins.",
+      "Great effort — aim higher next time!"
     ];
-    const MOTIVATION_HIGH = [
-      "Outstanding! You crushed it!",
-      "Brilliant work—top tier!",
-      "That’s excellence in action!",
-      "Phenomenal score—legend move!",
-      "Gold star performance—amazing!"
+    const messagesHigh = [
+      "Outstanding! You’re a star!",
+      "Brilliant performance — keep shining!",
+      "Fantastic! You nailed it!",
+      "Superb — excellence achieved!",
+      "Incredible work — way to go!"
     ];
 
-    function runCelebration({ userName, percentage }){
-      const overlay = $("celebrate");
-      const canvas = $("fx-canvas");
-      const ctx = canvas.getContext("2d");
-      const nameEl = $("cele-name");
-      const lineEl = $("cele-line");
-      const quoteEl = $("cele-quote");
+    function pickRandom(arr){ return arr[Math.floor(Math.random()*arr.length)]; }
 
-      // Set messages by tier
-      let tier = "low";
-      let confettiCount = 80, gravity = 0.25, fireworks = false, ribbons = false, duration = 4500;
-      if(percentage > 80){
-        tier = "high";
-        confettiCount = 260; gravity = 0.35; fireworks = true; ribbons = true; duration = 6500;
-      } else if(percentage > 50){
-        tier = "mid";
-        confettiCount = 150; gravity = 0.30; fireworks = true; ribbons = true; duration = 5500;
-      }
-      const pick = (arr)=> arr[Math.floor(Math.random()*arr.length)];
-      const lineText = (tier==="high") ? "Exceptional job!" : (tier==="mid") ? "Great job!" : "Nice effort!";
-      const quoteText = (tier==="high") ? pick(MOTIVATION_HIGH) : (tier==="mid") ? pick(MOTIVATION_MID) : pick(MOTIVATION_LOW);
-
-      nameEl.textContent = (userName || "Great job!") + " 🎉";
-      lineEl.textContent = lineText;
-      quoteEl.textContent = quoteText;
-
-      // Show overlay
-      overlay.style.display = "grid";
-
-      // Canvas sizing
-      function resize(){
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-      }
-      resize();
-      window.addEventListener("resize", resize);
-
-      // Particle system
-      const colors = ["#FFD166","#06D6A0","#118AB2","#EF476F","#FFFFFF","#FFA500"];
-      const particles = [];
-      const ribbonsArr = [];
-
-      function spawnConfetti(n){
-        for(let i=0;i<n;i++){
-          particles.push({
-            x: Math.random()*canvas.width,
-            y: -20 - Math.random()*100,
-            vx: (Math.random()*2-1)*3,
-            vy: Math.random()*-2,
-            size: 6 + Math.random()*6,
-            color: colors[(Math.random()*colors.length)|0],
-            life: 200 + Math.random()*80,
-            rotation: Math.random()*Math.PI*2,
-            vr: (Math.random()-.5)*0.2,
-            shape: (Math.random() < .25) ? "circle" : "rect"
-          });
-        }
-      }
-      function spawnRibbons(n){
-        for(let i=0;i<n;i++){
-          ribbonsArr.push({
-            x: Math.random()*canvas.width,
-            y: -40 - Math.random()*200,
-            vx: (Math.random()*2-1)*1.2,
-            vy: 1 + Math.random()*1.2,
-            hue: Math.random()*360,
-            w: 60 + Math.random()*80,
-            h: 10 + Math.random()*8,
-            t: Math.random()*Math.PI*2
-          });
-        }
-      }
-      function spawnFirework(){
-        const cx = canvas.width* (0.2 + Math.random()*0.6);
-        const cy = canvas.height* (0.25 + Math.random()*0.4);
-        const count = 36 + (Math.random()*24|0);
-        for(let i=0;i<count;i++){
-          const ang = (Math.PI*2) * (i/count);
-          const speed = 2.5 + Math.random()*2.5;
-          particles.push({
-            x: cx, y: cy,
-            vx: Math.cos(ang)*speed,
-            vy: Math.sin(ang)*speed,
-            size: 3 + Math.random()*3,
-            color: colors[(Math.random()*colors.length)|0],
-            life: 120 + Math.random()*80,
-            rotation: Math.random()*Math.PI*2,
-            vr: (Math.random()-.5)*0.2,
-            shape: "circle"
-          });
-        }
-      }
-
-      // Initial spawns
-      spawnConfetti(confettiCount);
-      if(ribbons) spawnRibbons(16);
-      if(fireworks) {
-        setTimeout(spawnFirework, 700);
-        setTimeout(spawnFirework, 1400);
-        if(percentage > 80) setTimeout(spawnFirework, 2100);
-      }
-
-      let running = true;
-      const start = performance.now();
-
-      function draw(){
-        if(!running) return;
-        const now = performance.now();
-        const elapsed = now - start;
-        ctx.clearRect(0,0,canvas.width,canvas.height);
-
-        // Gradients backdrop subtle
-        // Confetti
-        for(let i=particles.length-1;i>=0;i--){
-          const p = particles[i];
-          p.vy += gravity*0.06; // gentle integration
-          p.x += p.vx;
-          p.y += p.vy;
-          p.rotation += p.vr;
-          p.life -= 1;
-
-          if(p.shape === "rect"){
-            ctx.save();
-            ctx.translate(p.x, p.y);
-            ctx.rotate(p.rotation);
-            ctx.fillStyle = p.color;
-            ctx.fillRect(-p.size/2, -p.size/2, p.size, p.size);
-            ctx.restore();
-          }else{
-            ctx.beginPath();
-            ctx.arc(p.x,p.y,p.size*0.45,0,Math.PI*2);
-            ctx.fillStyle = p.color;
-            ctx.fill();
-          }
-          if(p.y > canvas.height+40 || p.life<=0) particles.splice(i,1);
-        }
-
-        // Ribbons
-        for(let i=ribbonsArr.length-1;i>=0;i--){
-          const r = ribbonsArr[i];
-          r.t += 0.08;
-          r.x += r.vx + Math.sin(r.t)*0.8;
-          r.y += r.vy;
-          ctx.save();
-          ctx.translate(r.x, r.y);
-          ctx.rotate(Math.sin(r.t)*0.6);
-          const grd = ctx.createLinearGradient(-r.w/2,0,r.w/2,0);
-          grd.addColorStop(0, `hsl(${r.hue}, 90%, 60%)`);
-          grd.addColorStop(1, `hsl(${(r.hue+60)%360}, 90%, 50%)`);
-          ctx.fillStyle = grd;
-          ctx.fillRect(-r.w/2, -r.h/2, r.w, r.h);
-          ctx.restore();
-          if(r.y > canvas.height+60) ribbonsArr.splice(i,1);
-        }
-
-        // Keep sprinkling a few more confetti while active (smooth tail)
-        if(elapsed < duration){
-          if(Math.random() < 0.6) spawnConfetti(2);
-        }
-
-        if(elapsed >= duration && particles.length === 0 && ribbonsArr.length === 0){
-          stopCelebration(); return;
-        }
-        requestAnimationFrame(draw);
-      }
-
-      function stopCelebration(){
-        running = false;
-        overlay.style.display = "none";
-        window.removeEventListener("resize", resize);
-      }
-
-      // Close on click / tap
-      overlay.addEventListener("click", stopCelebration, { once:true });
-
-      requestAnimationFrame(draw);
+    function sizeCanvas(){
+      confettiCanvas.width = window.innerWidth;
+      confettiCanvas.height = window.innerHeight;
     }
+    sizeCanvas();
+    window.addEventListener("resize", sizeCanvas);
+
+    function spawnConfetti(count, speedMin, speedMax){
+      for(let i=0;i<count;i++){
+        confettiParticles.push({
+          x: Math.random()*confettiCanvas.width,
+          y: -20 - Math.random()*confettiCanvas.height*0.5,
+          w: 6 + Math.random()*6,
+          h: 10 + Math.random()*10,
+          tilt: Math.random()*2*Math.PI,
+          tiltSpeed: 0.02 + Math.random()*0.08,
+          vy: speedMin + Math.random()*(speedMax-speedMin),
+          vx: (Math.random()-0.5)*2,
+          color: `hsl(${Math.floor(Math.random()*360)}, 90%, 60%)`
+        });
+      }
+    }
+    function spawnRibbons(count){
+      for(let i=0;i<count;i++){
+        ribbons.push({
+          x: Math.random()*confettiCanvas.width,
+          y: -50 - Math.random()*200,
+          len: 80 + Math.random()*100,
+          amp: 10 + Math.random()*20,
+          phase: Math.random()*Math.PI*2,
+          vy: 1.2 + Math.random()*2,
+          color: `hsl(${Math.floor(Math.random()*360)}, 90%, 60%)`
+        });
+      }
+    }
+
+    function drawConfetti(){
+      ctxC.clearRect(0,0,confettiCanvas.width, confettiCanvas.height);
+
+      // rectangles
+      confettiParticles.forEach(p=>{
+        p.tilt += p.tiltSpeed;
+        p.y += p.vy;
+        p.x += p.vx + Math.sin(p.tilt)*0.3;
+        ctxC.fillStyle = p.color;
+        ctxC.save();
+        ctxC.translate(p.x, p.y);
+        ctxC.rotate(p.tilt);
+        ctxC.fillRect(-p.w/2, -p.h/2, p.w, p.h);
+        ctxC.restore();
+      });
+      confettiParticles = confettiParticles.filter(p => p.y < confettiCanvas.height + 40);
+
+      // ribbons (sine waves)
+      ribbons.forEach(r=>{
+        r.y += r.vy;
+        r.phase += 0.08;
+        ctxC.strokeStyle = r.color;
+        ctxC.lineWidth = 6;
+        ctxC.beginPath();
+        for(let t=0;t<r.len;t+=6){
+          const xx = r.x + Math.sin(r.phase + t*0.08)*r.amp;
+          const yy = r.y + t;
+          if(t===0) ctxC.moveTo(xx,yy); else ctxC.lineTo(xx,yy);
+        }
+        ctxC.stroke();
+      });
+      ribbons = ribbons.filter(r => r.y < confettiCanvas.height + r.len);
+
+      if(confettiParticles.length || ribbons.length){
+        confettiRAF = requestAnimationFrame(drawConfetti);
+      }else{
+        confettiAnimating = false;
+      }
+    }
+
+    function startConfetti(level){
+      // level: "low" | "mid" | "high"
+      sizeCanvas();
+      if(level === "low"){
+        spawnConfetti(120, 2, 3.5);
+        spawnRibbons(6);
+      }else if(level === "mid"){
+        spawnConfetti(280, 2.5, 4.2);
+        spawnRibbons(10);
+      }else{
+        // high — a big burst + extra ribbons
+        spawnConfetti(480, 3, 5);
+        spawnRibbons(16);
+        // additional bursts from edges
+        for(let i=0;i<4;i++){
+          setTimeout(()=>spawnConfetti(120, 3, 5), i*220);
+        }
+      }
+      if(!confettiAnimating){
+        confettiAnimating = true;
+        drawConfetti();
+      }
+    }
+
+    function renderDonut(score, total){
+      const c = $("donut");
+      const ctx = c.getContext("2d");
+      ctx.clearRect(0,0,c.width,c.height);
+
+      const pct = total ? score/total : 0;
+      const cx = c.width/2, cy = c.height/2, r = 70, thickness = 22;
+
+      // track
+      ctx.lineWidth = thickness;
+      ctx.strokeStyle = "rgba(255,255,255,.2)";
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, 0, Math.PI*2);
+      ctx.stroke();
+
+      // value arc
+      let color = "#ffb703"; // default
+      if(pct >= 0.8) color = "#00e6b0";
+      else if(pct >= 0.5) color = "#5ab0ff";
+
+      ctx.strokeStyle = color;
+      ctx.lineCap = "round";
+      ctx.beginPath();
+      ctx.arc(cx, cy, r, -Math.PI/2, -Math.PI/2 + pct*2*Math.PI, false);
+      ctx.stroke();
+
+      // text
+      ctx.fillStyle = "#fff";
+      ctx.font = "bold 24px Arial";
+      ctx.textAlign = "center";
+      ctx.textBaseline = "middle";
+      ctx.fillText(`${Math.round(pct*100)}%`, cx, cy-6);
+
+      ctx.font = "12px Arial";
+      ctx.fillStyle = "rgba(255,255,255,.8)";
+      ctx.fillText(`${score}/${total}`, cx, cy+14);
+    }
+
+    function launchCelebration(pct){
+      // choose message set
+      let level = "low";
+      let msg = pickRandom(messagesLow);
+      if(pct >= 80){ level = "high"; msg = pickRandom(messagesHigh); }
+      else if(pct >= 50){ level = "mid"; msg = pickRandom(messagesMid); }
+
+      // show overlay
+      $("celebrate-overlay").style.display = "flex";
+      $("big-name").textContent = `${userName || "Great Job!"}`;
+      $("motivation").textContent = msg;
+
+      renderDonut(correct, questions.length);
+      startConfetti(level);
+    }
+
+    $("celebrate-close").onclick = () => {
+      $("celebrate-overlay").style.display = "none";
+    };
+    $("play-again-btn").onclick = () => {
+      $("celebrate-overlay").style.display = "none";
+      // go back to subjects to choose again (as you requested)
+      show("subjects");
+    };
   </script>
 </body>
 </html>
