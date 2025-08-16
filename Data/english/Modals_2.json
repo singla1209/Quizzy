@@ -1,0 +1,202 @@
+[
+  {
+    "question": "You _____ wear a helmet while riding a bike. (advice)",
+    "options": {
+      "A": "can",
+      "B": "must",
+      "C": "may",
+      "D": "might"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "_____ I borrow your pen, please? (request)",
+    "options": {
+      "A": "Can",
+      "B": "Must",
+      "C": "Shall",
+      "D": "Would"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "You _____ drive fast in the market area. (prohibition)",
+    "options": {
+      "A": "can",
+      "B": "should",
+      "C": "must not",
+      "D": "might"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "He _____ be sleeping. It’s midnight. (possibility)",
+    "options": {
+      "A": "must",
+      "B": "shall",
+      "C": "would",
+      "D": "can"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "You _____ not park your car here. It’s a no-parking zone.",
+    "options": {
+      "A": "could",
+      "B": "would",
+      "C": "must",
+      "D": "should"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "She _____ speak four languages. (ability)",
+    "options": {
+      "A": "can",
+      "B": "might",
+      "C": "would",
+      "D": "shall"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "We _____ respect our elders. (duty)",
+    "options": {
+      "A": "might",
+      "B": "would",
+      "C": "should",
+      "D": "could"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "You _____ be tired after working so hard. (logical conclusion)",
+    "options": {
+      "A": "can",
+      "B": "may",
+      "C": "must",
+      "D": "would"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "He _____ win the match if he practices well. (possibility)",
+    "options": {
+      "A": "must",
+      "B": "might",
+      "C": "shall",
+      "D": "would"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "You _____ leave now. The class is over. (permission)",
+    "options": {
+      "A": "must",
+      "B": "may",
+      "C": "can",
+      "D": "should"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "We _____ obey traffic rules. (necessity)",
+    "options": {
+      "A": "might",
+      "B": "can",
+      "C": "must",
+      "D": "would"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "She _____ come to the party. I’m not sure. (possibility)",
+    "options": {
+      "A": "should",
+      "B": "may",
+      "C": "must",
+      "D": "shall"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "I _____ help you with your homework. (offer)",
+    "options": {
+      "A": "will",
+      "B": "must",
+      "C": "can",
+      "D": "shall"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "You _____ follow the rules. (obligation)",
+    "options": {
+      "A": "can",
+      "B": "might",
+      "C": "must",
+      "D": "shall"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "_____ you like some coffee? (polite offer)",
+    "options": {
+      "A": "Should",
+      "B": "Could",
+      "C": "Would",
+      "D": "May"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "He said he _____ arrive late. (possibility)",
+    "options": {
+      "A": "must",
+      "B": "may",
+      "C": "might",
+      "D": "can"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "We _____ not disturb others in the library. (prohibition)",
+    "options": {
+      "A": "must",
+      "B": "might",
+      "C": "should",
+      "D": "shall"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She _____ solve the problem easily. (ability)",
+    "options": {
+      "A": "might",
+      "B": "could",
+      "C": "shall",
+      "D": "would"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "He _____ be at home. I saw him going in. (certainty)",
+    "options": {
+      "A": "can",
+      "B": "might",
+      "C": "must",
+      "D": "would"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "We _____ reach the station before 10. (possibility)",
+    "options": {
+      "A": "could",
+      "B": "would",
+      "C": "should",
+      "D": "shall"
+    },
+    "correct": "A"
+  }
+]

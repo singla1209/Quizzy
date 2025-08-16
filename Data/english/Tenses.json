@@ -1,0 +1,202 @@
+[
+  {
+    "question": "She always _____ (wake) up early in the morning.",
+    "options": {
+      "A": "wake",
+      "B": "woke",
+      "C": "wakes",
+      "D": "waking"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "He _____ to school every day.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "went",
+      "D": "going"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "They _____ football when it started to rain.",
+    "options": {
+      "A": "play",
+      "B": "played",
+      "C": "were playing",
+      "D": "plays"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "By next year, she _____ her studies.",
+    "options": {
+      "A": "completed",
+      "B": "completes",
+      "C": "will have completed",
+      "D": "was completing"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "I _____ him yesterday at the market.",
+    "options": {
+      "A": "see",
+      "B": "saw",
+      "C": "seen",
+      "D": "seeing"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The train _____ at 5 p.m. tomorrow.",
+    "options": {
+      "A": "leave",
+      "B": "left",
+      "C": "will leave",
+      "D": "leaves"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "He _____ here since 2010.",
+    "options": {
+      "A": "lives",
+      "B": "lived",
+      "C": "has lived",
+      "D": "living"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "When I called, she _____ dinner.",
+    "options": {
+      "A": "cooked",
+      "B": "was cooking",
+      "C": "cooks",
+      "D": "cooking"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "We _____ the movie last night.",
+    "options": {
+      "A": "watch",
+      "B": "watched",
+      "C": "watches",
+      "D": "watching"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "By 2026, I _____ in Delhi for ten years.",
+    "options": {
+      "A": "will live",
+      "B": "will have lived",
+      "C": "live",
+      "D": "lives"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "They _____ already finished their homework.",
+    "options": {
+      "A": "have",
+      "B": "had",
+      "C": "has",
+      "D": "having"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "I usually _____ tea in the evening.",
+    "options": {
+      "A": "drinks",
+      "B": "drink",
+      "C": "drank",
+      "D": "drunk"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "She _____ to the party if she is invited.",
+    "options": {
+      "A": "go",
+      "B": "goes",
+      "C": "will go",
+      "D": "going"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "He _____ his homework before going out yesterday.",
+    "options": {
+      "A": "finished",
+      "B": "finishes",
+      "C": "finish",
+      "D": "finishing"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "At this time tomorrow, we _____ in the exam hall.",
+    "options": {
+      "A": "sit",
+      "B": "sitting",
+      "C": "will be sitting",
+      "D": "sat"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "When I was a child, I _____ play cricket every day.",
+    "options": {
+      "A": "use to",
+      "B": "used to",
+      "C": "uses to",
+      "D": "using to"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "He _____ his leg while playing football last week.",
+    "options": {
+      "A": "break",
+      "B": "broken",
+      "C": "broke",
+      "D": "breaking"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "I _____ English for five years now.",
+    "options": {
+      "A": "learn",
+      "B": "am learning",
+      "C": "have been learning",
+      "D": "learned"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "They _____ here for a meeting tomorrow.",
+    "options": {
+      "A": "come",
+      "B": "comes",
+      "C": "will come",
+      "D": "coming"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "While I _____ TV, my brother was reading a book.",
+    "options": {
+      "A": "watch",
+      "B": "was watching",
+      "C": "watched",
+      "D": "watching"
+    },
+    "correct": "B"
+  }
+]

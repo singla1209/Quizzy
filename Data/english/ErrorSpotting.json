@@ -1,0 +1,202 @@
+[
+  {
+    "question": "The childrens are playing in the park.",
+    "options": {
+      "A": "children",
+      "B": "childs",
+      "C": "childrens",
+      "D": "children's"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She don't like cold drinks.",
+    "options": {
+      "A": "doesn't",
+      "B": "didn't",
+      "C": "isn't",
+      "D": "wasn't"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He go to school every day.",
+    "options": {
+      "A": "goes",
+      "B": "gone",
+      "C": "went",
+      "D": "is going"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "We has completed our project.",
+    "options": {
+      "A": "have",
+      "B": "was",
+      "C": "is",
+      "D": "had"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The news are very depressing.",
+    "options": {
+      "A": "is",
+      "B": "were",
+      "C": "has",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He are playing football.",
+    "options": {
+      "A": "is",
+      "B": "am",
+      "C": "was",
+      "D": "were"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Each of the students have a pen.",
+    "options": {
+      "A": "has",
+      "B": "had",
+      "C": "have",
+      "D": "is"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She was absent because she was ill since Monday.",
+    "options": {
+      "A": "had been",
+      "B": "has been",
+      "C": "was being",
+      "D": "was"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He do his work sincerely.",
+    "options": {
+      "A": "does",
+      "B": "did",
+      "C": "do",
+      "D": "is doing"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "There is many apples in the basket.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "has"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She is senior than me.",
+    "options": {
+      "A": "to",
+      "B": "than",
+      "C": "from",
+      "D": "by"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Neither of the books are available.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "has",
+      "D": "have"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "One of my friend is a singer.",
+    "options": {
+      "A": "friends",
+      "B": "friend",
+      "C": "friendly",
+      "D": "friend's"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He said me the truth.",
+    "options": {
+      "A": "told",
+      "B": "say",
+      "C": "say to",
+      "D": "speak"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She is married with a doctor.",
+    "options": {
+      "A": "to",
+      "B": "with",
+      "C": "by",
+      "D": "of"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "We discussed about the matter.",
+    "options": {
+      "A": "discussed",
+      "B": "talked",
+      "C": "spoke",
+      "D": "told"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "I prefer coffee than tea.",
+    "options": {
+      "A": "to",
+      "B": "than",
+      "C": "instead",
+      "D": "over"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He is living here since 2010.",
+    "options": {
+      "A": "has been living",
+      "B": "lives",
+      "C": "was living",
+      "D": "lived"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She is good in singing.",
+    "options": {
+      "A": "at",
+      "B": "on",
+      "C": "in",
+      "D": "to"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "My mother is cooking food and my sister do homework.",
+    "options": {
+      "A": "does",
+      "B": "did",
+      "C": "do",
+      "D": "doing"
+    },
+    "correct": "A"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Rearrange: / the / is / sky / blue",
+    "options": {
+      "A": "Sky is the blue.",
+      "B": "The blue sky is.",
+      "C": "The sky is blue.",
+      "D": "Is the blue sky."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Rearrange: / in / the / students / are / library / the",
+    "options": {
+      "A": "The students are in the library.",
+      "B": "Library are students in the.",
+      "C": "Students are in the the library.",
+      "D": "Are the students library in."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / playing / are / the / children / outside",
+    "options": {
+      "A": "Children are playing outside the.",
+      "B": "The outside children are playing.",
+      "C": "The children are playing outside.",
+      "D": "Are outside the children playing."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Rearrange: / delicious / was / the / very / cake",
+    "options": {
+      "A": "The cake was very delicious.",
+      "B": "Was delicious very the cake.",
+      "C": "Cake was the delicious very.",
+      "D": "Very was the delicious cake."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / early / always / up / he / gets",
+    "options": {
+      "A": "He always gets up early.",
+      "B": "Gets he up always early.",
+      "C": "Always up he gets early.",
+      "D": "Early gets up always he."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / is / an / she / honest / girl",
+    "options": {
+      "A": "An honest girl she is.",
+      "B": "She is an honest girl.",
+      "C": "Is honest girl she an.",
+      "D": "Girl she is honest an."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Rearrange: / picnic / had / we / a / yesterday",
+    "options": {
+      "A": "Yesterday a picnic we had.",
+      "B": "We had a picnic yesterday.",
+      "C": "A picnic had we yesterday.",
+      "D": "Had we picnic a yesterday."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Rearrange: / birds / fly / in / the / sky",
+    "options": {
+      "A": "Fly the birds in sky.",
+      "B": "Birds fly in the sky.",
+      "C": "Sky fly in the birds.",
+      "D": "In birds fly the sky."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Rearrange: / barking / dog / the / is / loudly",
+    "options": {
+      "A": "The dog is barking loudly.",
+      "B": "Barking is the dog loudly.",
+      "C": "Loudly barking is the dog.",
+      "D": "Dog barking is the loudly."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / gifts / we / many / received",
+    "options": {
+      "A": "We received many gifts.",
+      "B": "Received gifts we many.",
+      "C": "Many we gifts received.",
+      "D": "Gifts we many received."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / exam / the / difficult / was",
+    "options": {
+      "A": "The exam was difficult.",
+      "B": "Was difficult the exam.",
+      "C": "Exam difficult was the.",
+      "D": "Difficult was exam the."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / not / I / tea / do / like",
+    "options": {
+      "A": "Do I like not tea.",
+      "B": "Tea I do not like.",
+      "C": "I do not like tea.",
+      "D": "Like tea do not I."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Rearrange: / his / book / forgot / he",
+    "options": {
+      "A": "Forgot he his book.",
+      "B": "He forgot his book.",
+      "C": "Book forgot his he.",
+      "D": "His book he forgot."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Rearrange: / a / drawing / she / made",
+    "options": {
+      "A": "She made a drawing.",
+      "B": "Drawing a she made.",
+      "C": "Made a she drawing.",
+      "D": "She drawing made a."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / proud / am / I / of / you",
+    "options": {
+      "A": "I proud of am you.",
+      "B": "Am proud I you of.",
+      "C": "I am proud of you.",
+      "D": "Proud I you am of."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Rearrange: / her / birthday / today / is",
+    "options": {
+      "A": "Today is her birthday.",
+      "B": "Birthday is her today.",
+      "C": "Is birthday today her.",
+      "D": "Her birthday is today."
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Rearrange: / friend / is / best / my / she",
+    "options": {
+      "A": "She is my best friend.",
+      "B": "My best she is friend.",
+      "C": "Is friend best she my.",
+      "D": "Friend she is best my."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / at / home / not / I / was",
+    "options": {
+      "A": "I was not at home.",
+      "B": "Not at I was home.",
+      "C": "At home I was not.",
+      "D": "Was home at not I."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / swimming / likes / he",
+    "options": {
+      "A": "He likes swimming.",
+      "B": "Swimming he likes.",
+      "C": "Likes he swimming.",
+      "D": "He swimming likes."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Rearrange: / the / sun / rises / east / in",
+    "options": {
+      "A": "Rises the sun in east.",
+      "B": "In the east rises sun.",
+      "C": "The sun rises in the east.",
+      "D": "Sun rises east the in."
+    },
+    "correct": "C"
+  }
+]

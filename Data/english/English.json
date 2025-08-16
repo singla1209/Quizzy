@@ -1,0 +1,102 @@
+[
+  {
+    "question": "She always _____ (wake) up early in the morning.",
+    "options": { "A": "wake", "B": "woke", "C": "wakes", "D": "waking" },
+    "correct": "C"
+  },
+  {
+    "question": "They _____ (watch) a movie when I called them.",
+    "options": { "A": "watch", "B": "were watching", "C": "watched", "D": "had watched" },
+    "correct": "B"
+  },
+  {
+    "question": "By next year, I _____ (complete) my course.",
+    "options": { "A": "will complete", "B": "have completed", "C": "will have completed", "D": "completed" },
+    "correct": "C"
+  },
+  {
+    "question": "He _____ (write) the letter yesterday.",
+    "options": { "A": "writes", "B": "wrote", "C": "has written", "D": "write" },
+    "correct": "B"
+  },
+  {
+    "question": "We _____ (live) in Delhi for 10 years.",
+    "options": { "A": "lived", "B": "have lived", "C": "lives", "D": "living" },
+    "correct": "B"
+  },
+  {
+    "question": "She _____ (read) a novel now.",
+    "options": { "A": "is reading", "B": "reads", "C": "read", "D": "has read" },
+    "correct": "A"
+  },
+  {
+    "question": "He _____ (not come) to the party last night.",
+    "options": { "A": "was not coming", "B": "has not come", "C": "did not come", "D": "not came" },
+    "correct": "C"
+  },
+  {
+    "question": "I _____ (finish) my homework just now.",
+    "options": { "A": "finished", "B": "have finished", "C": "had finished", "D": "finishes" },
+    "correct": "B"
+  },
+  {
+    "question": "While I _____ (walk), it started raining.",
+    "options": { "A": "walked", "B": "was walking", "C": "am walking", "D": "walk" },
+    "correct": "B"
+  },
+  {
+    "question": "She _____ (cook) dinner when I arrived.",
+    "options": { "A": "cooked", "B": "was cooking", "C": "cooks", "D": "has cooked" },
+    "correct": "B"
+  },
+  {
+    "question": "We _____ (not see) him for months.",
+    "options": { "A": "didn't saw", "B": "have not seen", "C": "had not saw", "D": "not saw" },
+    "correct": "B"
+  },
+  {
+    "question": "He _____ (play) football every Sunday.",
+    "options": { "A": "play", "B": "played", "C": "plays", "D": "is playing" },
+    "correct": "C"
+  },
+  {
+    "question": "I _____ (study) since morning.",
+    "options": { "A": "studied", "B": "study", "C": "have been studying", "D": "had studied" },
+    "correct": "C"
+  },
+  {
+    "question": "They _____ (leave) before I arrived.",
+    "options": { "A": "left", "B": "leave", "C": "have left", "D": "had left" },
+    "correct": "D"
+  },
+  {
+    "question": "He _____ (travel) to Mumbai tomorrow.",
+    "options": { "A": "is traveling", "B": "will travel", "C": "travels", "D": "traveled" },
+    "correct": "B"
+  },
+  {
+    "question": "The train _____ (arrive) at 6 PM.",
+    "options": { "A": "arrived", "B": "will arrive", "C": "arrives", "D": "arriving" },
+    "correct": "C"
+  },
+  {
+    "question": "He _____ (go) to school when the bell rang.",
+    "options": { "A": "went", "B": "had gone", "C": "was going", "D": "go" },
+    "correct": "C"
+  },
+  {
+    "question": "I _____ (know) him for ten years.",
+    "options": { "A": "know", "B": "knew", "C": "have known", "D": "am knowing" },
+    "correct": "C"
+  },
+  {
+    "question": "She _____ (learn) French before moving to Paris.",
+    "options": { "A": "learned", "B": "was learning", "C": "had learned", "D": "has learned" },
+    "correct": "C"
+  },
+  {
+    "question": "By the time we arrived, the movie _____ (start).",
+    "options": { "A": "started", "B": "had started", "C": "has started", "D": "was starting" },
+    "correct": "B"
+  }
+]

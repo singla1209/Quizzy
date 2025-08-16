@@ -1,0 +1,202 @@
+[
+  {
+    "question": "There isn’t _____ milk left in the fridge.",
+    "options": {
+      "A": "some",
+      "B": "any",
+      "C": "much",
+      "D": "many"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "She has _____ friends in the new school.",
+    "options": {
+      "A": "few",
+      "B": "a few",
+      "C": "little",
+      "D": "much"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "He didn’t eat _____ rice for lunch.",
+    "options": {
+      "A": "some",
+      "B": "any",
+      "C": "many",
+      "D": "few"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "There are _____ apples on the table.",
+    "options": {
+      "A": "much",
+      "B": "a little",
+      "C": "a few",
+      "D": "little"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Only _____ students passed the exam.",
+    "options": {
+      "A": "a little",
+      "B": "little",
+      "C": "few",
+      "D": "a few"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Please give me _____ water.",
+    "options": {
+      "A": "a few",
+      "B": "little",
+      "C": "a little",
+      "D": "few"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "I bought _____ new books yesterday.",
+    "options": {
+      "A": "a little",
+      "B": "a few",
+      "C": "few",
+      "D": "little"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "He is _____ honest man.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "I saw _____ European tourist in the market.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "_____ sun rises in the east.",
+    "options": {
+      "A": "A",
+      "B": "An",
+      "C": "The",
+      "D": "No article"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "There is _____ sugar in the jar.",
+    "options": {
+      "A": "a few",
+      "B": "a little",
+      "C": "many",
+      "D": "few"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "I have _____ homework to do.",
+    "options": {
+      "A": "much",
+      "B": "many",
+      "C": "few",
+      "D": "a few"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She waited for me for _____ hour.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Do you have _____ information about the project?",
+    "options": {
+      "A": "many",
+      "B": "much",
+      "C": "few",
+      "D": "a few"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "I read _____ interesting story yesterday.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "There were _____ chairs in the room.",
+    "options": {
+      "A": "much",
+      "B": "many",
+      "C": "little",
+      "D": "a little"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "This is _____ best movie I have ever watched.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "He has _____ money in his pocket.",
+    "options": {
+      "A": "a few",
+      "B": "few",
+      "C": "a little",
+      "D": "little"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "_____ Mount Everest is the highest peak in the world.",
+    "options": {
+      "A": "A",
+      "B": "An",
+      "C": "The",
+      "D": "No article"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "I met _____ old friend of mine yesterday.",
+    "options": {
+      "A": "a",
+      "B": "an",
+      "C": "the",
+      "D": "no article"
+    },
+    "correct": "A"
+  }
+]

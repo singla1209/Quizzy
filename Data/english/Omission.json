@@ -1,0 +1,202 @@
+[
+  {
+    "question": "I ____ looking for my keys everywhere.",
+    "options": {
+      "A": "was",
+      "B": "am",
+      "C": "is",
+      "D": "be"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "She ____ fond of dancing since childhood.",
+    "options": {
+      "A": "has been",
+      "B": "is",
+      "C": "was",
+      "D": "been"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He ____ to school every day by bus.",
+    "options": {
+      "A": "goes",
+      "B": "gone",
+      "C": "go",
+      "D": "is going"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "They ____ arrived when we reached.",
+    "options": {
+      "A": "had already",
+      "B": "was already",
+      "C": "have already",
+      "D": "were already"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "We ____ going to the zoo tomorrow.",
+    "options": {
+      "A": "are",
+      "B": "will",
+      "C": "is",
+      "D": "shall"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She ____ reading the novel.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "been",
+      "D": "has"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The teacher ____ explained the topic.",
+    "options": {
+      "A": "has",
+      "B": "have",
+      "C": "was",
+      "D": "is"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "There ____ a lot of students in the class.",
+    "options": {
+      "A": "are",
+      "B": "is",
+      "C": "has",
+      "D": "have"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "I ____ no idea what he was talking about.",
+    "options": {
+      "A": "had",
+      "B": "have",
+      "C": "has",
+      "D": "was"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She ____ preparing for her exams.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "been",
+      "D": "has"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The boys ____ playing in the garden.",
+    "options": {
+      "A": "are",
+      "B": "were",
+      "C": "is",
+      "D": "has"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He ____ finished his lunch.",
+    "options": {
+      "A": "has",
+      "B": "have",
+      "C": "is",
+      "D": "will"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "We ____ tired after the long journey.",
+    "options": {
+      "A": "were",
+      "B": "was",
+      "C": "are",
+      "D": "been"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "They ____ talking too loudly.",
+    "options": {
+      "A": "were",
+      "B": "was",
+      "C": "are",
+      "D": "is"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The car ____ parked outside.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "has",
+      "D": "will"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She ____ always honest in her dealings.",
+    "options": {
+      "A": "has been",
+      "B": "is",
+      "C": "was",
+      "D": "had"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "I ____ waiting for you since morning.",
+    "options": {
+      "A": "have been",
+      "B": "had",
+      "C": "was",
+      "D": "am"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He ____ very polite to everyone.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "has been",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "It ____ raining heavily yesterday.",
+    "options": {
+      "A": "was",
+      "B": "is",
+      "C": "has",
+      "D": "will"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "You ____ not disturb others during exams.",
+    "options": {
+      "A": "should",
+      "B": "could",
+      "C": "might",
+      "D": "shall"
+    },
+    "correct": "A"
+  }
+]

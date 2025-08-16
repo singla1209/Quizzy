@@ -1,0 +1,202 @@
+[
+  {
+    "question": "Each of the boys _____ given a prize.",
+    "options": {
+      "A": "was",
+      "B": "were",
+      "C": "are",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Neither of the students _____ present today.",
+    "options": {
+      "A": "was",
+      "B": "were",
+      "C": "are",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The committee _____ divided in its opinion.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "One of my friends _____ going abroad.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Neither Ramesh nor his friends _____ guilty.",
+    "options": {
+      "A": "is",
+      "B": "was",
+      "C": "are",
+      "D": "be"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "The news _____ very interesting.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Five kilometers _____ a long distance to walk.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Much of the work _____ completed.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Neither of the two answers _____ correct.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Everyone _____ invited to the party.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "There _____ many errors in this answer sheet.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "be"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Either Sita or her friends _____ coming to meet us.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "be"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The quality of these apples _____ not good.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Ten rupees _____ not enough to buy this book.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Neither the teacher nor the students _____ happy with the result.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "be"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Either of the books _____ useful for your exam.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The furniture in this room _____ very old.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "were",
+      "D": "be"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Two and two _____ four.",
+    "options": {
+      "A": "make",
+      "B": "makes",
+      "C": "made",
+      "D": "be"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Many a man _____ tried and failed.",
+    "options": {
+      "A": "have",
+      "B": "has",
+      "C": "is",
+      "D": "be"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Either Ravi or his brothers _____ to blame.",
+    "options": {
+      "A": "is",
+      "B": "are",
+      "C": "was",
+      "D": "be"
+    },
+    "correct": "B"
+  }
+]

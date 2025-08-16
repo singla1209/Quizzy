@@ -1,0 +1,102 @@
+[
+  {
+    "question": "He said, \"I am going to school.\" → He said that he ____ to school.",
+    "options": { "A": "is going", "B": "was going", "C": "has gone", "D": "went" },
+    "correct": "B"
+  },
+  {
+    "question": "She said, \"I have finished my work.\" → She said that she ____ her work.",
+    "options": { "A": "has finished", "B": "had finished", "C": "finished", "D": "will finish" },
+    "correct": "B"
+  },
+  {
+    "question": "They said, \"We will visit the museum.\" → They said that they ____ the museum.",
+    "options": { "A": "would visit", "B": "will visit", "C": "visited", "D": "had visited" },
+    "correct": "A"
+  },
+  {
+    "question": "He said, \"I play cricket.\" → He said that he ____ cricket.",
+    "options": { "A": "played", "B": "plays", "C": "has played", "D": "was playing" },
+    "correct": "A"
+  },
+  {
+    "question": "She said to me, \"Do you like chocolate?\" → She asked me if I ____ chocolate.",
+    "options": { "A": "like", "B": "liked", "C": "was liking", "D": "have liked" },
+    "correct": "B"
+  },
+  {
+    "question": "I said, \"I can solve the problem.\" → I said that I ____ solve the problem.",
+    "options": { "A": "could", "B": "can", "C": "will", "D": "should" },
+    "correct": "A"
+  },
+  {
+    "question": "She said, \"He has gone to the market.\" → She said that he ____ to the market.",
+    "options": { "A": "went", "B": "has gone", "C": "had gone", "D": "goes" },
+    "correct": "C"
+  },
+  {
+    "question": "He said, \"I was reading a book.\" → He said that he ____ a book.",
+    "options": { "A": "is reading", "B": "was reading", "C": "had been reading", "D": "has read" },
+    "correct": "C"
+  },
+  {
+    "question": "She said, \"I am baking a cake.\" → She said that she ____ a cake.",
+    "options": { "A": "is baking", "B": "was baking", "C": "bakes", "D": "has baked" },
+    "correct": "B"
+  },
+  {
+    "question": "He said to her, \"Will you help me?\" → He asked her if she ____ help him.",
+    "options": { "A": "can", "B": "will", "C": "would", "D": "shall" },
+    "correct": "C"
+  },
+  {
+    "question": "She asked, \"Are you coming with me?\" → She asked if I ____ with her.",
+    "options": { "A": "was coming", "B": "am coming", "C": "come", "D": "had come" },
+    "correct": "A"
+  },
+  {
+    "question": "He said, \"I must go now.\" → He said that he ____ go then.",
+    "options": { "A": "must", "B": "has to", "C": "had to", "D": "should" },
+    "correct": "C"
+  },
+  {
+    "question": "She said, \"I may attend the meeting.\" → She said that she ____ attend the meeting.",
+    "options": { "A": "might", "B": "may", "C": "can", "D": "could" },
+    "correct": "A"
+  },
+  {
+    "question": "He asked, \"What are you doing?\" → He asked what I ____.",
+    "options": { "A": "am doing", "B": "was doing", "C": "did", "D": "have done" },
+    "correct": "B"
+  },
+  {
+    "question": "I said, \"She was dancing.\" → I said that she ____ dancing.",
+    "options": { "A": "has been", "B": "was", "C": "had been", "D": "would be" },
+    "correct": "C"
+  },
+  {
+    "question": "She asked me, \"Have you done your homework?\" → She asked me if I ____ my homework.",
+    "options": { "A": "have done", "B": "had done", "C": "did", "D": "was doing" },
+    "correct": "B"
+  },
+  {
+    "question": "They asked, \"Where do you live?\" → They asked where I ____.",
+    "options": { "A": "live", "B": "lived", "C": "was living", "D": "has lived" },
+    "correct": "B"
+  },
+  {
+    "question": "She said, \"I am tired.\" → She said that she ____ tired.",
+    "options": { "A": "is", "B": "was", "C": "had been", "D": "has been" },
+    "correct": "B"
+  },
+  {
+    "question": "He said, \"I will call you tomorrow.\" → He said that he ____ call me the next day.",
+    "options": { "A": "can", "B": "should", "C": "would", "D": "shall" },
+    "correct": "C"
+  },
+  {
+    "question": "I said, \"I don't like mangoes.\" → I said that I ____ like mangoes.",
+    "options": { "A": "didn't", "B": "don’t", "C": "haven’t", "D": "wasn't" },
+    "correct": "A"
+  }
+]

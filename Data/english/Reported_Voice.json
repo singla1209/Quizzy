@@ -1,0 +1,202 @@
+[
+  {
+    "question": "He said, 'I am busy now.' (Change into reported speech)",
+    "options": {
+      "A": "He said that he was busy then.",
+      "B": "He said that he is busy now.",
+      "C": "He says he was busy then.",
+      "D": "He told he is busy now."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She said, 'I have finished my work.'",
+    "options": {
+      "A": "She said that she finished her work.",
+      "B": "She said that she had finished her work.",
+      "C": "She said she finishes her work.",
+      "D": "She says she has finished her work."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "He said, 'I will go to Delhi tomorrow.'",
+    "options": {
+      "A": "He said that he would go to Delhi the next day.",
+      "B": "He said that he will go to Delhi the next day.",
+      "C": "He said he goes to Delhi tomorrow.",
+      "D": "He said he is going to Delhi tomorrow."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She said, 'I can solve this problem.'",
+    "options": {
+      "A": "She said that she could solve that problem.",
+      "B": "She said that she can solve this problem.",
+      "C": "She said she solved the problem.",
+      "D": "She said she was solving this problem."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He said, 'I bought a new car yesterday.'",
+    "options": {
+      "A": "He said that he had bought a new car the previous day.",
+      "B": "He said that he bought a new car yesterday.",
+      "C": "He said he buys a new car the previous day.",
+      "D": "He said he has bought a car yesterday."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "They said, 'We are watching a movie.'",
+    "options": {
+      "A": "They said that they are watching a movie.",
+      "B": "They said that they were watching a movie.",
+      "C": "They said that they watched a movie.",
+      "D": "They said they had watched a movie."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Direct to Indirect: He said, 'I may come.'",
+    "options": {
+      "A": "He said that he might come.",
+      "B": "He said that he may come.",
+      "C": "He said he comes.",
+      "D": "He said he is coming."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "She said, 'Do you like coffee?'",
+    "options": {
+      "A": "She asked if I liked coffee.",
+      "B": "She asked do I like coffee.",
+      "C": "She asked if I like coffee.",
+      "D": "She told I liked coffee."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "He said, 'Where are you going?'",
+    "options": {
+      "A": "He asked where I was going.",
+      "B": "He asked where am I going.",
+      "C": "He asked where I am going.",
+      "D": "He asked where was I going."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Change into Passive: They are playing football.",
+    "options": {
+      "A": "Football is played by them.",
+      "B": "Football was played by them.",
+      "C": "Football is being played by them.",
+      "D": "Football has been played by them."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Change into Passive: He wrote a letter.",
+    "options": {
+      "A": "A letter is written by him.",
+      "B": "A letter was written by him.",
+      "C": "A letter has been written by him.",
+      "D": "A letter is being written by him."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Change into Passive: She is cooking dinner.",
+    "options": {
+      "A": "Dinner is being cooked by her.",
+      "B": "Dinner is cooked by her.",
+      "C": "Dinner was cooked by her.",
+      "D": "Dinner has been cooked by her."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Change into Passive: They have completed the project.",
+    "options": {
+      "A": "The project has completed by them.",
+      "B": "The project has been completed by them.",
+      "C": "The project was completed by them.",
+      "D": "The project is completed by them."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Change into Passive: Someone stole my bag.",
+    "options": {
+      "A": "My bag is stolen.",
+      "B": "My bag has been stolen.",
+      "C": "My bag was stolen.",
+      "D": "My bag was being stolen."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Change into Passive: She will finish the work.",
+    "options": {
+      "A": "The work will be finished by her.",
+      "B": "The work is finished by her.",
+      "C": "The work has been finished by her.",
+      "D": "The work was finished by her."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Change into Passive: He can solve the problem.",
+    "options": {
+      "A": "The problem can solved by him.",
+      "B": "The problem could be solved by him.",
+      "C": "The problem can be solved by him.",
+      "D": "The problem was solved by him."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Change into Passive: They are watching TV.",
+    "options": {
+      "A": "TV was watched by them.",
+      "B": "TV is watched by them.",
+      "C": "TV is being watched by them.",
+      "D": "TV has been watched by them."
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Change into Passive: The teacher is teaching English.",
+    "options": {
+      "A": "English is taught by the teacher.",
+      "B": "English is being taught by the teacher.",
+      "C": "English has been taught by the teacher.",
+      "D": "English was being taught by the teacher."
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Change into Passive: They will play cricket tomorrow.",
+    "options": {
+      "A": "Cricket will be played by them tomorrow.",
+      "B": "Cricket is played by them tomorrow.",
+      "C": "Cricket is being played by them tomorrow.",
+      "D": "Cricket has been played by them tomorrow."
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Change into Passive: She has written a poem.",
+    "options": {
+      "A": "A poem has been written by her.",
+      "B": "A poem is written by her.",
+      "C": "A poem was written by her.",
+      "D": "A poem is being written by her."
+    },
+    "correct": "A"
+  }
+]
