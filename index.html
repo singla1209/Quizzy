@@ -69,7 +69,7 @@
     #results-panel{margin:18px auto 0;max-width:940px;text-align:left;width:100%}
     #results-panel h3{margin:0 0 10px}
     .results-box{background:#243b55;border-radius:14px;padding:12px;box-shadow:0 6px 16px rgba(0,0,0,.25);overflow:auto}
-    table{width:100%;border-collapse:collapse;min-width:560px}
+    table{width:100%;border-collapse:collapse;min-width:680px}
     th, td{padding:10px;border-bottom:1px solid rgba(255,255,255,.15);font-size:14px}
     th{text-align:left;background:transparent;color:#fff;opacity:.9}
     tr:hover{background:rgba(255,255,255,.06);cursor:pointer}
@@ -183,7 +183,7 @@
       <section id="chapters">
         <div>
           <h2 id="chapters-title">Choose a chapter</h2>
-          <p id="chapters-subtitle" class="muted"></p>
+          <p id="chapters-subtitle" class="muted">NCERT Class 10 • Session 2025–26</p>
           <div id="chapter-list"></div>
           <div class="top-actions">
             <button class="btn secondary" id="back-to-subjects-2">Back to subjects</button>
@@ -213,11 +213,11 @@
               <table>
                 <thead>
                   <tr>
-                    <th style="width:20%">Date & Time</th>
-                    <th style="width:20%">Subject</th>
-                    <th style="width:12%">Correct</th>
-                    <th style="width:14%">Incorrect</th>
-                    <th style="width:14%">Total</th>
+                    <th style="width:19%">Date & Time</th>
+                    <th style="width:21%">Subject</th>
+                    <th style="width:20%">Name</th>
+                    <th style="width:10%">Correct</th>
+                    <th style="width:10%">Incorrect</th>
                     <th style="width:20%">Time Taken</th>
                   </tr>
                 </thead>
@@ -326,14 +326,74 @@
       { key:"cs",      label:"Computer Science", file:"questions_cs.json",  host:"https://singla1209.github.io/Quiz_App/" }
     ];
 
-    function prettifyChapterName(filename){
-      // "chapter12.json" -> "Chapter 12"
+    /* NCERT 2025–26 pretty names (fallback to filename if not listed) */
+    const CHAPTER_TITLES = {
+      science: {
+        1: "Chemical Reactions and Equations",
+        2: "Acids, Bases and Salts",
+        3: "Metals and Non-metals",
+        4: "Carbon and its Compounds",
+        5: "Periodic Classification of Elements",
+	6:  "Life Processes",
+        7:  "Control and Coordination",
+        8:  "How do Organisms Reproduce?",
+        9:  "Heredity and Evolution",
+        10: "Light – Reflection and Refraction",
+        11: "The Human Eye and the Colourful World",
+        12: "Electricity",
+        13: "Magnetic Effects of Electric Current",
+        14: "Sources of Energy",
+        15: "Our Environment",
+        16: "Management of Natural Resources"
+      },
+      math: {
+        1: "Real Numbers",
+        2: "Polynomials",
+        3: "Pair of Linear Equations in Two Variables",
+        4: "Quadratic Equations",
+        5: "Arithmetic Progressions",
+        6: "Triangles",
+        7: "Coordinate Geometry",
+        8: "Introduction to Trigonometry",
+        9: "Applications of Trigonometry",
+        10: "Circles",
+        11: "Constructions",
+        12: "Areas Related to Circles",
+        13: "Surface Areas and Volumes",
+        14: "Statistics",
+        15: "Probability"
+      }
+    };
+
+    /* ---------- Utility ---------- */
+    function titleFromFilename(filename){
+      // remove extension → split by non-alphanum → Title Case words
+      const base = filename.replace(/\.json$/i,'').replace(/[_\-]+/g,' ').trim();
+      return base.replace(/\s+/g,' ')
+        .split(' ')
+        .map(w=>w ? w[0].toUpperCase()+w.slice(1) : '')
+        .join(' ');
+    }
+
+    function prettifyChapterName(filename, subjectKey){
+      // capture chapter number if present
       const m = filename.match(/chapter\s*(\d+)/i);
-      if(m) return `Chapter ${parseInt(m[1],10)}`;
-      // fallback: remove .json and capitalize first letter
-      return filename.replace(/\.json$/,'')
-                     .replace(/(^|_|\-)([a-z])/g, (p, _a, b)=> ' ' + b.toUpperCase())
-                     .trim();
+      if(m){
+        const n = parseInt(m[1],10);
+        const map = CHAPTER_TITLES[subjectKey] || {};
+        const pretty = map[n];
+        if(pretty) return `Chapter ${n}: ${pretty}`;
+        // fallback: use file words after number
+        const rest = filename
+          .replace(/\.json$/i,'')
+          .replace(/chapter\s*\d+/i,'')
+          .replace(/[_\-]+/g,' ')
+          .trim();
+        if(rest) return `Chapter ${n}: ${rest.replace(/\b\w/g,c=>c.toUpperCase())}`;
+        return `Chapter ${n}`;
+      }
+      // no number found → filename-based
+      return titleFromFilename(filename);
     }
 
     async function listChapters(path){
@@ -341,23 +401,33 @@
       if(!res.ok) throw new Error("GitHub API error");
       const items = await res.json();
       return items
-        .filter(x => x.type === "file" && x.name.endsWith(".json"))
+        .filter(x => x.type === "file" && x.name.toLowerCase().endsWith(".json"))
         .sort((a,b)=>{
           const na = parseInt((a.name.match(/\d+/)||[9999])[0],10);
           const nb = parseInt((b.name.match(/\d+/)||[9999])[0],10);
-          return na - nb;
+          if(na !== nb) return na - nb;
+          return a.name.localeCompare(b.name);
         });
+    }
+
+    function shuffle(arr){
+      for(let i=arr.length-1;i>0;i--){
+        const j = Math.floor(Math.random()*(i+1));
+        [arr[i],arr[j]] = [arr[j],arr[i]];
+      }
+      return arr;
     }
 
     /* ---------- State ---------- */
     let userName = "";
     let userId   = null;
     let subject  = null;
+    let currentChapterTitle = "";
     let questions = [];
     let idx = 0, correct = 0, incorrect = 0, responses = [];
     let quizStartMs = null;
 
-    /* Build subject buttons */
+    /* Build subject buttons (keep layout) */
     const list = $("subject-list");
     SUBJECTS.forEach(s => {
       const btn = document.createElement("button");
@@ -367,7 +437,7 @@
       list.appendChild(btn);
     });
 
-    /* ---------- Auth actions ---------- */
+    /* ---------- Auth actions (unchanged flow) ---------- */
     $("login-btn").onclick = async () => {
       msg();
       let id = $("login-id").value.trim();
@@ -437,7 +507,7 @@
       if(s.dynamic){
         // Step 1: list chapters
         $("chapters-title").textContent = `Choose a chapter – ${s.label}`;
-        $("chapters-subtitle").textContent = `Loaded from GitHub: ${s.path}`;
+        $("chapters-subtitle").textContent = `NCERT Class 10 • Session 2025–26`;
         const container = $("chapter-list");
         container.innerHTML = `<div class="muted" style="grid-column:1/-1">Loading chapters…</div>`;
 
@@ -448,10 +518,11 @@
           }else{
             container.innerHTML = "";
             items.forEach(file=>{
+              const pretty = prettifyChapterName(file.name, s.key);
               const btn = document.createElement("button");
               btn.className = "btn chapter";
-              btn.textContent = prettifyChapterName(file.name);
-              btn.onclick = () => startChapterQuiz(s, file.path); // file.path already includes Data/...
+              btn.textContent = pretty;
+              btn.onclick = () => startChapterQuiz(s, file.path, pretty);
               container.appendChild(btn);
             });
           }
@@ -464,38 +535,57 @@
       }
 
       // Non-dynamic subjects: keep previous static behavior
-      await beginQuizFromUrl((s.host || "") + s.file, s.label);
+      currentChapterTitle = s.label;
+      await beginQuizFromUrl((s.host || "") + s.file, s.label, currentChapterTitle);
     }
 
     $("back-to-subjects-2").onclick = () => show("subjects");
 
-    async function startChapterQuiz(s, ghPath){
+    async function startChapterQuiz(s, ghPath, prettyTitle){
       // ghPath like "Data/science/chapter1.json"
       const url = RAW_BASE + ghPath; // raw github
-      await beginQuizFromUrl(url, `${s.label} – ${prettifyChapterName(ghPath.split('/').pop())}`);
+      currentChapterTitle = prettyTitle; // used in banner
+      await beginQuizFromUrl(url, s.label, prettyTitle);
     }
 
-    async function beginQuizFromUrl(url, bannerLabel){
+    async function beginQuizFromUrl(url, subjectLabel, chapterTitle){
       idx = 0; correct = 0; incorrect = 0; responses = [];
       quizStartMs = null;
       $("stats").textContent = `✅ Correct: 0  |  ❌ Incorrect: 0`;
       $("qprogress").textContent = `Question 1/1`;
       $("bar-inner").style.width = "0%";
       $("end-screen").style.display = "none";
-      $("welcome-banner").innerHTML = `Welcome <span class="name">${userName}</span> in BrainQuest of <b>${bannerLabel}</b>`;
+
+      // Banner format exactly as requested
+      $("welcome-banner").innerHTML =
+        `Welcome <span class="name">${userName}</span> in BrainQuest of <b>‘${subjectLabel}’ : ${chapterTitle.replace(/^Chapter\s*\d+\s*:\s*/i,'')}</b>`;
+
       show("quiz");
 
       try{
         const res = await fetch(url, {cache:"no-store"});
-        questions = await res.json();
+        const raw = await res.json();
+        // Defensive: ensure array
+        questions = Array.isArray(raw) ? raw.slice() : [];
       }catch(e){ questions = []; }
 
-      if(!questions || !questions.length){
+      if(!questions.length){
         $("question").textContent = "Could not load questions.";
         $("options").innerHTML = "";
         fetchLastFive();
         return;
       }
+
+      // Shuffle questions
+      shuffle(questions);
+
+      // Prepare each question with shuffled options array and preserved correct key
+      questions = questions.map(q => {
+        const entries = Object.entries(q.options || {}).map(([key,text]) => ({key, text}));
+        shuffle(entries);
+        return { ...q, _optionsArr: entries, _correctKey: q.correct };
+      });
+
       renderQuestion();
       fetchLastFive();
     }
@@ -505,32 +595,39 @@
       $("question").textContent = `Q${idx+1}. ${q.question}`;
       const optionsDiv = $("options");
       optionsDiv.innerHTML = "";
-      for(const key in q.options){
+
+      q._optionsArr.forEach(opt=>{
         const div = document.createElement("div");
         div.className = "option";
-        div.textContent = `${key}: ${q.options[key]}`;
-        div.onclick = () => choose(key, div);
+        div.textContent = opt.text;   // no A/B/C labels, only text
+        div.onclick = () => choose(opt.key, div); // compare by original key
         optionsDiv.appendChild(div);
-      }
+      });
+
       $("qprogress").textContent = `Question ${idx+1}/${questions.length}`;
       $("bar-inner").style.width = `${((idx)/questions.length)*100}%`;
       if(quizStartMs === null) quizStartMs = Date.now();
     }
 
     function choose(selectedKey, el){
+      // lock
       document.querySelectorAll(".option").forEach(o => o.style.pointerEvents = "none");
       const q = questions[idx];
-      const correctKey = q.correct;
+      const correctKey = q._correctKey;
 
+      // mark styles by comparing keys
       document.querySelectorAll(".option").forEach(o=>{
-        const isCorrect = o.textContent.startsWith(correctKey + ":");
+        const isCorrect = q._optionsArr.find(x => x.text === o.textContent)?.key === correctKey;
         if(isCorrect) o.classList.add("correct");
       });
-      if(!el.textContent.startsWith(correctKey + ":")) el.classList.add("wrong");
+      if(selectedKey !== correctKey) el.classList.add("wrong");
 
-      const selectedAnswer = q.options[selectedKey];
-      const correctAnswer  = q.options[correctKey];
-      responses.push({ question: q.question, selected: selectedAnswer || "No answer", correct: correctAnswer });
+      const selectedObj = q._optionsArr.find(x=>x.key===selectedKey);
+      const correctObj  = q._optionsArr.find(x=>x.key===correctKey);
+      const selectedAnswer = selectedObj ? selectedObj.text : "No answer";
+      const correctAnswer  = correctObj  ? correctObj.text  : "";
+
+      responses.push({ question: q.question, selected: selectedAnswer, correct: correctAnswer });
 
       if(selectedKey === correctKey){ correct++; $("correct-sound").play(); }
       else { incorrect++; $("wrong-sound").play(); }
@@ -576,7 +673,7 @@
           incorrectAnswers: questions.length - correct,
           responses: responses,
           date: serverTimestamp(),
-          subject: subject ? subject.label : null,
+          subject: subject ? `${subject.label} : ${currentChapterTitle}` : null,
           userId: current ? current.uid : null,
           userEmail: current ? current.email : null,
           timeTakenSec: Math.round(timeTakenSec)
@@ -634,9 +731,9 @@
           tr.innerHTML = `
             <td>${dtTxt}</td>
             <td>${d.subject||"N/A"}</td>
+            <td>${d.name||""}</td>
             <td>${corr}</td>
             <td>${inc}</td>
-            <td>${total}</td>
             <td>${secsToText(secs)}</td>
           `;
           tr.onclick = ()=> openModalForResult(d);
@@ -663,7 +760,7 @@
           <span class="tag">${dt}</span>
         </h3>
         <p class="muted" style="text-align:left;margin:0 0 10px 6px">
-          Score: <b>${corr}/${total}</b> &nbsp; • &nbsp; Time: <b>${secsToText(secs)}</b>
+          Name: <b>${data.name||""}</b> &nbsp; • &nbsp; Score: <b>${corr}/${total}</b> &nbsp; • &nbsp; Time: <b>${secsToText(secs)}</b>
         </p>
       `;
 
