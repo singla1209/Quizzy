@@ -1,0 +1,202 @@
+[
+  {
+    "question": "The least distance of distinct vision for a normal human eye is about:",
+    "options": {
+      "A": "25 cm",
+      "B": "50 cm",
+      "C": "10 cm",
+      "D": "100 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "The eye lens is:",
+    "options": {
+      "A": "Non‑convex",
+      "B": "Convex and flexible",
+      "C": "Concave",
+      "D": "Plane"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Myopia is corrected by:",
+    "options": {
+      "A": "Convex lens",
+      "B": "Cylindrical lens",
+      "C": "Concave lens",
+      "D": "Bifocal only"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Hypermetropia is corrected by:",
+    "options": {
+      "A": "Concave lens",
+      "B": "Convex lens",
+      "C": "Prism",
+      "D": "Cylindrical lens"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Presbyopia occurs due to:",
+    "options": {
+      "A": "Infection",
+      "B": "Loss of accommodation with age",
+      "C": "Lens opacity only",
+      "D": "Retina detachment"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Dispersion of white light through a prism produces:",
+    "options": {
+      "A": "Two colours only",
+      "B": "A spectrum (VIBGYOR)",
+      "C": "No colours",
+      "D": "Random colours"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The phenomenon responsible for the blue colour of the sky is:",
+    "options": {
+      "A": "Interference",
+      "B": "Scattering (Rayleigh)",
+      "C": "Diffraction",
+      "D": "Polarisation"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "The splitting of light into colours is called:",
+    "options": {
+      "A": "Refraction",
+      "B": "Dispersion",
+      "C": "Reflection",
+      "D": "Scattering"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which colour deviates most in a prism?",
+    "options": {
+      "A": "Red",
+      "B": "Violet",
+      "C": "Green",
+      "D": "Yellow"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Rainbow formation is due to:",
+    "options": {
+      "A": "Only refraction",
+      "B": "Refraction and total internal reflection in raindrops",
+      "C": "Only reflection",
+      "D": "Only dispersion without refraction"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Ciliary muscles help in:",
+    "options": {
+      "A": "Blinking",
+      "B": "Changing focal length of eye lens",
+      "C": "Tear secretion",
+      "D": "Pupil reflex"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Astigmatism is corrected by:",
+    "options": {
+      "A": "Spherical lens",
+      "B": "Cylindrical lens",
+      "C": "Concave lens",
+      "D": "No lens"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Red appears at sunset because:",
+    "options": {
+      "A": "Red scatters most",
+      "B": "Red scatters least and travels longer",
+      "C": "Blue is produced",
+      "D": "Clouds absorb red"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "In myopia, the image is formed:",
+    "options": {
+      "A": "On the retina",
+      "B": "Behind the retina",
+      "C": "In front of the retina",
+      "D": "On the iris"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "White light is composed of:",
+    "options": {
+      "A": "One wavelength",
+      "B": "Seven principal colours",
+      "C": "Three colours only",
+      "D": "Infinite but continuous range"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Purkinje shift relates to:",
+    "options": {
+      "A": "Photopic to scotopic vision change",
+      "B": "Colour blindness",
+      "C": "Accommodation",
+      "D": "Persistence of vision"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Near point of a myopic eye is:",
+    "options": {
+      "A": "Less than 25 cm",
+      "B": "Greater than 25 cm",
+      "C": "Infinite",
+      "D": "Exactly 25 cm"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Far point of a normal eye is:",
+    "options": {
+      "A": "25 cm",
+      "B": "50 cm",
+      "C": "Infinite",
+      "D": "1 m"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Colour blindness is due to defect in:",
+    "options": {
+      "A": "Rods",
+      "B": "Cones",
+      "C": "Lens",
+      "D": "Iris"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Tyndall effect is observed due to:",
+    "options": {
+      "A": "Scattering of light by colloidal particles",
+      "B": "Absorption",
+      "C": "Interference",
+      "D": "Diffraction"
+    },
+    "correct": "A"
+  }
+]
