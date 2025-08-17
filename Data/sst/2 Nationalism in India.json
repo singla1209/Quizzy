@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Who led the Non-Cooperation Movement in India?",
+    "options": { "A": "Jawaharlal Nehru", "B": "Mahatma Gandhi", "C": "Bal Gangadhar Tilak", "D": "Subhas Chandra Bose" },
+    "correct": "B"
+  },
+  {
+    "question": "Which event led Gandhi to withdraw the Non-Cooperation Movement?",
+    "options": { "A": "Khilafat Movement", "B": "Jallianwala Bagh Massacre", "C": "Chauri Chaura Incident", "D": "Civil Disobedience Movement" },
+    "correct": "C"
+  },
+  {
+    "question": "The Jallianwala Bagh massacre took place in which year?",
+    "options": { "A": "1917", "B": "1919", "C": "1920", "D": "1922" },
+    "correct": "B"
+  },
+  {
+    "question": "Which Act gave the British government enormous powers to repress political activities in India?",
+    "options": { "A": "Rowlatt Act", "B": "Pitt’s India Act", "C": "Government of India Act 1919", "D": "Ilbert Bill" },
+    "correct": "A"
+  },
+  {
+    "question": "The Khilafat Movement was launched in support of:",
+    "options": { "A": "Ottoman Caliph", "B": "British Government", "C": "Indian Princes", "D": "Congress Leaders" },
+    "correct": "A"
+  },
+  {
+    "question": "What was the main demand of the Simon Commission?",
+    "options": { "A": "Reforms in agriculture", "B": "Reforms in education", "C": "Reforms in administration", "D": "Reforms in the constitution" },
+    "correct": "D"
+  },
+  {
+    "question": "Who coined the slogan ‘Swaraj is my birthright and I shall have it’?",
+    "options": { "A": "Mahatma Gandhi", "B": "Bal Gangadhar Tilak", "C": "Lala Lajpat Rai", "D": "Bipin Chandra Pal" },
+    "correct": "B"
+  },
+  {
+    "question": "Which agreement is known as the ‘Gandhi-Irwin Pact’?",
+    "options": { "A": "Agreement on Swaraj", "B": "Agreement on Khilafat", "C": "Agreement to suspend Civil Disobedience Movement", "D": "Agreement to support Simon Commission" },
+    "correct": "C"
+  },
+  {
+    "question": "When was the Indian National Congress founded?",
+    "options": { "A": "1885", "B": "1905", "C": "1919", "D": "1920" },
+    "correct": "A"
+  },
+  {
+    "question": "Who was the President of the Lahore Session of Congress in 1929?",
+    "options": { "A": "Mahatma Gandhi", "B": "Subhas Chandra Bose", "C": "Jawaharlal Nehru", "D": "Motilal Nehru" },
+    "correct": "C"
+  },
+  {
+    "question": "The demand for ‘Purna Swaraj’ was declared in which year?",
+    "options": { "A": "1927", "B": "1928", "C": "1929", "D": "1930" },
+    "correct": "C"
+  },
+  {
+    "question": "Which march is also known as the Salt March?",
+    "options": { "A": "Kheda Satyagraha", "B": "Champaran Movement", "C": "Dandi March", "D": "Quit India Movement" },
+    "correct": "C"
+  },
+  {
+    "question": "The Non-Cooperation Movement was launched in:",
+    "options": { "A": "1918", "B": "1919", "C": "1920", "D": "1930" },
+    "correct": "C"
+  },
+  {
+    "question": "Who among the following was the Viceroy of India during Jallianwala Bagh Massacre?",
+    "options": { "A": "Lord Curzon", "B": "Lord Irwin", "C": "Lord Chelmsford", "D": "Lord Mountbatten" },
+    "correct": "C"
+  },
+  {
+    "question": "Who was the leader of the peasants in Awadh during the Non-Cooperation Movement?",
+    "options": { "A": "Sardar Patel", "B": "Baba Ramchandra", "C": "Subhas Chandra Bose", "D": "Jawaharlal Nehru" },
+    "correct": "B"
+  },
+  {
+    "question": "Who was the founder of the Swaraj Party in 1923?",
+    "options": { "A": "C.R. Das and Motilal Nehru", "B": "Gandhi and Tilak", "C": "Bose and Nehru", "D": "Lajpat Rai and Tilak" },
+    "correct": "A"
+  },
+  {
+    "question": "The Quit India Movement was launched in:",
+    "options": { "A": "1930", "B": "1935", "C": "1940", "D": "1942" },
+    "correct": "D"
+  },
+  {
+    "question": "Who wrote the book ‘Hind Swaraj’?",
+    "options": { "A": "Jawaharlal Nehru", "B": "Mahatma Gandhi", "C": "Bal Gangadhar Tilak", "D": "Rabindranath Tagore" },
+    "correct": "B"
+  },
+  {
+    "question": "Which movement marked the first mass movement under Gandhi’s leadership?",
+    "options": { "A": "Civil Disobedience Movement", "B": "Non-Cooperation Movement", "C": "Quit India Movement", "D": "Khilafat Movement" },
+    "correct": "B"
+  },
+  {
+    "question": "What was the main slogan of the Quit India Movement?",
+    "options": { "A": "Do or Die", "B": "Inquilab Zindabad", "C": "Swaraj is my Birthright", "D": "Jai Hind" },
+    "correct": "A"
+  }
+]

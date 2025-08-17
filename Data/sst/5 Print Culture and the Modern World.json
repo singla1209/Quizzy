@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Who invented the printing press with movable metal types?",
+    "options": { "A": "James Watt", "B": "Johannes Gutenberg", "C": "Thomas Edison", "D": "Caxton" },
+    "correct": "B"
+  },
+  {
+    "question": "In which year did Gutenberg print the first Bible?",
+    "options": { "A": "1440", "B": "1455", "C": "1500", "D": "1550" },
+    "correct": "B"
+  },
+  {
+    "question": "Which city is known as the birthplace of the printing press?",
+    "options": { "A": "London", "B": "Venice", "C": "Mainz", "D": "Paris" },
+    "correct": "C"
+  },
+  {
+    "question": "The first printing press in India was set up by the:",
+    "options": { "A": "Dutch", "B": "Portuguese", "C": "British", "D": "French" },
+    "correct": "B"
+  },
+  {
+    "question": "Who wrote the book ‘Nuremberg Chronicle’, one of the earliest printed books?",
+    "options": { "A": "Andreas Vesalius", "B": "Hartmann Schedel", "C": "Martin Luther", "D": "Voltaire" },
+    "correct": "B"
+  },
+  {
+    "question": "Who translated the Bible into German, making it accessible to common people?",
+    "options": { "A": "Martin Luther", "B": "Voltaire", "C": "Jean Calvin", "D": "Copernicus" },
+    "correct": "A"
+  },
+  {
+    "question": "Which language was the first newspaper in India printed in?",
+    "options": { "A": "English", "B": "Hindi", "C": "Urdu", "D": "Bengali" },
+    "correct": "A"
+  },
+  {
+    "question": "What was the first newspaper published in India?",
+    "options": { "A": "The Times of India", "B": "Calcutta Gazette", "C": "The Bengal Gazette", "D": "Amrita Bazar Patrika" },
+    "correct": "C"
+  },
+  {
+    "question": "Who was the author of the book ‘India Gazette’?",
+    "options": { "A": "James Augustus Hicky", "B": "Dadabhai Naoroji", "C": "Bal Gangadhar Tilak", "D": "Gopal Krishna Gokhale" },
+    "correct": "A"
+  },
+  {
+    "question": "Which social reformer used newspapers to spread ideas in India?",
+    "options": { "A": "Raja Ram Mohan Roy", "B": "Mahatma Gandhi", "C": "Bal Gangadhar Tilak", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "The novel ‘Chandrakanta’ was written by:",
+    "options": { "A": "Premchand", "B": "Bankim Chandra Chattopadhyay", "C": "Devaki Nandan Khatri", "D": "Rabindranath Tagore" },
+    "correct": "C"
+  },
+  {
+    "question": "Which 18th century French writer declared: ‘The printing press is the most powerful engine of progress’?",
+    "options": { "A": "Voltaire", "B": "Jean Paul Marat", "C": "Louis Sebastien Mercier", "D": "Jean Jacques Rousseau" },
+    "correct": "C"
+  },
+  {
+    "question": "What was the earliest print technology in the world?",
+    "options": { "A": "Woodblock printing", "B": "Lithography", "C": "Movable type printing", "D": "Offset printing" },
+    "correct": "A"
+  },
+  {
+    "question": "Which country developed woodblock printing first?",
+    "options": { "A": "China", "B": "Japan", "C": "Korea", "D": "Germany" },
+    "correct": "A"
+  },
+  {
+    "question": "In 1558, who said, ‘Printing is the ultimate gift of God and the greatest one’?",
+    "options": { "A": "Johann Gutenberg", "B": "Martin Luther", "C": "Calvin", "D": "Erasmus" },
+    "correct": "B"
+  },
+  {
+    "question": "The book ‘Gita Press’ publications in India became famous for:",
+    "options": { "A": "Scientific books", "B": "Religious texts in vernacular languages", "C": "English literature", "D": "Political satire" },
+    "correct": "B"
+  },
+  {
+    "question": "Which Indian language saw the earliest printing of books?",
+    "options": { "A": "Bengali", "B": "Tamil", "C": "Hindi", "D": "Marathi" },
+    "correct": "B"
+  },
+  {
+    "question": "Who was the author of the influential book ‘The Spirit of the Laws’, widely circulated due to print?",
+    "options": { "A": "Montesquieu", "B": "Voltaire", "C": "Jean Calvin", "D": "Thomas Paine" },
+    "correct": "A"
+  },
+  {
+    "question": "Which 19th century invention increased the speed of printing dramatically?",
+    "options": { "A": "Hand press", "B": "Steam press", "C": "Offset press", "D": "Typewriter" },
+    "correct": "B"
+  },
+  {
+    "question": "Which movement in India made extensive use of newspapers, journals and leaflets?",
+    "options": { "A": "Swadeshi Movement", "B": "Civil Disobedience Movement", "C": "Quit India Movement", "D": "All of the above" },
+    "correct": "D"
+  }
+]
