@@ -1,0 +1,313 @@
+[
+  {
+    "question": "Which of the following is an input device?",
+    "options": {
+      "A": "Monitor",
+      "B": "Printer",
+      "C": "Mouse",
+      "D": "Speaker"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": {
+      "A": "Central Process Unit",
+      "B": "Central Processing Unit",
+      "C": "Computer Processing Unit",
+      "D": "Control Processing Unit"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is not an operating system?",
+    "options": {
+      "A": "Windows",
+      "B": "Linux",
+      "C": "Oracle",
+      "D": "MacOS"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which storage device is considered volatile?",
+    "options": {
+      "A": "Hard Disk",
+      "B": "SSD",
+      "C": "RAM",
+      "D": "Pen Drive"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which of these is a web browser?",
+    "options": {
+      "A": "Google Chrome",
+      "B": "Windows",
+      "C": "Linux",
+      "D": "Intel"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Which one is a programming language?",
+    "options": {
+      "A": "HTTP",
+      "B": "HTML",
+      "C": "Java",
+      "D": "WWW"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "What type of software is MS Word?",
+    "options": {
+      "A": "System Software",
+      "B": "Operating System",
+      "C": "Utility Software",
+      "D": "Application Software"
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Which key is used to refresh a web page?",
+    "options": {
+      "A": "F1",
+      "B": "F5",
+      "C": "F2",
+      "D": "F9"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which protocol is used to send emails?",
+    "options": {
+      "A": "HTTP",
+      "B": "FTP",
+      "C": "SMTP",
+      "D": "POP"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which company developed the Windows OS?",
+    "options": {
+      "A": "Apple",
+      "B": "Google",
+      "C": "Microsoft",
+      "D": "IBM"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is not a programming language?",
+    "options": {
+      "A": "Python",
+      "B": "Java",
+      "C": "C++",
+      "D": "HTTP"
+    },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is a type of malware?",
+    "options": {
+      "A": "Firewall",
+      "B": "Virus",
+      "C": "Compiler",
+      "D": "Browser"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": {
+      "A": "Uniform Resource Locator",
+      "B": "Universal Resource Locator",
+      "C": "Unified Resource Locator",
+      "D": "Universal Record Locator"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is a search engine?",
+    "options": {
+      "A": "Facebook",
+      "B": "Google",
+      "C": "Twitter",
+      "D": "YouTube"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "What is the brain of the computer?",
+    "options": {
+      "A": "RAM",
+      "B": "Monitor",
+      "C": "CPU",
+      "D": "Mouse"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "What is the permanent memory in a computer called?",
+    "options": {
+      "A": "RAM",
+      "B": "ROM",
+      "C": "Cache",
+      "D": "Register"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is not a hardware?",
+    "options": {
+      "A": "Monitor",
+      "B": "Operating System",
+      "C": "Keyboard",
+      "D": "Printer"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is used to connect to the internet?",
+    "options": {
+      "A": "Compiler",
+      "B": "Router",
+      "C": "Plotter",
+      "D": "Scanner"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is not a valid file extension?",
+    "options": {
+      "A": ".exe",
+      "B": ".doc",
+      "C": ".jpg",
+      "D": ".keyb"
+    },
+    "correct": "D"
+  },
+  {
+    "question": "What is phishing?",
+    "options": {
+      "A": "A game",
+      "B": "A type of email scam",
+      "C": "A file format",
+      "D": "A browser"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "What does HTTP stand for?",
+    "options": {
+      "A": "HyperText Transfer Protocol",
+      "B": "Hyper Tool Transfer Protocol",
+      "C": "Host Transfer Text Protocol",
+      "D": "HyperText Transmission Path"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Which of these is a mobile operating system?",
+    "options": {
+      "A": "Linux",
+      "B": "Android",
+      "C": "Windows",
+      "D": "macOS"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Where is cache memory located?",
+    "options": {
+      "A": "Hard Disk",
+      "B": "RAM",
+      "C": "CPU",
+      "D": "Motherboard"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which device connects computers over a network?",
+    "options": {
+      "A": "Modem",
+      "B": "Router",
+      "C": "Scanner",
+      "D": "Keyboard"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is an output device?",
+    "options": {
+      "A": "Mouse",
+      "B": "Scanner",
+      "C": "Printer",
+      "D": "Microphone"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which one is not an MS Office application?",
+    "options": {
+      "A": "MS Word",
+      "B": "MS Excel",
+      "C": "MS Paint",
+      "D": "MS PowerPoint"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "Which part of the computer performs calculations?",
+    "options": {
+      "A": "RAM",
+      "B": "Hard Disk",
+      "C": "ALU",
+      "D": "ROM"
+    },
+    "correct": "C"
+  },
+  {
+    "question": "What is the full form of PDF?",
+    "options": {
+      "A": "Portable Document Format",
+      "B": "Public Document File",
+      "C": "Printed Document Format",
+      "D": "Portable Disk Format"
+    },
+    "correct": "A"
+  },
+  {
+    "question": "Which device is used to take a hard copy?",
+    "options": {
+      "A": "Monitor",
+      "B": "Printer",
+      "C": "CPU",
+      "D": "Keyboard"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is a programming language?",
+    "options": {
+      "A": "Excel",
+      "B": "Python",
+      "C": "Photoshop",
+      "D": "Chrome"
+    },
+    "correct": "B"
+  },
+  {
+    "question": "Which of these is a cloud storage service?",
+    "options": {
+      "A": "OneDrive",
+      "B": "Excel",
+      "C": "Windows",
+      "D": "Ubuntu"
+    },
+    "correct": "A"
+  }
+
+]
