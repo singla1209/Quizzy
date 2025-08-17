@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Globalisation refers to:",
+    "options": { "A": "Integration of countries through trade and investment", "B": "Only free flow of people", "C": "Only cultural exchange", "D": "Isolation of economies" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is NOT a feature of globalisation?",
+    "options": { "A": "Greater foreign trade", "B": "Integration of markets", "C": "Reduced foreign investment", "D": "Movement of people and technology" },
+    "correct": "C"
+  },
+  {
+    "question": "Which organisation sets rules of international trade?",
+    "options": { "A": "UNDP", "B": "WTO", "C": "World Bank", "D": "IMF" },
+    "correct": "B"
+  },
+  {
+    "question": "India became a member of WTO in:",
+    "options": { "A": "1985", "B": "1991", "C": "1995", "D": "2000" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following best defines liberalisation?",
+    "options": { "A": "Freedom from social customs", "B": "Freedom of speech", "C": "Removal of trade barriers", "D": "End of democracy" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is a trade barrier?",
+    "options": { "A": "Tax on imports", "B": "Transport facility", "C": "Electricity supply", "D": "Better infrastructure" },
+    "correct": "A"
+  },
+  {
+    "question": "Which Indian industry benefited the most from globalisation?",
+    "options": { "A": "Textiles", "B": "Information Technology", "C": "Agriculture", "D": "Cottage industries" },
+    "correct": "B"
+  },
+  {
+    "question": "What is meant by foreign investment?",
+    "options": { "A": "Investment made by Indian companies in foreign countries", "B": "Investment made by foreign companies in India", "C": "Only government investment abroad", "D": "None of these" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is an example of MNC?",
+    "options": { "A": "Infosys", "B": "Reliance Industries", "C": "Coca-Cola", "D": "State Bank of India" },
+    "correct": "C"
+  },
+  {
+    "question": "Which sector has attracted the most foreign investment in India?",
+    "options": { "A": "Agriculture", "B": "Service sector", "C": "Handicrafts", "D": "Cottage industries" },
+    "correct": "B"
+  },
+  {
+    "question": "SEZs in India are set up to:",
+    "options": { "A": "Protect farmers", "B": "Promote exports and attract foreign investment", "C": "Encourage cottage industries", "D": "Discourage foreign trade" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is NOT an effect of globalisation in India?",
+    "options": { "A": "Improved quality of products", "B": "Increased competition", "C": "Decline of MNCs", "D": "Expansion of IT sector" },
+    "correct": "C"
+  },
+  {
+    "question": "The process of rapid integration or interconnection among countries is called:",
+    "options": { "A": "Industrialisation", "B": "Liberalisation", "C": "Globalisation", "D": "Privatisation" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is a negative effect of globalisation?",
+    "options": { "A": "Increased job opportunities", "B": "Decline of small producers", "C": "Improved technology", "D": "Better services" },
+    "correct": "B"
+  },
+  {
+    "question": "Which reform was introduced in India in 1991 to encourage globalisation?",
+    "options": { "A": "Privatisation only", "B": "Liberalisation and globalisation", "C": "Social reform", "D": "Agricultural reforms" },
+    "correct": "B"
+  },
+  {
+    "question": "What does WTO stand for?",
+    "options": { "A": "World Transport Organisation", "B": "World Trade Organisation", "C": "World Tourism Organisation", "D": "World Technology Organisation" },
+    "correct": "B"
+  },
+  {
+    "question": "Which country is NOT a permanent member of WTO?",
+    "options": { "A": "India", "B": "USA", "C": "China", "D": "Pakistan" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following policies were adopted to make Indian producers more competitive?",
+    "options": { "A": "Trade barriers", "B": "Import quotas", "C": "Liberalisation of trade and investment", "D": "High tariffs" },
+    "correct": "C"
+  },
+  {
+    "question": "Which Indian companies have become MNCs due to globalisation?",
+    "options": { "A": "Tata Motors", "B": "Infosys", "C": "Ranbaxy", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is a positive impact of globalisation on India?",
+    "options": { "A": "Greater choice of goods", "B": "Better quality products", "C": "Lower prices", "D": "All of the above" },
+    "correct": "D"
+  }
+]

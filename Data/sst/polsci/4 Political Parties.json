@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is a political party?",
+    "options": { "A": "Group of people with similar views", "B": "Group of people contesting elections", "C": "Organization with ideology to attain political power", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is NOT a function of political parties?",
+    "options": { "A": "Contesting elections", "B": "Making laws", "C": "Implementing welfare schemes directly", "D": "Shaping public opinion" },
+    "correct": "C"
+  },
+  {
+    "question": "How many parties are required in a democracy to be called a multi-party system?",
+    "options": { "A": "At least 1", "B": "At least 2", "C": "More than 2", "D": "Only 2" },
+    "correct": "C"
+  },
+  {
+    "question": "Which country follows a one-party system?",
+    "options": { "A": "India", "B": "China", "C": "USA", "D": "UK" },
+    "correct": "B"
+  },
+  {
+    "question": "Which country follows a two-party system?",
+    "options": { "A": "India", "B": "USA", "C": "France", "D": "Nepal" },
+    "correct": "B"
+  },
+  {
+    "question": "Which party system does India follow?",
+    "options": { "A": "One-party system", "B": "Two-party system", "C": "Multi-party system", "D": "No-party system" },
+    "correct": "C"
+  },
+  {
+    "question": "Which is the oldest political party in India?",
+    "options": { "A": "BJP", "B": "Congress", "C": "CPI", "D": "DMK" },
+    "correct": "B"
+  },
+  {
+    "question": "Which political party was founded in 1980?",
+    "options": { "A": "BJP", "B": "Congress", "C": "CPI", "D": "NCP" },
+    "correct": "A"
+  },
+  {
+    "question": "What is the minimum percentage of votes required for a political party to be recognized as a national party in India?",
+    "options": { "A": "4% votes in 4 states", "B": "6% votes in 4 states", "C": "10% votes in 2 states", "D": "15% votes in 3 states" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is NOT a recognized national party in India?",
+    "options": { "A": "Congress", "B": "BJP", "C": "Trinamool Congress", "D": "CPI(M)" },
+    "correct": "C"
+  },
+  {
+    "question": "Which state party ruled Tamil Nadu for decades?",
+    "options": { "A": "DMK and AIADMK", "B": "BJP", "C": "Congress", "D": "Shiv Sena" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following challenges is NOT faced by political parties?",
+    "options": { "A": "Dynastic succession", "B": "Role of money and muscle power", "C": "Lack of internal democracy", "D": "Excessive decentralisation" },
+    "correct": "D"
+  },
+  {
+    "question": "Which commission was set up in 1998 to reform political parties and elections?",
+    "options": { "A": "Election Commission", "B": "Indrajit Gupta Committee", "C": "Finance Commission", "D": "Planning Commission" },
+    "correct": "B"
+  },
+  {
+    "question": "Which symbol is associated with the Congress Party?",
+    "options": { "A": "Lotus", "B": "Hand", "C": "Cycle", "D": "Elephant" },
+    "correct": "B"
+  },
+  {
+    "question": "Which symbol is associated with the Bharatiya Janata Party (BJP)?",
+    "options": { "A": "Lotus", "B": "Hand", "C": "Cycle", "D": "Elephant" },
+    "correct": "A"
+  },
+  {
+    "question": "Which symbol is associated with the Bahujan Samaj Party (BSP)?",
+    "options": { "A": "Cycle", "B": "Elephant", "C": "Lotus", "D": "Hand" },
+    "correct": "B"
+  },
+  {
+    "question": "Which symbol is associated with the Samajwadi Party (SP)?",
+    "options": { "A": "Cycle", "B": "Hand", "C": "Lotus", "D": "Elephant" },
+    "correct": "A"
+  },
+  {
+    "question": "Which is the main function of opposition parties?",
+    "options": { "A": "Run the government", "B": "Criticise and check the government", "C": "Elect the President", "D": "Control the army" },
+    "correct": "B"
+  },
+  {
+    "question": "Which constitutional body allots symbols to political parties?",
+    "options": { "A": "Supreme Court", "B": "Parliament", "C": "Election Commission of India", "D": "President" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is a way to reform political parties?",
+    "options": { "A": "Law to regulate internal democracy", "B": "State funding of elections", "C": "People’s pressure and media", "D": "All of the above" },
+    "correct": "D"
+  }
+]

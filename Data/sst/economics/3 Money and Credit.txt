@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which of the following is a modern form of money?",
+    "options": { "A": "Gold coins", "B": "Barter items", "C": "Paper notes and bank deposits", "D": "Cowrie shells" },
+    "correct": "C"
+  },
+  {
+    "question": "Which authority issues currency notes in India?",
+    "options": { "A": "Government of India", "B": "Reserve Bank of India", "C": "State Bank of India", "D": "Ministry of Finance" },
+    "correct": "B"
+  },
+  {
+    "question": "The Reserve Bank of India issues currency on behalf of:",
+    "options": { "A": "Central Government", "B": "State Government", "C": "Commercial Banks", "D": "Private sector" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is NOT a function of money?",
+    "options": { "A": "Medium of exchange", "B": "Measure of value", "C": "Means of barter", "D": "Store of value" },
+    "correct": "C"
+  },
+  {
+    "question": "Which type of deposit in banks allows withdrawal by cheque?",
+    "options": { "A": "Fixed deposits", "B": "Current deposits", "C": "Demand deposits", "D": "Recurring deposits" },
+    "correct": "C"
+  },
+  {
+    "question": "The facility of cheques against demand deposits makes money:",
+    "options": { "A": "A medium of barter", "B": "More convenient", "C": "Less useful", "D": "Only paper" },
+    "correct": "B"
+  },
+  {
+    "question": "Who supervises the functioning of formal sources of credit in India?",
+    "options": { "A": "State Bank of India", "B": "Reserve Bank of India", "C": "Ministry of Finance", "D": "Commercial Banks" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is a formal source of credit?",
+    "options": { "A": "Moneylenders", "B": "Relatives", "C": "Banks", "D": "Traders" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is an informal source of credit?",
+    "options": { "A": "Commercial Banks", "B": "Cooperatives", "C": "Moneylenders", "D": "Regional Rural Banks" },
+    "correct": "C"
+  },
+  {
+    "question": "The share of formal sector credit in rural households is about:",
+    "options": { "A": "20%", "B": "30%", "C": "50%", "D": "60%" },
+    "correct": "D"
+  },
+  {
+    "question": "Which sector charges higher rates of interest?",
+    "options": { "A": "Formal sector", "B": "Informal sector", "C": "Both equally", "D": "None" },
+    "correct": "B"
+  },
+  {
+    "question": "Self Help Groups (SHGs) are mainly formed by:",
+    "options": { "A": "Farmers", "B": "Moneylenders", "C": "Women", "D": "Traders" },
+    "correct": "C"
+  },
+  {
+    "question": "The main aim of SHGs is:",
+    "options": { "A": "To exploit the poor", "B": "To provide cheap credit to members", "C": "To act as moneylenders", "D": "To make profit" },
+    "correct": "B"
+  },
+  {
+    "question": "Collateral is:",
+    "options": { "A": "A type of loan", "B": "Security against loan", "C": "Interest rate", "D": "A subsidy" },
+    "correct": "B"
+  },
+  {
+    "question": "Which among the following is a disadvantage of informal credit?",
+    "options": { "A": "High interest rate", "B": "No proper records", "C": "Exploitation of borrowers", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is NOT supervised by the Reserve Bank of India?",
+    "options": { "A": "Commercial Banks", "B": "Moneylenders", "C": "Cooperatives", "D": "Regional Rural Banks" },
+    "correct": "B"
+  },
+  {
+    "question": "Which institution issues loans without collateral to poor women through SHGs?",
+    "options": { "A": "Commercial Banks", "B": "Moneylenders", "C": "SHGs", "D": "Traders" },
+    "correct": "C"
+  },
+  {
+    "question": "The demand deposit facility helps in:",
+    "options": { "A": "Making money a medium of exchange", "B": "Encouraging barter", "C": "Discouraging banking", "D": "None of these" },
+    "correct": "A"
+  },
+  {
+    "question": "Which sector of credit still dominates in rural India?",
+    "options": { "A": "Formal sector", "B": "Informal sector", "C": "Cooperative banks", "D": "Nationalised banks" },
+    "correct": "B"
+  },
+  {
+    "question": "The biggest advantage of formal credit is:",
+    "options": { "A": "Low interest rates", "B": "Supervised by RBI", "C": "No exploitation", "D": "All of the above" },
+    "correct": "D"
+  }
+]

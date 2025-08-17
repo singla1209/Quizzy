@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Who is known as the architect of the German unification?",
+    "options": { "A": "Giuseppe Garibaldi", "B": "Otto von Bismarck", "C": "Giuseppe Mazzini", "D": "Metternich" },
+    "correct": "B"
+  },
+  {
+    "question": "What does 'absolutist' mean in the context of 19th century Europe?",
+    "options": { "A": "Government by consent", "B": "Government by a single ruler with absolute power", "C": "Rule by elected representatives", "D": "Rule by religious authority" },
+    "correct": "B"
+  },
+  {
+    "question": "The French Revolution of 1789 led to the transfer of power from:",
+    "options": { "A": "Monarchy to Clergy", "B": "Monarchy to Aristocracy", "C": "Monarchy to Citizens", "D": "Church to Nobles" },
+    "correct": "C"
+  },
+  {
+    "question": "Which colours were used in the new tricolour flag designed during the French Revolution?",
+    "options": { "A": "Red, White and Green", "B": "Blue, White and Red", "C": "Red, Yellow and Green", "D": "Black, Red and Yellow" },
+    "correct": "B"
+  },
+  {
+    "question": "The Civil Code of 1804, introduced by Napoleon, is also known as:",
+    "options": { "A": "Napoleonic Code", "B": "French Constitution", "C": "Declaration of Rights", "D": "Continental Code" },
+    "correct": "A"
+  },
+  {
+    "question": "Which treaty recognised Greece as an independent nation?",
+    "options": { "A": "Treaty of Versailles", "B": "Treaty of Vienna", "C": "Treaty of Constantinople", "D": "Treaty of Paris" },
+    "correct": "C"
+  },
+  {
+    "question": "Which year is known as the ‘Year of Revolutions’ in Europe?",
+    "options": { "A": "1789", "B": "1815", "C": "1848", "D": "1871" },
+    "correct": "C"
+  },
+  {
+    "question": "Who among the following was NOT associated with Italian unification?",
+    "options": { "A": "Giuseppe Garibaldi", "B": "Giuseppe Mazzini", "C": "Count Cavour", "D": "Otto von Bismarck" },
+    "correct": "D"
+  },
+  {
+    "question": "The term ‘Allegory’ in this lesson refers to:",
+    "options": { "A": "A story with hidden meaning", "B": "A type of revolution", "C": "An ancient manuscript", "D": "A military strategy" },
+    "correct": "A"
+  },
+  {
+    "question": "The allegory of France was represented by:",
+    "options": { "A": "Marianne", "B": "Germania", "C": "Britannia", "D": "Liberty" },
+    "correct": "A"
+  },
+  {
+    "question": "Which symbol in the French flag represented the national colours of France?",
+    "options": { "A": "Blue-White-Red", "B": "Red-Green-Black", "C": "Yellow-Red-Black", "D": "Green-White-Orange" },
+    "correct": "A"
+  },
+  {
+    "question": "What did the Treaty of Vienna (1815) restore in Europe?",
+    "options": { "A": "Monarchies", "B": "Republics", "C": "Democracies", "D": "Colonial rule" },
+    "correct": "A"
+  },
+  {
+    "question": "Who hosted the Congress of Vienna in 1815?",
+    "options": { "A": "Louis XVI", "B": "Napoleon Bonaparte", "C": "Duke of Wellington", "D": "Austrian Chancellor Metternich" },
+    "correct": "D"
+  },
+  {
+    "question": "In which year did Napoleon finally lose the Battle of Waterloo?",
+    "options": { "A": "1789", "B": "1815", "C": "1848", "D": "1871" },
+    "correct": "B"
+  },
+  {
+    "question": "The allegory of Germany was represented by:",
+    "options": { "A": "Britannia", "B": "Germania", "C": "Marianne", "D": "Helvetia" },
+    "correct": "B"
+  },
+  {
+    "question": "Which among the following revolts is known as the ‘July Revolution’?",
+    "options": { "A": "Revolution of 1789 in France", "B": "Revolution of 1815 in France", "C": "Revolution of 1830 in France", "D": "Revolution of 1848 in France" },
+    "correct": "C"
+  },
+  {
+    "question": "What was the main aim of the revolutionaries of 1848 in Europe?",
+    "options": { "A": "Restoration of monarchy", "B": "Formation of nation-states", "C": "Spread of colonial rule", "D": "Expansion of church power" },
+    "correct": "B"
+  },
+  {
+    "question": "The person associated with the ‘Young Europe’ movement was:",
+    "options": { "A": "Metternich", "B": "Giuseppe Mazzini", "C": "Garibaldi", "D": "Cavour" },
+    "correct": "B"
+  },
+  {
+    "question": "Which nation-state was the first to experience a successful revolution in 1830?",
+    "options": { "A": "Germany", "B": "Italy", "C": "France", "D": "Greece" },
+    "correct": "D"
+  },
+  {
+    "question": "Which country became a nation-state after the unification movement led by Count Cavour?",
+    "options": { "A": "Germany", "B": "Italy", "C": "France", "D": "Belgium" },
+    "correct": "B"
+  }
+]

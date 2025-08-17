@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which crop is a rabi crop in India?",
+    "options": { "A": "Rice", "B": "Wheat", "C": "Maize", "D": "Jute" },
+    "correct": "B"
+  },
+  {
+    "question": "Which crop is known as the ‘golden fibre’?",
+    "options": { "A": "Cotton", "B": "Jute", "C": "Silk", "D": "Wheat" },
+    "correct": "B"
+  },
+  {
+    "question": "Which state is the largest producer of wheat in India?",
+    "options": { "A": "Punjab", "B": "Uttar Pradesh", "C": "Madhya Pradesh", "D": "Haryana" },
+    "correct": "B"
+  },
+  {
+    "question": "Which crop is a kharif crop?",
+    "options": { "A": "Wheat", "B": "Rice", "C": "Mustard", "D": "Gram" },
+    "correct": "B"
+  },
+  {
+    "question": "Which crop is grown in the 'zayad' season?",
+    "options": { "A": "Rice", "B": "Watermelon", "C": "Mustard", "D": "Wheat" },
+    "correct": "B"
+  },
+  {
+    "question": "Which is the staple food crop of a majority of the people in India?",
+    "options": { "A": "Wheat", "B": "Rice", "C": "Maize", "D": "Jowar" },
+    "correct": "B"
+  },
+  {
+    "question": "Which state is the largest producer of rice in India?",
+    "options": { "A": "Punjab", "B": "West Bengal", "C": "Andhra Pradesh", "D": "Uttar Pradesh" },
+    "correct": "B"
+  },
+  {
+    "question": "Tea requires which type of climate?",
+    "options": { "A": "Cool climate with well-distributed rainfall", "B": "Dry and hot climate", "C": "Extreme cold climate", "D": "Desert climate" },
+    "correct": "A"
+  },
+  {
+    "question": "Which state is the largest producer of tea in India?",
+    "options": { "A": "West Bengal", "B": "Assam", "C": "Kerala", "D": "Tamil Nadu" },
+    "correct": "B"
+  },
+  {
+    "question": "Which state is the largest producer of cotton in India?",
+    "options": { "A": "Punjab", "B": "Haryana", "C": "Maharashtra", "D": "Tamil Nadu" },
+    "correct": "C"
+  },
+  {
+    "question": "Which crop is known as the ‘poor man’s food’?",
+    "options": { "A": "Rice", "B": "Maize", "C": "Millets", "D": "Jute" },
+    "correct": "C"
+  },
+  {
+    "question": "Which crop is the main source of sugar in India?",
+    "options": { "A": "Rice", "B": "Sugarcane", "C": "Jute", "D": "Cotton" },
+    "correct": "B"
+  },
+  {
+    "question": "Which crop is grown in Assam, West Bengal and Bihar during the rainy season?",
+    "options": { "A": "Jute", "B": "Cotton", "C": "Tea", "D": "Millets" },
+    "correct": "A"
+  },
+  {
+    "question": "Which state is the leading producer of coffee in India?",
+    "options": { "A": "Kerala", "B": "Karnataka", "C": "Tamil Nadu", "D": "Assam" },
+    "correct": "B"
+  },
+  {
+    "question": "Which type of farming is practised on small patches of land with primitive tools?",
+    "options": { "A": "Commercial farming", "B": "Intensive subsistence farming", "C": "Primitive subsistence farming", "D": "Plantation farming" },
+    "correct": "C"
+  },
+  {
+    "question": "Which type of farming uses HYV seeds, chemical fertilizers and irrigation?",
+    "options": { "A": "Organic farming", "B": "Shifting cultivation", "C": "Intensive subsistence farming", "D": "Commercial farming" },
+    "correct": "D"
+  },
+  {
+    "question": "Which crop was introduced by the British in India as a commercial crop?",
+    "options": { "A": "Tea", "B": "Rice", "C": "Millets", "D": "Gram" },
+    "correct": "A"
+  },
+  {
+    "question": "Which state is the largest producer of maize in India?",
+    "options": { "A": "Punjab", "B": "Rajasthan", "C": "Madhya Pradesh", "D": "Karnataka" },
+    "correct": "D"
+  },
+  {
+    "question": "Which soil is best suited for the cultivation of cotton?",
+    "options": { "A": "Alluvial soil", "B": "Red soil", "C": "Black soil", "D": "Laterite soil" },
+    "correct": "C"
+  },
+  {
+    "question": "Which revolution in India is related to agriculture and food production?",
+    "options": { "A": "Green Revolution", "B": "White Revolution", "C": "Blue Revolution", "D": "Yellow Revolution" },
+    "correct": "A"
+  }
+]

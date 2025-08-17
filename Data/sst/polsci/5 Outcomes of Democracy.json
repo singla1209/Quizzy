@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which of the following is the most common form of government today?",
+    "options": { "A": "Monarchy", "B": "Military rule", "C": "Democracy", "D": "Dictatorship" },
+    "correct": "C"
+  },
+  {
+    "question": "Democracy is based on the principle of:",
+    "options": { "A": "Majority rule", "B": "Inequality", "C": "Power concentration", "D": "Minority rule" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is NOT an outcome of democracy?",
+    "options": { "A": "Accountable government", "B": "Responsive government", "C": "Dictatorial decisions", "D": "Legitimate government" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is an expected outcome of democracy?",
+    "options": { "A": "Inequality", "B": "Social diversity accommodation", "C": "Authoritarianism", "D": "Suppression of opposition" },
+    "correct": "B"
+  },
+  {
+    "question": "Democracy ensures:",
+    "options": { "A": "Transparency", "B": "Accountability", "C": "Legitimacy", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is a challenge before democracies?",
+    "options": { "A": "Corruption", "B": "Inequality", "C": "Communalism", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Democracy is considered better than dictatorship because it:",
+    "options": { "A": "Promotes equality", "B": "Improves quality of decision-making", "C": "Enhances dignity of citizens", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following reflects the political outcome of democracy?",
+    "options": { "A": "Free and fair elections", "B": "Concentration of wealth", "C": "Suppression of minorities", "D": "Unequal opportunities" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is an economic outcome of democracy?",
+    "options": { "A": "Reduction of poverty in all cases", "B": "Equitable distribution of wealth always", "C": "Slower economic growth than dictatorships sometimes", "D": "Rapid growth in every democracy" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is a social outcome of democracy?",
+    "options": { "A": "Caste discrimination", "B": "Religious intolerance", "C": "Accommodation of social diversity", "D": "Exclusion of minorities" },
+    "correct": "C"
+  },
+  {
+    "question": "What is the key basis of democracy?",
+    "options": { "A": "Economic equality", "B": "Political equality", "C": "Cultural uniformity", "D": "Military strength" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following outcomes of democracy ensures that rulers can be changed?",
+    "options": { "A": "Accountability", "B": "Transparency", "C": "Legitimacy", "D": "Efficiency" },
+    "correct": "A"
+  },
+  {
+    "question": "In a democracy, people have the right to:",
+    "options": { "A": "Elect their rulers", "B": "Remove their rulers", "C": "Question decisions", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "The routine transfer of power in a democracy ensures:",
+    "options": { "A": "Legitimacy of government", "B": "Monarchy", "C": "Dictatorship", "D": "Military rule" },
+    "correct": "A"
+  },
+  {
+    "question": "Democracy is criticised for being:",
+    "options": { "A": "Slow in decision-making", "B": "Always unstable", "C": "Non-legitimate", "D": "Undemocratic" },
+    "correct": "A"
+  },
+  {
+    "question": "Which outcome of democracy is concerned with reducing income inequalities?",
+    "options": { "A": "Political", "B": "Economic", "C": "Social", "D": "Cultural" },
+    "correct": "B"
+  },
+  {
+    "question": "What is the main reason for democracy being considered better than other forms?",
+    "options": { "A": "Provides dignity and freedom to individuals", "B": "Guarantees fast economic growth", "C": "Ensures permanent rulers", "D": "Maintains complete uniformity" },
+    "correct": "A"
+  },
+  {
+    "question": "In which way does democracy ensure dignity of citizens?",
+    "options": { "A": "Equal political rights", "B": "End of caste inequalities", "C": "Equal treatment of women", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is NOT true about democracy?",
+    "options": { "A": "It improves quality of decision-making", "B": "It guarantees economic equality to all", "C": "It enhances dignity of citizens", "D": "It allows peaceful change of rulers" },
+    "correct": "B"
+  },
+  {
+    "question": "The most positive outcome of democracy is:",
+    "options": { "A": "It creates permanent rulers", "B": "It ensures legitimacy of government", "C": "It concentrates power in few hands", "D": "It ignores public opinion" },
+    "correct": "B"
+  }
+]

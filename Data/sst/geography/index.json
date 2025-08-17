@@ -1,0 +1,30 @@
+[
+  {
+    "name": "1 Resources and Development",
+    "file": "1 Resources and Development.json"
+  },
+  {
+    "name": "2 Forest and Wildlife Resources",
+    "file": "2 Forest and Wildlife Resources.json"
+  },
+  {
+    "name": "3 Water Resources",
+    "file": "3 Water Resources.json"
+  },
+  {
+    "name": "4 Agriculture",
+    "file": "4 Agriculture.json"
+  },
+  {
+    "name": "5 Minerals and Energy Resources",
+    "file": "5 Minerals and Energy Resources.json"
+  },
+  {
+    "name": "6 Manufacturing Industries",
+    "file": "6 Manufacturing Industries.json"
+  },
+  {
+    "name": "7 Lifelines of National Economy",
+    "file": "7 Lifelines of National Economy.json"
+  }
+]

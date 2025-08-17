@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which one of the following is the most important factor of development?",
+    "options": { "A": "Income", "B": "Wealth", "C": "Health and education", "D": "Luxury" },
+    "correct": "C"
+  },
+  {
+    "question": "Per capita income is calculated as:",
+    "options": { "A": "Total income ÷ Total wealth", "B": "National income ÷ Total population", "C": "National income ÷ Working population", "D": "Total GDP ÷ Exports" },
+    "correct": "B"
+  },
+  {
+    "question": "According to World Bank, which criteria is used to classify countries?",
+    "options": { "A": "Education level", "B": "Per capita income", "C": "Literacy rate", "D": "Life expectancy" },
+    "correct": "B"
+  },
+  {
+    "question": "In 2017, countries with per capita income of USD 12,056 or more were considered:",
+    "options": { "A": "Low income countries", "B": "Middle income countries", "C": "High income countries", "D": "Developing countries" },
+    "correct": "C"
+  },
+  {
+    "question": "Which organisation publishes the Human Development Report (HDR)?",
+    "options": { "A": "World Bank", "B": "IMF", "C": "UNDP", "D": "UNICEF" },
+    "correct": "C"
+  },
+  {
+    "question": "Which indicators are used in the Human Development Index (HDI)?",
+    "options": { "A": "Income, health, education", "B": "Income, exports, imports", "C": "Industry, agriculture, services", "D": "GDP, GNP, NNP" },
+    "correct": "A"
+  },
+  {
+    "question": "Which country had the highest HDI rank in 2018?",
+    "options": { "A": "India", "B": "USA", "C": "Norway", "D": "China" },
+    "correct": "C"
+  },
+  {
+    "question": "Which state in India had the highest per capita income in 2017-18?",
+    "options": { "A": "Kerala", "B": "Punjab", "C": "Haryana", "D": "Goa" },
+    "correct": "D"
+  },
+  {
+    "question": "Which state in India had the highest literacy rate as per Census 2011?",
+    "options": { "A": "Kerala", "B": "Tamil Nadu", "C": "Maharashtra", "D": "Goa" },
+    "correct": "A"
+  },
+  {
+    "question": "Which state in India had the highest infant mortality rate as per Census 2011?",
+    "options": { "A": "Kerala", "B": "Madhya Pradesh", "C": "Tamil Nadu", "D": "Haryana" },
+    "correct": "B"
+  },
+  {
+    "question": "What is meant by sustainable development?",
+    "options": { "A": "Development at any cost", "B": "Development without concern for environment", "C": "Development without damaging environment for future generations", "D": "Economic growth only" },
+    "correct": "C"
+  },
+  {
+    "question": "Groundwater overuse is an example of:",
+    "options": { "A": "Sustainable use", "B": "Over-exploitation of resources", "C": "Good resource management", "D": "Renewable resource use" },
+    "correct": "B"
+  },
+  {
+    "question": "Which state in India has low infant mortality rate?",
+    "options": { "A": "Kerala", "B": "Uttar Pradesh", "C": "Madhya Pradesh", "D": "Rajasthan" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is NOT a criterion for comparing countries?",
+    "options": { "A": "Per capita income", "B": "Health of people", "C": "Education levels", "D": "Size of population" },
+    "correct": "D"
+  },
+  {
+    "question": "Which Indian state has high literacy but low per capita income?",
+    "options": { "A": "Kerala", "B": "Punjab", "C": "Haryana", "D": "Goa" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is an example of renewable resource?",
+    "options": { "A": "Coal", "B": "Petroleum", "C": "Groundwater", "D": "Natural gas" },
+    "correct": "C"
+  },
+  {
+    "question": "What is India's HDI rank in 2018?",
+    "options": { "A": "120", "B": "130", "C": "130+", "D": "130 out of 189 countries" },
+    "correct": "D"
+  },
+  {
+    "question": "What does IMR stand for?",
+    "options": { "A": "International Mortality Rate", "B": "Infant Mortality Rate", "C": "Indian Mortality Record", "D": "Infant Medical Ratio" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is a non-renewable resource?",
+    "options": { "A": "Solar energy", "B": "Water", "C": "Coal", "D": "Wind" },
+    "correct": "C"
+  },
+  {
+    "question": "The most important measure of development for comparing countries is:",
+    "options": { "A": "National income", "B": "Per capita income", "C": "Total population", "D": "Literacy rate" },
+    "correct": "B"
+  }
+]

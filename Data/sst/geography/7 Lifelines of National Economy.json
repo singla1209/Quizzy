@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which is the largest and the oldest artificial port of India?",
+    "options": { "A": "Mumbai", "B": "Chennai", "C": "Kolkata", "D": "Visakhapatnam" },
+    "correct": "B"
+  },
+  {
+    "question": "Which is the deepest landlocked and well-protected port of India?",
+    "options": { "A": "Mumbai", "B": "Chennai", "C": "Visakhapatnam", "D": "Kandla" },
+    "correct": "C"
+  },
+  {
+    "question": "Which is the largest public sector airline in India?",
+    "options": { "A": "SpiceJet", "B": "IndiGo", "C": "Air India", "D": "Go First" },
+    "correct": "C"
+  },
+  {
+    "question": "The first railway line in India was opened in the year:",
+    "options": { "A": "1845", "B": "1853", "C": "1860", "D": "1872" },
+    "correct": "B"
+  },
+  {
+    "question": "Which port is called the 'tidal port'?",
+    "options": { "A": "Chennai", "B": "Mumbai", "C": "Kandla", "D": "Kolkata" },
+    "correct": "C"
+  },
+  {
+    "question": "Which is the longest national highway in India?",
+    "options": { "A": "NH 27", "B": "NH 44", "C": "NH 48", "D": "NH 19" },
+    "correct": "B"
+  },
+  {
+    "question": "Which organisation manages air transport in India?",
+    "options": { "A": "NHAI", "B": "AAI", "C": "IRCTC", "D": "NABARD" },
+    "correct": "B"
+  },
+  {
+    "question": "Which is the oldest port of India?",
+    "options": { "A": "Mumbai", "B": "Kolkata", "C": "Chennai", "D": "Tuticorin" },
+    "correct": "B"
+  },
+  {
+    "question": "Which type of communication covers maximum area at the same time?",
+    "options": { "A": "Personal communication", "B": "Mass communication", "C": "Postal communication", "D": "Telecommunication" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is a mass communication medium?",
+    "options": { "A": "Radio", "B": "Newspapers", "C": "Television", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which transport system is most suitable for transporting perishable goods?",
+    "options": { "A": "Railways", "B": "Roadways", "C": "Airways", "D": "Waterways" },
+    "correct": "C"
+  },
+  {
+    "question": "Which river provides inland waterway transport between Haldia and Allahabad?",
+    "options": { "A": "Ganga", "B": "Brahmaputra", "C": "Yamuna", "D": "Godavari" },
+    "correct": "A"
+  },
+  {
+    "question": "Which is the headquarters of Indian Railways?",
+    "options": { "A": "Kolkata", "B": "Mumbai", "C": "Delhi", "D": "Chennai" },
+    "correct": "C"
+  },
+  {
+    "question": "Which transport system is called the 'lifeline of India'?",
+    "options": { "A": "Airways", "B": "Railways", "C": "Roadways", "D": "Waterways" },
+    "correct": "B"
+  },
+  {
+    "question": "Which port was developed as a substitute for Karachi port after Partition?",
+    "options": { "A": "Kandla", "B": "Mumbai", "C": "Chennai", "D": "Tuticorin" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is an inland waterway in India?",
+    "options": { "A": "National Waterway 1", "B": "National Waterway 2", "C": "National Waterway 3", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which Indian state has the highest road density?",
+    "options": { "A": "Kerala", "B": "Punjab", "C": "Haryana", "D": "Uttar Pradesh" },
+    "correct": "A"
+  },
+  {
+    "question": "Which is the main function of the National Highways Authority of India (NHAI)?",
+    "options": { "A": "Managing railways", "B": "Developing and maintaining highways", "C": "Managing air traffic", "D": "Managing ports" },
+    "correct": "B"
+  },
+  {
+    "question": "Which city is the headquarters of Doordarshan?",
+    "options": { "A": "Kolkata", "B": "Delhi", "C": "Mumbai", "D": "Chennai" },
+    "correct": "B"
+  },
+  {
+    "question": "Which port is located at the entrance of a lagoon?",
+    "options": { "A": "Tuticorin", "B": "Kochi", "C": "Chennai", "D": "Paradip" },
+    "correct": "B"
+  }
+]

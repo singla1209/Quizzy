@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which sector of the economy produces goods by exploiting natural resources?",
+    "options": { "A": "Primary sector", "B": "Secondary sector", "C": "Tertiary sector", "D": "Quaternary sector" },
+    "correct": "A"
+  },
+  {
+    "question": "Manufacturing is included in which sector?",
+    "options": { "A": "Primary sector", "B": "Secondary sector", "C": "Tertiary sector", "D": "Service sector" },
+    "correct": "B"
+  },
+  {
+    "question": "Which sector is also called the service sector?",
+    "options": { "A": "Primary", "B": "Secondary", "C": "Tertiary", "D": "Quaternary" },
+    "correct": "C"
+  },
+  {
+    "question": "The IT industry belongs to which sector?",
+    "options": { "A": "Primary", "B": "Secondary", "C": "Tertiary", "D": "Both secondary and tertiary" },
+    "correct": "C"
+  },
+  {
+    "question": "In terms of GDP, which sector has grown the most in India in the last 30 years?",
+    "options": { "A": "Primary sector", "B": "Secondary sector", "C": "Tertiary sector", "D": "Quaternary sector" },
+    "correct": "C"
+  },
+  {
+    "question": "Which sector is the largest employer in India?",
+    "options": { "A": "Primary sector", "B": "Secondary sector", "C": "Tertiary sector", "D": "Quaternary sector" },
+    "correct": "A"
+  },
+  {
+    "question": "The problem of underemployment is found mainly in which sector?",
+    "options": { "A": "Primary", "B": "Secondary", "C": "Tertiary", "D": "Organised" },
+    "correct": "A"
+  },
+  {
+    "question": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) was passed in:",
+    "options": { "A": "2001", "B": "2003", "C": "2005", "D": "2007" },
+    "correct": "C"
+  },
+  {
+    "question": "How many days of assured employment are provided under MGNREGA?",
+    "options": { "A": "50 days", "B": "75 days", "C": "100 days", "D": "150 days" },
+    "correct": "C"
+  },
+  {
+    "question": "Which type of sector is NOT registered by the government?",
+    "options": { "A": "Organised sector", "B": "Unorganised sector", "C": "Public sector", "D": "Formal sector" },
+    "correct": "B"
+  },
+  {
+    "question": "Government-owned companies and services are part of which sector?",
+    "options": { "A": "Private sector", "B": "Public sector", "C": "Unorganised sector", "D": "Tertiary sector" },
+    "correct": "B"
+  },
+  {
+    "question": "Reliance Industries belongs to which sector?",
+    "options": { "A": "Public sector", "B": "Private sector", "C": "Organised sector", "D": "Unorganised sector" },
+    "correct": "B"
+  },
+  {
+    "question": "Which is the correct sequence of economic sectors as economies develop?",
+    "options": { "A": "Primary → Secondary → Tertiary", "B": "Secondary → Primary → Tertiary", "C": "Tertiary → Primary → Secondary", "D": "Primary → Tertiary → Secondary" },
+    "correct": "A"
+  },
+  {
+    "question": "Banking and transport services are examples of:",
+    "options": { "A": "Primary sector", "B": "Secondary sector", "C": "Tertiary sector", "D": "Public sector" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is NOT an organised sector job?",
+    "options": { "A": "Government teacher", "B": "Bank clerk", "C": "Farm labourer", "D": "Police officer" },
+    "correct": "C"
+  },
+  {
+    "question": "What percentage of workers in India are engaged in the unorganised sector?",
+    "options": { "A": "20%", "B": "40%", "C": "60%", "D": "80%" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is an example of disguised unemployment?",
+    "options": { "A": "Too many workers on a small farm", "B": "Job loss in factories", "C": "Seasonal unemployment", "D": "Educated youth without jobs" },
+    "correct": "A"
+  },
+  {
+    "question": "Why is the tertiary sector becoming more important in India?",
+    "options": { "A": "It provides basic services", "B": "IT and communication growth", "C": "Globalisation", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "The sector which includes both production of goods and services is:",
+    "options": { "A": "Primary", "B": "Secondary", "C": "Tertiary", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which sector is also known as the service producing sector?",
+    "options": { "A": "Primary", "B": "Secondary", "C": "Tertiary", "D": "Private" },
+    "correct": "C"
+  }
+]

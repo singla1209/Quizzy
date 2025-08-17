@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Who invented the steam engine in 1781 that boosted industrialisation?",
+    "options": { "A": "Richard Arkwright", "B": "James Watt", "C": "Thomas Newcomen", "D": "Henry Bessemer" },
+    "correct": "B"
+  },
+  {
+    "question": "Which industry was the first to be industrialised in England?",
+    "options": { "A": "Coal mining", "B": "Iron and Steel", "C": "Textile Industry", "D": "Shipbuilding" },
+    "correct": "C"
+  },
+  {
+    "question": "The first symbol of the new era of industrialisation was:",
+    "options": { "A": "Railways", "B": "Steam Engine", "C": "Iron Bridge", "D": "Cotton Mills" },
+    "correct": "D"
+  },
+  {
+    "question": "Which raw material was crucial for the early textile industry in Britain?",
+    "options": { "A": "Wool", "B": "Cotton", "C": "Silk", "D": "Jute" },
+    "correct": "B"
+  },
+  {
+    "question": "The spinning jenny was invented by:",
+    "options": { "A": "James Watt", "B": "Samuel Crompton", "C": "James Hargreaves", "D": "Richard Arkwright" },
+    "correct": "C"
+  },
+  {
+    "question": "Who invented the cotton mill that brought workers and machines together?",
+    "options": { "A": "James Watt", "B": "Richard Arkwright", "C": "John Kay", "D": "Thomas Savery" },
+    "correct": "B"
+  },
+  {
+    "question": "In which century did the first industrial revolution take place?",
+    "options": { "A": "15th century", "B": "16th century", "C": "18th century", "D": "20th century" },
+    "correct": "C"
+  },
+  {
+    "question": "Which Indian city became the first centre of the cotton textile industry?",
+    "options": { "A": "Delhi", "B": "Bombay (Mumbai)", "C": "Surat", "D": "Madras (Chennai)" },
+    "correct": "B"
+  },
+  {
+    "question": "Who were called ‘jobbers’ in the Indian textile industry?",
+    "options": { "A": "Factory managers", "B": "Workers’ supervisors", "C": "Industrial capitalists", "D": "Middlemen who recruited workers" },
+    "correct": "D"
+  },
+  {
+    "question": "What was the impact of the East India Company on Indian weavers?",
+    "options": { "A": "Expansion of Indian textiles", "B": "Collapse of Indian textiles", "C": "Introduction of power looms", "D": "Rise in weaver incomes" },
+    "correct": "B"
+  },
+  {
+    "question": "Which European power first established trade in Indian textiles?",
+    "options": { "A": "French", "B": "British", "C": "Portuguese", "D": "Dutch" },
+    "correct": "C"
+  },
+  {
+    "question": "What was the ‘proto-industrialisation’ phase?",
+    "options": { "A": "Industrialisation before the factory system", "B": "Rise of steam engines", "C": "Colonial trade system", "D": "Introduction of railways" },
+    "correct": "A"
+  },
+  {
+    "question": "Which act restricted Indian textiles from entering Britain?",
+    "options": { "A": "Trade Monopoly Act", "B": "Calico Act", "C": "Cotton Restriction Act", "D": "Weavers Act" },
+    "correct": "B"
+  },
+  {
+    "question": "What did the invention of the railway in 19th century Britain help with?",
+    "options": { "A": "Spread of handlooms", "B": "Transport of coal and raw materials", "C": "Decline of factories", "D": "Expansion of agriculture only" },
+    "correct": "B"
+  },
+  {
+    "question": "Who developed the process of making steel cheaply (Bessemer process)?",
+    "options": { "A": "Henry Cort", "B": "Henry Bessemer", "C": "James Watt", "D": "George Stephenson" },
+    "correct": "B"
+  },
+  {
+    "question": "Which machine was invented by John Kay that speeded weaving?",
+    "options": { "A": "Spinning Mule", "B": "Flying Shuttle", "C": "Power Loom", "D": "Spinning Jenny" },
+    "correct": "B"
+  },
+  {
+    "question": "In which year did the first cotton mill open in Bombay?",
+    "options": { "A": "1850", "B": "1854", "C": "1860", "D": "1875" },
+    "correct": "B"
+  },
+  {
+    "question": "What caused the decline of Indian cotton exports in the 19th century?",
+    "options": { "A": "Industrial revolution in India", "B": "British industrial goods flooding India", "C": "Lack of raw cotton in India", "D": "Decline in demand in Asia" },
+    "correct": "B"
+  },
+  {
+    "question": "Who invented the railway locomotive known as ‘Stephenson’s Rocket’?",
+    "options": { "A": "George Stephenson", "B": "Henry Ford", "C": "Thomas Edison", "D": "Charles Dickens" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following best describes industrialisation in India?",
+    "options": { "A": "India became a major exporter of manufactured goods", "B": "India became a supplier of raw materials and a market for British goods", "C": "Indian industries grew independently", "D": "India led the world in steel production" },
+    "correct": "B"
+  }
+]
