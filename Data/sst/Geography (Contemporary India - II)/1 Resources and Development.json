@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What type of resource is solar energy?",
+    "options": { "A": "Biotic", "B": "Abiotic", "C": "Renewable", "D": "Non-renewable" },
+    "correct": "C"
+  },
+  {
+    "question": "Which soil is ideal for cotton cultivation?",
+    "options": { "A": "Alluvial soil", "B": "Black soil", "C": "Red soil", "D": "Laterite soil" },
+    "correct": "B"
+  },
+  {
+    "question": "The process of planting trees to check soil erosion is called:",
+    "options": { "A": "Afforestation", "B": "Deforestation", "C": "Terracing", "D": "Crop rotation" },
+    "correct": "A"
+  },
+  {
+    "question": "Which type of resource is air?",
+    "options": { "A": "Biotic", "B": "Abiotic", "C": "Man-made", "D": "National" },
+    "correct": "B"
+  },
+  {
+    "question": "In which state is the black soil mainly found?",
+    "options": { "A": "Rajasthan", "B": "Maharashtra", "C": "Punjab", "D": "Assam" },
+    "correct": "B"
+  },
+  {
+    "question": "What percentage of India’s land is plain area?",
+    "options": { "A": "30%", "B": "33%", "C": "43%", "D": "50%" },
+    "correct": "C"
+  },
+  {
+    "question": "Which type of resource is petroleum?",
+    "options": { "A": "Biotic renewable", "B": "Abiotic non-renewable", "C": "Biotic non-renewable", "D": "Abiotic renewable" },
+    "correct": "B"
+  },
+  {
+    "question": "The practice of growing two or more crops together is called:",
+    "options": { "A": "Crop rotation", "B": "Mixed cropping", "C": "Shifting cultivation", "D": "Terrace farming" },
+    "correct": "B"
+  },
+  {
+    "question": "Which soil is also known as ‘Regur soil’?",
+    "options": { "A": "Laterite soil", "B": "Black soil", "C": "Alluvial soil", "D": "Red soil" },
+    "correct": "B"
+  },
+  {
+    "question": "Which resource is the basis of all human activities?",
+    "options": { "A": "Land", "B": "Water", "C": "Minerals", "D": "Soil" },
+    "correct": "A"
+  },
+  {
+    "question": "In which state is laterite soil found in abundance?",
+    "options": { "A": "Punjab", "B": "Kerala", "C": "Rajasthan", "D": "Haryana" },
+    "correct": "B"
+  },
+  {
+    "question": "What percentage of the total geographical area of India is wasteland?",
+    "options": { "A": "10.2%", "B": "12.5%", "C": "13.4%", "D": "14.3%" },
+    "correct": "C"
+  },
+  {
+    "question": "Which soil is deficient in nitrogen?",
+    "options": { "A": "Alluvial soil", "B": "Black soil", "C": "Red soil", "D": "Mountain soil" },
+    "correct": "C"
+  },
+  {
+    "question": "Which soil develops in areas with high rainfall and high temperature?",
+    "options": { "A": "Laterite soil", "B": "Black soil", "C": "Red soil", "D": "Arid soil" },
+    "correct": "A"
+  },
+  {
+    "question": "The scientific study of soil is called:",
+    "options": { "A": "Geology", "B": "Pedology", "C": "Geomorphology", "D": "Ecology" },
+    "correct": "B"
+  },
+  {
+    "question": "Which soil is most suitable for the cultivation of rice, wheat and sugarcane?",
+    "options": { "A": "Laterite soil", "B": "Black soil", "C": "Alluvial soil", "D": "Red soil" },
+    "correct": "C"
+  },
+  {
+    "question": "In which state is alluvial soil not found?",
+    "options": { "A": "Punjab", "B": "Haryana", "C": "Rajasthan", "D": "Assam" },
+    "correct": "C"
+  },
+  {
+    "question": "The most widely spread soil in India is:",
+    "options": { "A": "Black soil", "B": "Red soil", "C": "Alluvial soil", "D": "Laterite soil" },
+    "correct": "C"
+  },
+  {
+    "question": "Which human activity has contributed to land degradation in states like Punjab, Haryana and western Uttar Pradesh?",
+    "options": { "A": "Over-irrigation", "B": "Deforestation", "C": "Overgrazing", "D": "Mining" },
+    "correct": "A"
+  },
+  {
+    "question": "Which human activity is responsible for land degradation in states like Gujarat, Rajasthan, Madhya Pradesh and Maharashtra?",
+    "options": { "A": "Over-irrigation", "B": "Deforestation", "C": "Overgrazing", "D": "Mining" },
+    "correct": "C"
+  }
+]

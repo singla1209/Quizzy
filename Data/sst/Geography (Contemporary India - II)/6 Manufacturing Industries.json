@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which sector is known as the backbone of economic development in India?",
+    "options": { "A": "Agriculture", "B": "Manufacturing", "C": "Mining", "D": "Transport" },
+    "correct": "B"
+  },
+  {
+    "question": "Which industry is known as the ‘basic industry’?",
+    "options": { "A": "Textile industry", "B": "Iron and Steel industry", "C": "Automobile industry", "D": "Cement industry" },
+    "correct": "B"
+  },
+  {
+    "question": "Which state is the largest producer of cotton textiles in India?",
+    "options": { "A": "Maharashtra", "B": "Gujarat", "C": "Tamil Nadu", "D": "Punjab" },
+    "correct": "A"
+  },
+  {
+    "question": "The first cotton textile mill in India was established in:",
+    "options": { "A": "Surat", "B": "Mumbai", "C": "Chennai", "D": "Kolkata" },
+    "correct": "B"
+  },
+  {
+    "question": "Which is the largest producer of jute textiles in the world?",
+    "options": { "A": "India", "B": "Bangladesh", "C": "Nepal", "D": "China" },
+    "correct": "A"
+  },
+  {
+    "question": "Which state has the maximum number of jute mills in India?",
+    "options": { "A": "Assam", "B": "Odisha", "C": "West Bengal", "D": "Bihar" },
+    "correct": "C"
+  },
+  {
+    "question": "Which city is called the ‘Manchester of India’?",
+    "options": { "A": "Delhi", "B": "Kolkata", "C": "Ahmedabad", "D": "Mumbai" },
+    "correct": "C"
+  },
+  {
+    "question": "Which industry provides the largest employment in India after agriculture?",
+    "options": { "A": "Iron and steel", "B": "Jute industry", "C": "Textile industry", "D": "IT industry" },
+    "correct": "C"
+  },
+  {
+    "question": "Which state is the leading producer of sugar in India?",
+    "options": { "A": "Maharashtra", "B": "Uttar Pradesh", "C": "Bihar", "D": "Punjab" },
+    "correct": "B"
+  },
+  {
+    "question": "Which state is the largest producer of cement in India?",
+    "options": { "A": "Madhya Pradesh", "B": "Andhra Pradesh", "C": "Rajasthan", "D": "Gujarat" },
+    "correct": "C"
+  },
+  {
+    "question": "Which industry is called the sunrise industry?",
+    "options": { "A": "Iron and steel industry", "B": "Jute industry", "C": "Information Technology industry", "D": "Cotton textile industry" },
+    "correct": "C"
+  },
+  {
+    "question": "Which is the public sector steel plant located in Odisha?",
+    "options": { "A": "Bokaro Steel Plant", "B": "Rourkela Steel Plant", "C": "Bhilai Steel Plant", "D": "Durgapur Steel Plant" },
+    "correct": "B"
+  },
+  {
+    "question": "Which industry is the largest consumer of coal in India?",
+    "options": { "A": "Iron and steel industry", "B": "Textile industry", "C": "Paper industry", "D": "Cement industry" },
+    "correct": "A"
+  },
+  {
+    "question": "Which city is famous for the Chotanagpur industrial belt?",
+    "options": { "A": "Kolkata", "B": "Ranchi", "C": "Delhi", "D": "Chennai" },
+    "correct": "B"
+  },
+  {
+    "question": "Which factor is the most important for the location of the aluminium industry?",
+    "options": { "A": "Labour", "B": "Raw material (bauxite)", "C": "Transport", "D": "Market" },
+    "correct": "B"
+  },
+  {
+    "question": "Which industry uses limestone as its main raw material?",
+    "options": { "A": "Cotton textile industry", "B": "Cement industry", "C": "Jute industry", "D": "Sugar industry" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following industries is agro-based?",
+    "options": { "A": "Iron and steel", "B": "Cement", "C": "Sugar", "D": "Aluminium" },
+    "correct": "C"
+  },
+  {
+    "question": "Which industry is known as a ‘weight-losing industry’?",
+    "options": { "A": "Cotton textile industry", "B": "Iron and steel industry", "C": "Sugar industry", "D": "Jute industry" },
+    "correct": "B"
+  },
+  {
+    "question": "Which city is called the ‘Silicon Valley of India’?",
+    "options": { "A": "Mumbai", "B": "Hyderabad", "C": "Bengaluru", "D": "Chennai" },
+    "correct": "C"
+  },
+  {
+    "question": "Which state has the highest number of cotton textile mills in India?",
+    "options": { "A": "Maharashtra", "B": "Gujarat", "C": "Tamil Nadu", "D": "West Bengal" },
+    "correct": "C"
+  }
+]
