@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the main source of freshwater on Earth?",
+    "options": { "A": "Rivers", "B": "Oceans", "C": "Groundwater", "D": "Ice caps" },
+    "correct": "D"
+  },
+  {
+    "question": "Which river project is also called the 'Lifeline of Rajasthan'?",
+    "options": { "A": "Bhakra Nangal Project", "B": "Tehri Dam Project", "C": "Indira Gandhi Canal", "D": "Hirakud Project" },
+    "correct": "C"
+  },
+  {
+    "question": "Which dam is built on the river Sutlej?",
+    "options": { "A": "Tehri Dam", "B": "Bhakra Nangal Dam", "C": "Hirakud Dam", "D": "Sardar Sarovar Dam" },
+    "correct": "B"
+  },
+  {
+    "question": "Which state is famous for 'tank irrigation'?",
+    "options": { "A": "Punjab", "B": "Rajasthan", "C": "Tamil Nadu", "D": "Gujarat" },
+    "correct": "C"
+  },
+  {
+    "question": "Which multipurpose project is on the river Mahanadi?",
+    "options": { "A": "Hirakud Project", "B": "Sardar Sarovar Project", "C": "Damodar Valley Project", "D": "Bhakra Nangal Project" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is a traditional water harvesting system in Rajasthan?",
+    "options": { "A": "Johads", "B": "Zing", "C": "Kulhs", "D": "Pynes" },
+    "correct": "A"
+  },
+  {
+    "question": "Which multipurpose project is on the river Narmada?",
+    "options": { "A": "Hirakud Project", "B": "Sardar Sarovar Project", "C": "Bhakra Nangal Project", "D": "Rihand Project" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is a traditional water harvesting structure in Himachal Pradesh?",
+    "options": { "A": "Johads", "B": "Zing", "C": "Kulhs", "D": "Khadins" },
+    "correct": "C"
+  },
+  {
+    "question": "In which state is the Narmada Sagar Dam located?",
+    "options": { "A": "Madhya Pradesh", "B": "Gujarat", "C": "Rajasthan", "D": "Maharashtra" },
+    "correct": "A"
+  },
+  {
+    "question": "The Nagarjuna Sagar Dam is built on which river?",
+    "options": { "A": "Godavari", "B": "Krishna", "C": "Kaveri", "D": "Mahanadi" },
+    "correct": "B"
+  },
+  {
+    "question": "Which state has developed rooftop rainwater harvesting extensively?",
+    "options": { "A": "Rajasthan", "B": "Tamil Nadu", "C": "Kerala", "D": "Punjab" },
+    "correct": "B"
+  },
+  {
+    "question": "Which dam is known as the longest dam in India?",
+    "options": { "A": "Bhakra Nangal Dam", "B": "Sardar Sarovar Dam", "C": "Hirakud Dam", "D": "Tehri Dam" },
+    "correct": "C"
+  },
+  {
+    "question": "Which problem is associated with multipurpose river projects?",
+    "options": { "A": "Displacement of people", "B": "Ecological problems", "C": "Social conflicts", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is a traditional water harvesting system in Ladakh?",
+    "options": { "A": "Khadins", "B": "Zing", "C": "Johads", "D": "Tankas" },
+    "correct": "B"
+  },
+  {
+    "question": "The Tehri Dam is built on which river?",
+    "options": { "A": "Alaknanda", "B": "Bhagirathi", "C": "Mandakini", "D": "Ganga" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is an ecological consequence of building large dams?",
+    "options": { "A": "Soil fertility loss", "B": "Seismic activities", "C": "Deforestation", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which state practices the Khadin system of rainwater harvesting?",
+    "options": { "A": "Rajasthan", "B": "Madhya Pradesh", "C": "Maharashtra", "D": "Odisha" },
+    "correct": "A"
+  },
+  {
+    "question": "Which river project is a joint venture of Jharkhand, West Bengal, and Bihar?",
+    "options": { "A": "Rihand Project", "B": "Damodar Valley Project", "C": "Sardar Sarovar Project", "D": "Tehri Project" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is a traditional rainwater harvesting structure in Gujarat?",
+    "options": { "A": "Tankas", "B": "Johads", "C": "Stepwells", "D": "Khadins" },
+    "correct": "C"
+  },
+  {
+    "question": "In semi-arid regions, which traditional structure is used to store drinking water?",
+    "options": { "A": "Tankas", "B": "Zing", "C": "Johads", "D": "Kulhs" },
+    "correct": "A"
+  }
+]

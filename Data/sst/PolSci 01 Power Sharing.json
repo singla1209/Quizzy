@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which two ethnic groups are in conflict in Belgium?",
+    "options": { "A": "French and Dutch", "B": "French and Germans", "C": "Dutch and Germans", "D": "French and English" },
+    "correct": "A"
+  },
+  {
+    "question": "What percentage of the population in Belgium speaks French?",
+    "options": { "A": "40%", "B": "50%", "C": "60%", "D": "70%" },
+    "correct": "A"
+  },
+  {
+    "question": "Which community is in majority in Sri Lanka?",
+    "options": { "A": "Sri Lankan Tamils", "B": "Sinhalese", "C": "Indian Tamils", "D": "Muslims" },
+    "correct": "B"
+  },
+  {
+    "question": "What percentage of Sri Lanka’s population is Sinhalese?",
+    "options": { "A": "59%", "B": "64%", "C": "74%", "D": "80%" },
+    "correct": "C"
+  },
+  {
+    "question": "Which language was declared as the only official language of Sri Lanka in 1956?",
+    "options": { "A": "Tamil", "B": "Sinhala", "C": "English", "D": "French" },
+    "correct": "B"
+  },
+  {
+    "question": "The system of government in which power is shared among different organs is called:",
+    "options": { "A": "Horizontal distribution of power", "B": "Vertical distribution of power", "C": "Federalism", "D": "Dictatorship" },
+    "correct": "A"
+  },
+  {
+    "question": "The division of power between central and state governments is called:",
+    "options": { "A": "Horizontal division", "B": "Vertical division", "C": "Power dictatorship", "D": "Unitary system" },
+    "correct": "B"
+  },
+  {
+    "question": "Which form of power sharing is practiced when different social groups are given representation?",
+    "options": { "A": "Power sharing among organs", "B": "Power sharing among levels of government", "C": "Power sharing among social groups", "D": "Power sharing among parties" },
+    "correct": "C"
+  },
+  {
+    "question": "Which form of power sharing is found in the coalition government?",
+    "options": { "A": "Power sharing among organs", "B": "Power sharing among political parties", "C": "Power sharing among social groups", "D": "Federal power sharing" },
+    "correct": "B"
+  },
+  {
+    "question": "Which community demanded independent Tamil Eelam in Sri Lanka?",
+    "options": { "A": "Muslims", "B": "Sinhalese", "C": "Sri Lankan Tamils", "D": "Indian Tamils" },
+    "correct": "C"
+  },
+  {
+    "question": "In Belgium, which city is the headquarters of the European Union?",
+    "options": { "A": "Antwerp", "B": "Brussels", "C": "Ghent", "D": "Liege" },
+    "correct": "B"
+  },
+  {
+    "question": "What is the main aim of power sharing in a democracy?",
+    "options": { "A": "Reduce conflicts", "B": "Ensure political stability", "C": "Respect diversity", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "In Belgium, which community is in majority in the Flemish region?",
+    "options": { "A": "French-speaking", "B": "Dutch-speaking", "C": "German-speaking", "D": "English-speaking" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is NOT a form of power sharing?",
+    "options": { "A": "Among organs of government", "B": "Among levels of government", "C": "Among social groups", "D": "Among military rulers" },
+    "correct": "D"
+  },
+  {
+    "question": "In Sri Lanka, what percentage of population are Sri Lankan Tamils?",
+    "options": { "A": "10%", "B": "13%", "C": "18%", "D": "25%" },
+    "correct": "B"
+  },
+  {
+    "question": "The word ‘Eelam’ in Tamil language refers to:",
+    "options": { "A": "Freedom", "B": "Equality", "C": "Homeland", "D": "Religion" },
+    "correct": "C"
+  },
+  {
+    "question": "In Belgium, which community controlled economic and political power before the accommodation?",
+    "options": { "A": "Dutch-speaking", "B": "French-speaking", "C": "German-speaking", "D": "English-speaking" },
+    "correct": "B"
+  },
+  {
+    "question": "Which ethnic group in Sri Lanka felt alienated due to majoritarian policies?",
+    "options": { "A": "Sinhalese", "B": "Indian Tamils", "C": "Sri Lankan Tamils", "D": "Muslims" },
+    "correct": "C"
+  },
+  {
+    "question": "Power sharing is good because it:",
+    "options": { "A": "Leads to dictatorship", "B": "Reduces chances of conflict", "C": "Increases concentration of power", "D": "Divides the nation" },
+    "correct": "B"
+  },
+  {
+    "question": "The concept of 'checks and balances' is related to:",
+    "options": { "A": "Vertical division of power", "B": "Horizontal division of power", "C": "Federalism", "D": "Monarchy" },
+    "correct": "B"
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which type of government has two or more levels of authority?",
+    "options": { "A": "Unitary", "B": "Federal", "C": "Dictatorship", "D": "Monarchy" },
+    "correct": "B"
+  },
+  {
+    "question": "India has which type of federation?",
+    "options": { "A": "Coming together federation", "B": "Holding together federation", "C": "Confederation", "D": "Unitary federation" },
+    "correct": "B"
+  },
+  {
+    "question": "Which country is an example of ‘coming together’ federation?",
+    "options": { "A": "India", "B": "USA", "C": "Sri Lanka", "D": "Belgium" },
+    "correct": "B"
+  },
+  {
+    "question": "Which country is an example of ‘holding together’ federation?",
+    "options": { "A": "USA", "B": "Australia", "C": "India", "D": "Switzerland" },
+    "correct": "C"
+  },
+  {
+    "question": "In India, which list includes subjects like defence, foreign affairs and banking?",
+    "options": { "A": "State List", "B": "Union List", "C": "Concurrent List", "D": "Residual List" },
+    "correct": "B"
+  },
+  {
+    "question": "Education in India falls under which list?",
+    "options": { "A": "Union List", "B": "State List", "C": "Concurrent List", "D": "Residual List" },
+    "correct": "C"
+  },
+  {
+    "question": "Which amendment made the third tier of government more powerful in India?",
+    "options": { "A": "42nd Amendment", "B": "44th Amendment", "C": "73rd Amendment", "D": "74th Amendment" },
+    "correct": "C"
+  },
+  {
+    "question": "Which tier of government in India consists of Panchayati Raj?",
+    "options": { "A": "Union Government", "B": "State Government", "C": "Local Government", "D": "Judiciary" },
+    "correct": "C"
+  },
+  {
+    "question": "How many levels of government are there in a federal system?",
+    "options": { "A": "One", "B": "Two or more", "C": "Three only", "D": "Four" },
+    "correct": "B"
+  },
+  {
+    "question": "In India, which level of government can make laws on the subjects in the Concurrent List?",
+    "options": { "A": "Union Government only", "B": "State Government only", "C": "Both Union and State Governments", "D": "Local Government only" },
+    "correct": "C"
+  },
+  {
+    "question": "Which state in India enjoys special powers under Article 370 (before abrogation)?",
+    "options": { "A": "Punjab", "B": "Nagaland", "C": "Jammu and Kashmir", "D": "Mizoram" },
+    "correct": "C"
+  },
+  {
+    "question": "Which level of government in India looks after law and order in the state?",
+    "options": { "A": "Union Government", "B": "State Government", "C": "Local Government", "D": "Judiciary" },
+    "correct": "B"
+  },
+  {
+    "question": "Which language is spoken by the majority in India?",
+    "options": { "A": "Bengali", "B": "Tamil", "C": "Hindi", "D": "Telugu" },
+    "correct": "C"
+  },
+  {
+    "question": "How many languages are included in the Eighth Schedule of the Indian Constitution?",
+    "options": { "A": "18", "B": "21", "C": "22", "D": "24" },
+    "correct": "C"
+  },
+  {
+    "question": "Which body resolves disputes between the Union and State Governments in India?",
+    "options": { "A": "Parliament", "B": "President", "C": "Supreme Court", "D": "Prime Minister" },
+    "correct": "C"
+  },
+  {
+    "question": "In which year were the Panchayati Raj institutions constitutionalised in India?",
+    "options": { "A": "1990", "B": "1992", "C": "1994", "D": "1996" },
+    "correct": "B"
+  },
+  {
+    "question": "What is the tenure of a Panchayat in India?",
+    "options": { "A": "3 years", "B": "4 years", "C": "5 years", "D": "6 years" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is NOT a feature of federalism?",
+    "options": { "A": "Two or more levels of government", "B": "Division of powers", "C": "Independent judiciary", "D": "One central authority controlling all powers" },
+    "correct": "D"
+  },
+  {
+    "question": "In India, who has the power to change the boundaries of states?",
+    "options": { "A": "State Government", "B": "Parliament", "C": "President", "D": "Supreme Court" },
+    "correct": "B"
+  },
+  {
+    "question": "What is the main advantage of federalism?",
+    "options": { "A": "Concentration of power", "B": "Power sharing and decentralisation", "C": "Dictatorship", "D": "Military rule" },
+    "correct": "B"
+  }
+]

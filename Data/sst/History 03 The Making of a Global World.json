@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which food crop was first introduced from South America to Europe in the 16th century?",
+    "options": { "A": "Rice", "B": "Potato", "C": "Wheat", "D": "Sugarcane" },
+    "correct": "B"
+  },
+  {
+    "question": "What did the term ‘Silk Routes’ refer to?",
+    "options": { "A": "Trade routes connecting Europe and Asia", "B": "Trade routes within China", "C": "Roads built in India", "D": "Sea routes of Arab traders" },
+    "correct": "A"
+  },
+  {
+    "question": "Which disease was carried by Portuguese sailors to Europe from America?",
+    "options": { "A": "Malaria", "B": "Smallpox", "C": "Plague", "D": "Syphilis" },
+    "correct": "D"
+  },
+  {
+    "question": "The 19th century saw which country becoming the ‘workshop of the world’?",
+    "options": { "A": "Germany", "B": "France", "C": "Britain", "D": "USA" },
+    "correct": "C"
+  },
+  {
+    "question": "Indentured labour was most commonly taken to work in which sector?",
+    "options": { "A": "Cotton mills", "B": "Tea plantations", "C": "Sugar plantations", "D": "Shipbuilding" },
+    "correct": "C"
+  },
+  {
+    "question": "Which crop in Ireland led to a famine in the 1840s?",
+    "options": { "A": "Potato", "B": "Wheat", "C": "Barley", "D": "Corn" },
+    "correct": "A"
+  },
+  {
+    "question": "Which economist is associated with the idea of the ‘Great Depression’?",
+    "options": { "A": "Karl Marx", "B": "John Maynard Keynes", "C": "Adam Smith", "D": "David Ricardo" },
+    "correct": "B"
+  },
+  {
+    "question": "Which year did the Great Depression begin?",
+    "options": { "A": "1927", "B": "1928", "C": "1929", "D": "1930" },
+    "correct": "C"
+  },
+  {
+    "question": "Which American policy intensified the global economic crisis during the Great Depression?",
+    "options": { "A": "New Deal", "B": "Gold Standard", "C": "Import Duties Act", "D": "Marshall Plan" },
+    "correct": "B"
+  },
+  {
+    "question": "Who was the US President during the Great Depression who introduced the ‘New Deal’?",
+    "options": { "A": "Woodrow Wilson", "B": "Franklin D. Roosevelt", "C": "Herbert Hoover", "D": "Harry Truman" },
+    "correct": "B"
+  },
+  {
+    "question": "Which Asian country became a colonial power in the late 19th century?",
+    "options": { "A": "China", "B": "Japan", "C": "India", "D": "Thailand" },
+    "correct": "B"
+  },
+  {
+    "question": "Which group of people were called ‘coolies’ in colonial plantations?",
+    "options": { "A": "European traders", "B": "Indentured Indian labourers", "C": "African slaves", "D": "Chinese merchants" },
+    "correct": "B"
+  },
+  {
+    "question": "Which system linked the world economy more closely in the 19th century?",
+    "options": { "A": "Colonialism", "B": "Capitalism", "C": "Gold Standard", "D": "Socialism" },
+    "correct": "C"
+  },
+  {
+    "question": "Which war gave the USA a new economic advantage in the 20th century?",
+    "options": { "A": "American Civil War", "B": "World War I", "C": "World War II", "D": "Cold War" },
+    "correct": "B"
+  },
+  {
+    "question": "Who controlled the Indian trade before the arrival of Europeans?",
+    "options": { "A": "Chinese merchants", "B": "Arab traders", "C": "African traders", "D": "Portuguese sailors" },
+    "correct": "B"
+  },
+  {
+    "question": "Which invention helped faster movement of goods in the 19th century?",
+    "options": { "A": "Steam engine", "B": "Airplane", "C": "Printing press", "D": "Telephone" },
+    "correct": "A"
+  },
+  {
+    "question": "Which country financed Britain’s World War I loans?",
+    "options": { "A": "Germany", "B": "USA", "C": "Japan", "D": "France" },
+    "correct": "B"
+  },
+  {
+    "question": "The 20th century saw the collapse of which economic system?",
+    "options": { "A": "Gold Standard", "B": "Socialism", "C": "Capitalism", "D": "Feudalism" },
+    "correct": "A"
+  },
+  {
+    "question": "Which international institution was established in 1944 to promote global economic stability?",
+    "options": { "A": "World Bank", "B": "League of Nations", "C": "UNESCO", "D": "GATT" },
+    "correct": "A"
+  },
+  {
+    "question": "Which two institutions emerged from the Bretton Woods Conference?",
+    "options": { "A": "UNICEF and UNESCO", "B": "World Bank and IMF", "C": "NATO and WHO", "D": "WTO and ILO" },
+    "correct": "B"
+  }
+]

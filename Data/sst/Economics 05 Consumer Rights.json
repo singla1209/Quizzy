@@ -1,0 +1,102 @@
+[
+  {
+    "question": "The consumer movement in India arose out of dissatisfaction with:",
+    "options": { "A": "Low taxes", "B": "Unfair trade practices", "C": "High literacy rate", "D": "Agricultural reforms" },
+    "correct": "B"
+  },
+  {
+    "question": "Which Act provides protection to consumers in India?",
+    "options": { "A": "Consumer Protection Act, 1986", "B": "Consumer Rights Act, 1990", "C": "Right to Information Act, 2005", "D": "Goods and Services Act, 2017" },
+    "correct": "A"
+  },
+  {
+    "question": "When was the Consumer Protection Act (COPRA) amended?",
+    "options": { "A": "2000", "B": "2002", "C": "2005", "D": "2010" },
+    "correct": "B"
+  },
+  {
+    "question": "Which logo ensures that the food product is certified as safe?",
+    "options": { "A": "Agmark", "B": "Hallmark", "C": "ISI", "D": "FSSAI" },
+    "correct": "D"
+  },
+  {
+    "question": "Which logo is used for agricultural products?",
+    "options": { "A": "Agmark", "B": "Hallmark", "C": "ISI", "D": "FSSAI" },
+    "correct": "A"
+  },
+  {
+    "question": "Which logo certifies gold jewellery in India?",
+    "options": { "A": "ISI", "B": "FSSAI", "C": "Hallmark", "D": "Agmark" },
+    "correct": "C"
+  },
+  {
+    "question": "Which logo is found on electrical appliances in India?",
+    "options": { "A": "Agmark", "B": "ISI", "C": "Hallmark", "D": "FSSAI" },
+    "correct": "B"
+  },
+  {
+    "question": "The three-tier consumer court system in India includes:",
+    "options": { "A": "District, State, National", "B": "Village, District, High Court", "C": "District, High Court, Supreme Court", "D": "Panchayat, District, National" },
+    "correct": "A"
+  },
+  {
+    "question": "Where can a consumer file a case if the claim is up to ₹20 lakhs?",
+    "options": { "A": "State Commission", "B": "National Commission", "C": "District Forum", "D": "Supreme Court" },
+    "correct": "C"
+  },
+  {
+    "question": "Which consumer court deals with claims above ₹1 crore?",
+    "options": { "A": "District Forum", "B": "State Commission", "C": "National Commission", "D": "High Court" },
+    "correct": "C"
+  },
+  {
+    "question": "Which right ensures consumer protection against unsafe goods?",
+    "options": { "A": "Right to Information", "B": "Right to Safety", "C": "Right to Choose", "D": "Right to Represent" },
+    "correct": "B"
+  },
+  {
+    "question": "The Right to Information Act was passed in which year?",
+    "options": { "A": "2002", "B": "2003", "C": "2005", "D": "2007" },
+    "correct": "C"
+  },
+  {
+    "question": "World Consumer Rights Day is observed on:",
+    "options": { "A": "15th March", "B": "1st May", "C": "5th June", "D": "14th November" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is NOT a right of consumers?",
+    "options": { "A": "Right to Safety", "B": "Right to Healthy Environment", "C": "Right to Choose", "D": "Right to be Informed" },
+    "correct": "B"
+  },
+  {
+    "question": "Which of the following is NOT a consumer responsibility?",
+    "options": { "A": "Checking expiry date", "B": "Paying fair price", "C": "Demanding quality assurance marks", "D": "Exploiting shopkeepers" },
+    "correct": "D"
+  },
+  {
+    "question": "What is the main objective of COPRA?",
+    "options": { "A": "To promote exports", "B": "To protect consumers from unfair trade practices", "C": "To increase industrial production", "D": "To regulate imports" },
+    "correct": "B"
+  },
+  {
+    "question": "Where can a consumer approach if dissatisfied with District Forum’s decision?",
+    "options": { "A": "Supreme Court", "B": "State Commission", "C": "High Court", "D": "National Commission" },
+    "correct": "B"
+  },
+  {
+    "question": "What is the maximum limit of compensation that the State Commission can award?",
+    "options": { "A": "₹20 lakh", "B": "₹1 crore", "C": "₹20 crore", "D": "No limit" },
+    "correct": "B"
+  },
+  {
+    "question": "Which organisation is responsible for laying down standards of goods in India?",
+    "options": { "A": "FSSAI", "B": "BIS", "C": "FAO", "D": "UNDP" },
+    "correct": "B"
+  },
+  {
+    "question": "What is the first step a consumer should take if cheated?",
+    "options": { "A": "Go to police", "B": "Go to consumer court", "C": "Approach the seller and keep the bill/receipt", "D": "Ignore the issue" },
+    "correct": "C"
+  }
+]

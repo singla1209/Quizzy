@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is the literacy rate of women in India as per Census 2011?",
+    "options": { "A": "45%", "B": "54%", "C": "65%", "D": "74%" },
+    "correct": "C"
+  },
+  {
+    "question": "What is the literacy rate of men in India as per Census 2011?",
+    "options": { "A": "65%", "B": "74%", "C": "82%", "D": "85%" },
+    "correct": "C"
+  },
+  {
+    "question": "The unequal treatment of women and men is called:",
+    "options": { "A": "Communalism", "B": "Secularism", "C": "Gender division", "D": "Casteism" },
+    "correct": "C"
+  },
+  {
+    "question": "In India, which law made equal wages for equal work mandatory?",
+    "options": { "A": "Equal Remuneration Act, 1976", "B": "Women Protection Act, 1985", "C": "Right to Equality Act, 1950", "D": "Labour Law Act, 1970" },
+    "correct": "A"
+  },
+  {
+    "question": "Which of the following is NOT a feminist movement demand?",
+    "options": { "A": "Equal wages", "B": "Political representation", "C": "Religious domination", "D": "Right to education" },
+    "correct": "C"
+  },
+  {
+    "question": "What proportion of seats are reserved for women in local government bodies in India?",
+    "options": { "A": "One-fourth", "B": "One-third", "C": "Half", "D": "None" },
+    "correct": "B"
+  },
+  {
+    "question": "Which country has the highest proportion of women in national parliament?",
+    "options": { "A": "India", "B": "USA", "C": "Rwanda", "D": "Japan" },
+    "correct": "C"
+  },
+  {
+    "question": "When religion is used in politics in an exclusive and partisan way, it is called:",
+    "options": { "A": "Secularism", "B": "Communalism", "C": "Socialism", "D": "Federalism" },
+    "correct": "B"
+  },
+  {
+    "question": "Communalism can take the form of:",
+    "options": { "A": "Everyday prejudices", "B": "Religious domination", "C": "Political mobilization on religious lines", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which Article of the Indian Constitution prohibits discrimination on grounds of religion, race, caste, sex or place of birth?",
+    "options": { "A": "Article 14", "B": "Article 15", "C": "Article 16", "D": "Article 17" },
+    "correct": "B"
+  },
+  {
+    "question": "What does secularism mean in Indian context?",
+    "options": { "A": "No religion in public life", "B": "Domination of one religion", "C": "Equal treatment of all religions by the state", "D": "Promotion of majority religion" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is an example of caste inequality?",
+    "options": { "A": "Equal wages", "B": "Untouchability", "C": "Reservation for women", "D": "Right to vote" },
+    "correct": "B"
+  },
+  {
+    "question": "Which Article of the Indian Constitution abolishes untouchability?",
+    "options": { "A": "Article 14", "B": "Article 15", "C": "Article 16", "D": "Article 17" },
+    "correct": "D"
+  },
+  {
+    "question": "What is the share of women in the Lok Sabha (as of 2019)?",
+    "options": { "A": "8%", "B": "11%", "C": "14%", "D": "20%" },
+    "correct": "C"
+  },
+  {
+    "question": "Caste inequalities in India have reduced due to:",
+    "options": { "A": "Democracy", "B": "Economic development", "C": "Constitutional provisions", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which of the following is NOT related to gender division?",
+    "options": { "A": "Unequal wages", "B": "Household work", "C": "Caste system", "D": "Low political representation of women" },
+    "correct": "C"
+  },
+  {
+    "question": "The caste system in India is based on:",
+    "options": { "A": "Economic status", "B": "Occupation and birth", "C": "Education", "D": "Religion only" },
+    "correct": "B"
+  },
+  {
+    "question": "In which year did India adopt universal adult franchise?",
+    "options": { "A": "1947", "B": "1949", "C": "1950", "D": "1952" },
+    "correct": "C"
+  },
+  {
+    "question": "The women’s movement in India demanded:",
+    "options": { "A": "Property rights", "B": "Equal wages", "C": "Political representation", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which among the following is the main basis of social divisions in India?",
+    "options": { "A": "Gender, religion and caste", "B": "Only gender", "C": "Only caste", "D": "Only religion" },
+    "correct": "A"
+  }
+]

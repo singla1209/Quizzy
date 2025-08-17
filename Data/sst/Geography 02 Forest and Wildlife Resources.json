@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Which term is used for species that are at risk of extinction?",
+    "options": { "A": "Endemic", "B": "Vulnerable", "C": "Endangered", "D": "Rare" },
+    "correct": "C"
+  },
+  {
+    "question": "Which of the following is a critically endangered species in India?",
+    "options": { "A": "Blackbuck", "B": "Indian Wild Ass", "C": "Asiatic Cheetah", "D": "Indian Rhino" },
+    "correct": "C"
+  },
+  {
+    "question": "What is the total number of Biosphere Reserves in India?",
+    "options": { "A": "12", "B": "14", "C": "18", "D": "20" },
+    "correct": "C"
+  },
+  {
+    "question": "Which movement began in the 1970s to protect trees in the Himalayas?",
+    "options": { "A": "Appiko Movement", "B": "Chipko Movement", "C": "Save Silent Valley", "D": "Narmada Bachao" },
+    "correct": "B"
+  },
+  {
+    "question": "The ‘Project Tiger’ was launched in India in which year?",
+    "options": { "A": "1970", "B": "1971", "C": "1973", "D": "1975" },
+    "correct": "C"
+  },
+  {
+    "question": "Which state has the largest area under permanent forests in India?",
+    "options": { "A": "Madhya Pradesh", "B": "Assam", "C": "Arunachal Pradesh", "D": "Odisha" },
+    "correct": "A"
+  },
+  {
+    "question": "Which species is referred to as a 'keystone species' in the ecosystem?",
+    "options": { "A": "Tiger", "B": "Elephant", "C": "Lion", "D": "Leopard" },
+    "correct": "A"
+  },
+  {
+    "question": "What percentage of India’s geographical area should be under forest according to the National Forest Policy?",
+    "options": { "A": "20%", "B": "22.5%", "C": "33%", "D": "40%" },
+    "correct": "C"
+  },
+  {
+    "question": "What is the main cause of biodiversity loss in India?",
+    "options": { "A": "Urbanisation", "B": "Industrialisation", "C": "Deforestation", "D": "Overgrazing" },
+    "correct": "C"
+  },
+  {
+    "question": "Which species is endemic to a particular region?",
+    "options": { "A": "Found everywhere", "B": "Restricted to one area only", "C": "Extinct species", "D": "Migratory species" },
+    "correct": "B"
+  },
+  {
+    "question": "Which animal is the top predator and helps maintain the ecological balance?",
+    "options": { "A": "Deer", "B": "Elephant", "C": "Tiger", "D": "Bison" },
+    "correct": "C"
+  },
+  {
+    "question": "Which movement in Karnataka was inspired by the Chipko Movement?",
+    "options": { "A": "Appiko Movement", "B": "Green Belt Movement", "C": "Save Forest Movement", "D": "Narmada Bachao Andolan" },
+    "correct": "A"
+  },
+  {
+    "question": "What is the IUCN Red Data Book?",
+    "options": { "A": "A book of endangered plants", "B": "A book of endangered animals", "C": "A book of all endangered species", "D": "A book of extinct animals only" },
+    "correct": "C"
+  },
+  {
+    "question": "Which bird species was last seen in India in the 20th century and is now extinct?",
+    "options": { "A": "Pink-headed Duck", "B": "Great Indian Bustard", "C": "Siberian Crane", "D": "Hornbill" },
+    "correct": "A"
+  },
+  {
+    "question": "The destruction of forests mainly leads to:",
+    "options": { "A": "Soil erosion", "B": "Loss of biodiversity", "C": "Climatic change", "D": "All of the above" },
+    "correct": "D"
+  },
+  {
+    "question": "Which category of species has a population that is declining and is likely to move into endangered category in near future?",
+    "options": { "A": "Endemic", "B": "Vulnerable", "C": "Rare", "D": "Extinct" },
+    "correct": "B"
+  },
+  {
+    "question": "Which is the largest Biosphere Reserve in India?",
+    "options": { "A": "Sundarbans", "B": "Nilgiri", "C": "Nanda Devi", "D": "Gulf of Mannar" },
+    "correct": "B"
+  },
+  {
+    "question": "Which forest conservation law was enacted in India in 1980?",
+    "options": { "A": "Environment Protection Act", "B": "Indian Forest Act", "C": "Forest Conservation Act", "D": "Wildlife Protection Act" },
+    "correct": "C"
+  },
+  {
+    "question": "Which state is famous for the ‘Silent Valley’ movement?",
+    "options": { "A": "Kerala", "B": "Karnataka", "C": "Maharashtra", "D": "Odisha" },
+    "correct": "A"
+  },
+  {
+    "question": "The Wildlife Protection Act in India was passed in:",
+    "options": { "A": "1968", "B": "1970", "C": "1972", "D": "1974" },
+    "correct": "C"
+  }
+]
