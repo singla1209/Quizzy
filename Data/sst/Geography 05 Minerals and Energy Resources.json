@@ -75,9 +75,14 @@
     "correct": "B"
   },
   {
-    "question": "Which state is the largest producer of natural gas in India?",
-    "options": { "A": "Maharashtra", "B": "Rajasthan", "C": "Assam", "D": "Maharashtra" },
-    "correct": "B"
+    "question": "Which state is the largest producer ( Offshore ) of natural gas in India?",
+    "options": { "A": "Maharashtra", "B": "Rajasthan", "C": "Assam", "D": "Gujarat" },
+    "correct": "A"
+  },
+  {
+    "question": "Which state is the largest producer ( Onshore ) of natural gas in India?",
+    "options": { "A": "Maharashtra", "B": "Rajasthan", "C": "Assam", "D": "Gujarat" },
+    "correct": "C"
   },
   {
     "question": "Which form of energy is produced by using uranium and thorium?",
@@ -100,3 +105,4 @@
     "correct": "B"
   }
 ]
+
