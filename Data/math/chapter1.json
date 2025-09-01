@@ -17,7 +17,7 @@
       "C": "182",
       "D": "272"
     },
-    "correct": "A"
+    "correct": "B"
   },
   {
     "question": "If two positive integers a and b are written as a = x\u00b3y\u00b2 and b = xy\u00b3, where x and y are prime numbers, then HCF(a, b) is:",
@@ -67,7 +67,7 @@
       "C": "12",
       "D": "24"
     },
-    "correct": "B"
+    "correct": "A"
   },
   {
     "question": "If p is prime, then LCM(p, p\u00b2) is:",
@@ -132,7 +132,7 @@
   {
     "question": "The number of digits in 2\u2075 \u00d7 5\u2075 is:",
     "options": {
-      "A": "1",
+      "A": "6",
       "B": "2",
       "C": "3",
       "D": "4"
@@ -184,10 +184,10 @@
     "options": {
       "A": "123",
       "B": "117",
-      "C": "127",
-      "D": "137"
+      "C": "87",
+      "D": "97"
     },
-    "correct": "B"
+    "correct": "C"
   },
   {
     "question": "Which of the following has a terminating decimal expansion?",
