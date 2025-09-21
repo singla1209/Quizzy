@@ -1,0 +1,225 @@
+[
+{
+  "question": "Electrolysis of water is a decomposition reaction. The mass ratio (MH : MO) of hydrogen and oxygen gases liberated at the electrodes during electrolysis of water is:",
+  "options": {
+    "A": "8 : 1",
+    "B": "2 : 1",
+    "C": "1 : 2",
+    "D": "1 : 8"
+  },
+  "correct": "D",
+  "explanation": "From 2H2O → 2H2 + O2, 4 g H2 and 32 g O2 are formed. Mass ratio H:O = 4:32 = 1:8."
+},
+{
+  "question": "The products formed when Aluminium and Magnesium are burnt in the presence of air respectively are:",
+  "options": {
+    "A": "Al3O4 and MgO2",
+    "B": "Al2O3 and MgO",
+    "C": "Al3O4 and MgO",
+    "D": "Al2O3 and MgO2"
+  },
+  "correct": "B",
+  "explanation": "Aluminium burns to give Al2O3 (aluminium oxide) and Magnesium burns to give MgO (magnesium oxide)."
+},
+{
+  "question": "The following table shows the pH values of four solutions A, B, C and D on a pH scale: A=5, B=7, C=13, D=3. The solutions A, B, C and D respectively are:",
+  "options": {
+    "A": "Strong acid, weak acid, neutral, strong base",
+    "B": "Weak acid, neutral, weak base, strong base",
+    "C": "Weak acid, neutral, strong base, weak base",
+    "D": "Weak acid, neutral, strong base, strong acid"
+  },
+  "correct": "C",
+  "explanation": "pH < 7 → acidic, pH = 7 → neutral, pH > 7 → basic. A (pH 5) is weak acid, B (pH 7) neutral, C (pH 13) strong base, D (pH 3) weak acid."
+},
+{
+  "question": "Consider the reactions: (i) HCl + NaOH → NaCl + H2O (ii) MgO + 2HCl → MgCl2 + H2O (iii) CO2 + 2NaOH → Na2CO3 + H2O. In each case:",
+  "options": {
+    "A": "Salt and water is formed",
+    "B": "Neutral salts are formed",
+    "C": "Hydrogen gas is formed",
+    "D": "Acidic salts are formed"
+  },
+  "correct": "A",
+  "explanation": "All three reactions are neutralisation reactions forming salt and water."
+},
+{
+  "question": "Reaction between elements A and B forms compound C. A loses electrons, B gains electrons. Which property will NOT be shown by C?",
+  "options": {
+    "A": "It has high melting point",
+    "B": "It is highly soluble in water",
+    "C": "It has weak electrostatic forces of attraction between ions",
+    "D": "It conducts electricity in molten or aqueous state"
+  },
+  "correct": "C",
+  "explanation": "Compound C is ionic. Ionic compounds have strong electrostatic forces, not weak ones."
+},
+{
+  "question": "The metals obtained from their molten chlorides by electrolytic reduction are:",
+  "options": {
+    "A": "Gold and silver",
+    "B": "Calcium and magnesium",
+    "C": "Aluminium and silver",
+    "D": "Sodium and iron"
+  },
+  "correct": "B",
+  "explanation": "Electrolytic reduction is used for highly reactive metals (alkali and alkaline earth metals) like Ca and Mg."
+},
+{
+  "question": "The formation of magnesium oxide is correctly shown in option:",
+  "options": {
+    "A": "Mg → Mg2+ + O2-",
+    "B": "Mg → Mg+ + O-",
+    "C": "Mg → Mg2+ + [O2-]2",
+    "D": "2Mg + O2 → [Mg2+]2 [O2-]2"
+  },
+  "correct": "D",
+  "explanation": "Magnesium loses 2 electrons (Mg2+), oxygen gains 2 electrons (O2-). Balanced equation: 2Mg + O2 → 2MgO."
+},
+{
+  "question": "Secretion of less saliva in mouth will affect the conversion of:",
+  "options": {
+    "A": "Proteins into amino acids",
+    "B": "Fats into fatty acids and glycerol",
+    "C": "Starch into simple sugars",
+    "D": "Sugars into alcohol"
+  },
+  "correct": "C",
+  "explanation": "Saliva contains enzyme amylase which converts starch into maltose/simple sugars."
+},
+{
+  "question": "The plant hormone that stimulates cells to grow longer on the shaded side of a shoot (away from light) is:",
+  "options": {
+    "A": "Cytokinins",
+    "B": "Gibberellins",
+    "C": "Adrenaline",
+    "D": "Auxins"
+  },
+  "correct": "D",
+  "explanation": "Auxins accumulate on the shaded side, causing cell elongation and bending towards light (phototropism)."
+},
+
+{
+    "question": "The correct/true statement(s) for a bisexual flower is/are:",
+    "options": {
+      "A": "(i) only",
+      "B": "(iv) only",
+      "C": "(i) and (iii)",
+      "D": "(i) and (iv)"
+    },
+    "correct": "C",
+    "explanation": "A bisexual flower has both stamen and pistil (i) and can undergo self or cross-pollination (iii)."
+  },
+  {
+    "question": "If pea plants with round and green seeds (RRyy) are crossed with wrinkled and yellow seeds (rrYY), what is the phenotype of the F₁ generation?",
+    "options": {
+      "A": "50% round and green",
+      "B": "75% wrinkled and green",
+      "C": "100% round and yellow",
+      "D": "75% wrinkled and yellow"
+    },
+    "correct": "C",
+    "explanation": "RRyy × rrYY → RrYy (all heterozygous), round (R is dominant), yellow (Y is dominant)."
+  },
+  {
+    "question": "The breakdown of glucose has taken the following pathway: Glucose ⟶ Pyruvate + Energy ⟶ Lactic acid + Energy. The sites ‘a’ and ‘b’ respectively are:",
+    "options": {
+      "A": "Mitochondria and Oxygen deficient muscle cells",
+      "B": "Cytoplasm and Oxygen rich muscle cells",
+      "C": "Cytoplasm and Yeast cells",
+      "D": "Cytoplasm and Oxygen deficient muscle cells"
+    },
+    "correct": "D",
+    "explanation": "Glycolysis occurs in cytoplasm. In absence of oxygen (anaerobic), lactic acid is formed in muscles."
+  },
+  {
+    "question": "Mirror ‘X’ is used to concentrate sunlight, and mirror ‘Y’ is used in vehicles. Which of the following statements are true?",
+    "options": {
+      "A": "(i) and (ii)",
+      "B": "(ii) and (iii)",
+      "C": "(iii) and (iv)",
+      "D": "(i) and (iv)"
+    },
+    "correct": "D",
+    "explanation": "Mirror X is concave (real, at focus), Mirror Y is convex (virtual, diminished, erect)."
+  },
+  {
+    "question": "An old person has a defect due to weakening ciliary muscles. The defect is ‘a’ and corrected by lens ‘b’. ‘a’ and ‘b’ are:",
+    "options": {
+      "A": "Hypermetropia and convex lens",
+      "B": "Presbyopia and bifocal lens",
+      "C": "Myopia and concave lens",
+      "D": "Myopia and bifocal lens"
+    },
+    "correct": "B",
+    "explanation": "Presbyopia is age-related and corrected using bifocal lenses."
+  },
+  {
+    "question": "Which of the following groups do NOT constitute a food chain?",
+    "options": {
+      "A": "(i) and (iv)",
+      "B": "(i) and (iii)",
+      "C": "(ii) and (iii)",
+      "D": "(ii) and (iv)"
+    },
+    "correct": "A",
+    "explanation": "Food chains must follow a producer → consumer → carnivore pattern. (i) and (iv) do not follow this order."
+  },
+  {
+    "question": "The percentage of solar energy which is not converted into food energy by leaves is about:",
+    "options": {
+      "A": "1%",
+      "B": "10%",
+      "C": "90%",
+      "D": "99%"
+    },
+    "correct": "D",
+    "explanation": "Only about 1% of solar energy is converted by green plants; hence, 99% is not converted."
+  },
+  {
+    "question": "Assertion (A): Decomposition reactions are generally endothermic reactions. Reason (R): Decomposition of organic matter into compost is an exothermic process.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true but R is not the correct explanation of A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    },
+    "correct": "D",
+    "explanation": "Most decomposition reactions require energy (endothermic), but decomposition of organic matter is exothermic. Hence, A is false and R is true."
+  },
+  {
+    "question": "Assertion (A): A human child bears all the basic features of human beings. Reason (R): It looks exactly like its parents, showing very little variations.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true but R is not the correct explanation of A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    },
+    "correct": "C",
+    "explanation": "A child indeed bears the basic features of human beings, but it does not look exactly like its parents due to variations introduced by genetic recombination. Hence, A is true but R is false."
+  },
+  {
+    "question": "Assertion (A): No two magnetic field lines are found to cross each other. Reason (R): The compass needle cannot point towards two directions at the point of intersection of two magnetic field lines.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true but R is not the correct explanation of A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    },
+    "correct": "A",
+    "explanation": "Magnetic field lines never intersect because at one point, the magnetic field cannot have two different directions. Hence both A and R are true and R correctly explains A."
+  },
+  {
+    "question": "Assertion (A): The amount of ozone in the atmosphere began to drop sharply in the 1980s. Reason (R): The oxygen atoms combine with molecular oxygen to form ozone.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true but R is not the correct explanation of A",
+      "C": "A is true but R is false",
+      "D": "A is false but R is true"
+    },
+    "correct": "B",
+    "explanation": "It is true that ozone depletion began in the 1980s, but the given reason is not the cause. The depletion was mainly due to chlorofluorocarbons (CFCs) releasing chlorine atoms, which destroy ozone molecules."
+  }
+]
+
+
