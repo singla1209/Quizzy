@@ -1,0 +1,223 @@
+[
+  {
+"question": "Consider the following chemical equation: p Al + q H2O ⟶ r Al2O3 + s H2. To balance this chemical equation, the values of 'p', 'q', 'r' and 's' must be respectively:",
+"options": {
+"A": "3, 2, 2, 1",
+"B": "2, 3, 3, 1",
+"C": "2, 3, 1, 3",
+"D": "3, 1, 2, 2"
+},
+"correct": "C",
+"explanation": "Balance atoms: choose p=2 so Al: 2 → Al2O3 (r=1). For r=1, oxygen in Al2O3 is 3 → need q=3 H2O (3 O). q=3 gives 6 H atoms → s = 3 H2 molecules. Thus coefficients 2,3,1,3 (option C)."
+},
+  {
+    "question": "Which of the given option represents a family of salts?",
+    "options": {
+      "A": "NaCl, Na2SO4, CaSO4",
+      "B": "K2SO4, Na2SO4, CaSO4",
+      "C": "NaNO3, CaCO3, Na2CO3",
+      "D": "MgSO4, CuSO4, MgCl2"
+    },
+    "correct": "B",
+    "explanation": "A family of salts contains the same negative ion (anion). Here, K2SO4, Na2SO4, and CaSO4 all contain SO4²⁻ as the common anion, making them a family of salts."
+  },
+  {
+    "question": "The most common method of extraction of metals from their oxide ores is:",
+    "options": {
+      "A": "Reduction with carbon",
+      "B": "Reduction with hydrogen",
+      "C": "Reduction with aluminium",
+      "D": "Electrolytic reduction"
+    },
+    "correct": "A",
+    "explanation": "Metals like iron, zinc, and copper are commonly extracted by reducing their oxides with carbon (coke). Hydrogen and aluminium reduction are used in special cases, while electrolysis is used for highly reactive metals."
+  },
+  {
+    "question": "Given below are the structures of some hydrocarbons. Select the two structures which are related to each other:",
+    "options": {
+      "A": "(i) and (iv)",
+      "B": "(ii) and (iv)",
+      "C": "(ii) and (iii)",
+      "D": "(i) and (iii)"
+    },
+    "correct": "D",
+    "explanation": "Structures (i) and (iii) represent isomers, as they have the same molecular formula but different structural arrangements."
+  },
+  {
+    "question": "Choose the incorrect statement about the common reaction used in hydrogenation of vegetable oils:",
+    "options": {
+      "A": "It is an addition reaction.",
+      "B": "It takes place in the presence of nickel or palladium catalyst.",
+      "C": "The product contains only single bonds between carbon atoms.",
+      "D": "It is an addition reaction which occurs in the presence of an acid catalyst."
+    },
+    "correct": "D",
+    "explanation": "Hydrogenation of oils is an addition reaction in presence of Ni or Pd catalyst. Acid catalyst is not used, so option D is incorrect."
+  },
+  {
+    "question": "Match Column-I with Column-II and select the correct option:",
+    "options": {
+      "A": "a-(ii), c-(v), d-(iv)",
+      "B": "b-(i), c-(v), d-(iv)",
+      "C": "a-(iv), b-(ii), c-(iii), d-(i)",
+      "D": "a-(iii), b-(ii), c-(i), d-(iv)"
+    },
+    "correct": "D",
+    "explanation": "Fertilisation occurs in oviduct (iii), implantation in uterus (ii), sperm entry in vagina (i), and waste removal through placenta (iv). So correct match is a-(iii), b-(ii), c-(i), d-(iv)."
+  },
+  {
+    "question": "The part of the brain which maintains the posture and balance of the body is:",
+    "options": {
+      "A": "Pons",
+      "B": "Cerebrum",
+      "C": "Cerebellum",
+      "D": "Medulla"
+    },
+    "correct": "C",
+    "explanation": "The cerebellum coordinates muscular movements, posture, and balance. The cerebrum controls intelligence, pons links brain parts, medulla controls involuntary actions."
+  },
+  {
+    "question": "The plant hormone present in greater concentration in the areas of rapidly dividing cells is:",
+    "options": {
+      "A": "Auxin",
+      "B": "Cytokinins",
+      "C": "Gibberellins",
+      "D": "Abscisic acid"
+    },
+    "correct": "B",
+    "explanation": "Cytokinins promote cell division (cytokinesis) and are abundant in meristematic tissues where rapid cell division occurs."
+  },
+  {
+    "question": "Select a pair of bisexual flowers from the following:",
+    "options": {
+      "A": "Papaya and mustard",
+      "B": "Hibiscus and mustard",
+      "C": "Hibiscus and papaya",
+      "D": "Hibiscus and watermelon"
+    },
+    "correct": "B",
+    "explanation": "Hibiscus and mustard are bisexual flowers (contain both stamens and carpels). Papaya and watermelon are unisexual."
+  },
+  {
+    "question": "The gastric glands present in the wall of the stomach release:",
+    "options": {
+      "A": "Mucus and Trypsin",
+      "B": "Pepsin and Trypsin",
+      "C": "Mucus and Pepsin",
+      "D": "Pepsin and Salivary amylase"
+    },
+    "correct": "C",
+    "explanation": "Gastric glands secrete mucus (protective layer) and pepsin (enzyme to digest proteins). Trypsin and salivary amylase are not secreted by stomach glands."
+  },
+  {
+    "question": "Absolute refractive index of water and glass is 4/3 and 3/2 respectively. If the speed of light in glass is 2 × 10^8 m/s, the speed of light in water is:",
+    "options": {
+      "A": "9 × 10^7 m/s",
+      "B": "7 × 10^8 m/s",
+      "C": "2.25 × 10^8 m/s",
+      "D": "2.5 × 10^8 m/s"
+    },
+    "correct": "D",
+    "explanation": "Refractive index μ = c/v. For water μ = 4/3 → v = c/(4/3) = (3/4)c = 2.25 × 10^8 m/s. Correct option is near 2.25 × 10^8 m/s."
+  },
+  {
+    "question": "When a beam of white light passes through a region of very fine dust particles, the colour of light that scatters the most in that region is:",
+    "options": {
+      "A": "Red",
+      "B": "Orange",
+      "C": "Blue",
+      "D": "Yellow"
+    },
+    "correct": "C",
+    "explanation": "Blue light has shorter wavelength and scatters the most (Rayleigh scattering). That’s why the sky appears blue."
+  },
+  {
+    "question": "A wire of length l is gradually stretched so that its length increases to 3l. If its original resistance is R, then its new resistance will be:",
+    "options": {
+      "A": "3R",
+      "B": "6R",
+      "C": "9R",
+      "D": "27R"
+    },
+    "correct": "C",
+    "explanation": "Resistance R ∝ l² / A. When length becomes 3l, resistance increases 3² = 9 times. So new resistance = 9R."
+  },
+  {
+    "question": "Which one of the following statements is not true about a bar magnet?",
+    "options": {
+      "A": "It sets itself in north-south direction when suspended freely.",
+      "B": "It has attractive power for iron filings.",
+      "C": "It produces magnetic field lines.",
+      "D": "The direction of magnetic field lines inside a bar magnet is from its north pole to its south pole."
+    },
+    "correct": "D",
+    "explanation": "Inside a bar magnet, magnetic field lines go from south pole to north pole. Outside the magnet, they go north to south. Hence D is incorrect."
+  },
+  {
+    "question": "The strength of magnetic field produced inside a long straight current carrying solenoid does not depend upon:",
+    "options": {
+      "A": "Number of turns in the solenoid",
+      "B": "Direction of current flowing through the solenoid",
+      "C": "Material of the core filled inside the solenoid",
+      "D": "Radius of the coil of the solenoid"
+    },
+    "correct": "D",
+    "explanation": "Magnetic field inside a solenoid depends on current, number of turns, and core material, but not on the radius of the solenoid."
+  },
+  {
+    "question": "Other than the abiotic components, which of the given biotic components are not required to make an aquarium with small herbivorous fishes a self-sustaining system?",
+    "options": {
+      "A": "(i) and (iv)",
+      "B": "(ii) and (iii)",
+      "C": "(i) and (iii)",
+      "D": "(ii) and (iv)"
+    },
+    "correct": "D",
+    "explanation": "For a self-sustaining system, we need aquatic plants, animals, and decomposers. Terrestrial plants/animals (ii, iv) are not needed."
+  },
+  {
+    "question": "Assertion (A): Hydrogen gas is not evolved when a metal reacts with nitric acid. \nReason (R): Nitric acid is a strong reducing agent and reduces the hydrogen produced in the reaction to water.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Nitric acid is a strong oxidising agent, not reducing. It oxidises hydrogen into water, hence hydrogen gas is not liberated. Assertion and Reason are correct and Reason explains Assertion."
+  },
+  {
+    "question": "Assertion (A): In our actions of writing or talking, our nervous system communicates with the muscles. \nReason (R): Cranial nerves and spinal nerves form the peripheral nervous system.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "B",
+    "explanation": "Both are true, but communication with muscles is due to motor nerves, not simply because they form the PNS. So Reason is not the exact explanation."
+  },
+  {
+    "question": "Assertion (A): Magnetic field lines around a bar magnet never intersect each other. \nReason (R): Magnetic field produced by a bar magnet is a quantity that has both magnitude and direction.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Magnetic field lines never intersect because at a point there cannot be two directions of the same field. Assertion and Reason are both true, and Reason explains Assertion."
+  },
+  {
+    "question": "Assertion (A): Use of jute bags for shopping reduces pollution. \nReason (R): Jute is biodegradable and its bag may be reused as and when needed.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Jute bags reduce plastic pollution since they are biodegradable and reusable. Thus Assertion is true and Reason correctly explains it."
+  }
+]
+
