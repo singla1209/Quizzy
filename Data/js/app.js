@@ -71,7 +71,7 @@ const RAW_BASE = "https://singla1209.github.io/Quizzy/MCQ_CBSE/";
 const SUBJECTS = [
   { key:"class6",  label:"Science March 2025", path:"March 2025/" },
   { key:"class7",  label:"Science September 2025", path:"September 2025/" },
-  { key:"class8",  label:"SCIENCE March 2024", path:"3/" },
+  { key:"class8",  label:"SCIENCE March 2024", path:"March 2024/" },
   { key:"class9",  label:"SCIENCE September 2024", path:"4/" },
   { key:"class10", label:"SCIENCE March 2023", path:"5/" },
   
@@ -730,6 +730,7 @@ $("play-again-btn").onclick = () => {
   $("celebrate-overlay").style.display = "none";
   show("subjects");
 };
+
 
 
 
