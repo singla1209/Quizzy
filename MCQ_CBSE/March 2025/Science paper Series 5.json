@@ -1,0 +1,227 @@
+[
+  {
+    "question": "The main observations while performing the experiment of burning magnesium ribbon in air are: 
+(i)	Magnesium ribbon burns with a dazzling white flame.
+(ii)	A white powder is formed.
+(iii)	Magnesium ribbon vapourises.
+(iv)	Aqueous solution of the white powder turns blue litmus to red.
+",
+    "options": {
+      "A": "(i) and (iv)",
+      "B": "(ii) and (iii)",
+      "C": "(i) and (ii)",
+      "D": "(iii) and (iv)"
+    },
+    "correct": "C",
+    "explanation": "Magnesium burns with a dazzling white flame (i) and forms a white powder of magnesium oxide (ii). Statements (iii) and (iv) are incorrect."
+  },
+  {
+    "question": "A metal, M, displaces iron from aqueous solution of ferrous sulphate but fails to do so in case of aqueous solution of aluminium sulphate. The metal M is:",
+    "options": {
+      "A": "Magnesium",
+      "B": "Copper",
+      "C": "Lead",
+      "D": "Zinc"
+    },
+    "correct": "D",
+    "explanation": "Zinc is more reactive than iron and displaces it from FeSO4. However, aluminium is more reactive than zinc, so zinc cannot displace it from Al2(SO4)3."
+  },
+  {
+    "question": "A common feature observed in the crystals of washing soda, copper sulphate, gypsum and ferrous sulphate is that all:",
+    "options": {
+      "A": "exhibit basic nature",
+      "B": "exhibit acidic nature",
+      "C": "have fixed number of molecules of water of crystallisation in one formula unit of these salts",
+      "D": "are coloured"
+    },
+    "correct": "C",
+    "explanation": "All these salts contain water of crystallisation in definite proportion. Example: CuSO4·5H2O, Na2CO3·10H2O, CaSO4·2H2O, FeSO4·7H2O."
+  },
+  {
+    "question": "A metal, 'X', on treatment with sodium hydroxide liberates a gas 'G'. It also liberates the same gas, 'G' on treatment with dilute sulphuric acid. Based on above information, 'X' and 'G' respectively are:",
+    "options": {
+      "A": "Copper and Sulphur dioxide",
+      "B": "Zinc and Sulphur dioxide",
+      "C": "Zinc and Hydrogen",
+      "D": "Copper and Hydrogen"
+    },
+    "correct": "C",
+    "explanation": "Zinc reacts with both acids and alkalis (amphoteric property) to liberate hydrogen gas. Copper does not liberate hydrogen in either case."
+  },
+  {
+    "question": "The values of a, b, c and d in the balanced chemical equation a Pb(NO3)2 → b PbO + c NO2 + d O2 are respectively:",
+    "options": {
+      "A": "1, 1, 2, 1",
+      "B": "1, 1, 1, 2",
+      "C": "2, 2, 1, 4",
+      "D": "2, 2, 4, 1"
+    },
+    "correct": "D",
+    "explanation": "2Pb(NO3)2 → 2PbO + 4NO2 + O2. So a=2, b=2, c=4, d=1."
+  },
+  {
+    "question": "During electrolytic refining of copper, the anode, the cathode and the electrolyte used respectively are:",
+    "options": {
+      "A": "Impure copper, pure copper, acidified copper sulphate solution",
+      "B": "Pure copper, impure copper, sulphuric acid",
+      "C": "Pure copper, impure copper, acidified copper sulphate solution",
+      "D": "Impure copper, pure copper, distilled water"
+    },
+    "correct": "A",
+    "explanation": "In electrolytic refining, impure copper is used as anode, pure copper as cathode, and acidified copper sulphate solution as electrolyte."
+  },
+  {
+    "question": "If we make carbon skeleton with four carbon atoms, the two different possible skeletons will be:",
+    "options": {
+      "A": "C—C—C; C—C—C C",
+      "B": "C—C—C—C; C—C branching",
+      "C": "C—C—C—C; C—C",
+      "D": "C—C—C—C; C—C (branched with C)"
+    },
+    "correct": "B",
+    "explanation": "Carbon can form straight chain (C—C—C—C) or branched chain (C—C with side C). These are two possible skeletons."
+  },
+  {
+    "question": "Listed below are the steps of nutrition in Amoeba. Select the correct sequence:",
+    "options": {
+      "A": "(iv), (i), (ii), (iii), (v)",
+      "B": "(iii), (ii), (iv), (i), (v)",
+      "C": "(ii), (i), (iv), (v), (iii)",
+      "D": "(iii), (iv), (i), (ii), (v)"
+    },
+    "correct": "B",
+    "explanation": "Sequence: Formation of pseudopodia (iii) → food vacuole (ii) → digestion into simple substances (iv) → diffusion into cytoplasm (i) → removal of undigested waste (v)."
+  },
+  {
+    "question": "Which among the following is not a neural action controlled by the part of human brain labelled 'X'?",
+    "options": {
+      "A": "Salivation",
+      "B": "Hunger",
+      "C": "Vomiting",
+      "D": "Blood Pressure"
+    },
+    "correct": "B",
+    "explanation": "Medulla controls involuntary actions like salivation, vomiting, blood pressure, breathing. Hunger is controlled by cerebrum, not medulla."
+  },
+  {
+    "question": "The modes of reproduction in Spirogyra and Planaria respectively are:",
+    "options": {
+      "A": "Regeneration and budding",
+      "B": "Regeneration and fragmentation",
+      "C": "Fragmentation and regeneration",
+      "D": "Budding and regeneration"
+    },
+    "correct": "C",
+    "explanation": "Spirogyra reproduces by fragmentation, Planaria reproduces by regeneration of lost body parts."
+  },
+  {
+    "question": "The plant hormones promoting rapid cell division in seeds and wilting of leaves respectively are:",
+    "options": {
+      "A": "Auxins and Abscisic acid",
+      "B": "Cytokinins and Abscisic acid",
+      "C": "Gibberellins and Auxins",
+      "D": "Abscisic acid and Gibberellins"
+    },
+    "correct": "B",
+    "explanation": "Cytokinins promote rapid cell division. Abscisic acid causes wilting and is called the stress hormone."
+  },
+  {
+    "question": "In aerobic respiration, the steps are: breakdown of glucose to pyruvate and its further conversion to carbon dioxide. Both processes respectively occur in —",
+    "options": {
+      "A": "Vacuole and Cytoplasm",
+      "B": "Chloroplast and Mitochondria",
+      "C": "Mitochondria and Cytoplasm",
+      "D": "Cytoplasm and Mitochondria"
+    },
+    "correct": "D",
+    "explanation": "Glycolysis (breakdown of glucose to pyruvate) occurs in cytoplasm. Further oxidation to CO2 occurs in mitochondria via Krebs cycle."
+  },
+  {
+    "question": "In order to obtain large images of the teeth of patients, the dentist holds the concave mirror in such a manner that the teeth are positioned:",
+    "options": {
+      "A": "At the focus of mirror",
+      "B": "Between pole and focus of the mirror",
+      "C": "Between focus and centre of curvature of the mirror",
+      "D": "At the centre of curvature of the mirror"
+    },
+    "correct": "B",
+    "explanation": "When an object is placed between pole and focus of a concave mirror, it forms a virtual, erect, and magnified image — useful for dentists."
+  },
+  {
+    "question": "The possible way to restore clear vision of those people whose eyeball has elongated is the use of suitable:",
+    "options": {
+      "A": "bifocal lens",
+      "B": "concave lens",
+      "C": "converging lens",
+      "D": "convex lens"
+    },
+    "correct": "B",
+    "explanation": "An elongated eyeball causes myopia (short-sightedness). It is corrected by a concave (diverging) lens."
+  },
+  {
+    "question": "The examples of natural and manmade (artificial) ecosystems are respectively:",
+    "options": {
+      "A": "Forests and ponds",
+      "B": "Crop fields and lakes",
+      "C": "Lakes and gardens",
+      "D": "Crop fields and forests"
+    },
+    "correct": "C",
+    "explanation": "Natural ecosystems include lakes, rivers, forests. Artificial ecosystems include gardens, crop fields, aquariums."
+  },
+  {
+    "question": "Human activities that are affecting the environment are:",
+    "options": {
+      "A": "minimising the use of chlorofluorocarbons",
+      "B": "excessive use of disposable cups and plates",
+      "C": "maximising the use of reusable utensils",
+      "D": "segregating wastes before disposal"
+    },
+    "correct": "B",
+    "explanation": "Excessive use of disposable plastic cups and plates contributes to pollution and harms the environment."
+  },
+  {
+    "question": "Assertion (A): Silver chloride turns grey in sunlight. Reason (R): Decomposition of silver chloride into silver and chlorine takes place by sunlight.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "AgCl decomposes in sunlight to give silver (grey colour) and chlorine gas. Assertion and Reason are true, and Reason explains Assertion."
+  },
+  {
+    "question": "Assertion (A): The embryo gets nutrition from the mother's blood with the help of a special tissue called placenta. Reason (R): Placenta is a disc which is embedded in the uterine wall.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Placenta provides nutrients and oxygen from the mother’s blood to the embryo. It is a disc embedded in the uterine wall. Reason correctly explains Assertion."
+  },
+  {
+    "question": "Assertion (A): The pattern of the magnetic field of a solenoid carrying a current is similar to that of a bar magnet. Reason (R): The pattern of the magnetic field around a current carrying conductor is independent of the shape of the conductor.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "C",
+    "explanation": "Assertion is true: a solenoid produces field like a bar magnet. Reason is false: field around a conductor depends on its shape (straight wire, loop, solenoid)."
+  },
+  {
+    "question": "Assertion (A): All organisms can make organic compounds like sugar and starch from inorganic substances using radiant energy of the sun. Reason (R): The organisms which can produce food by photosynthesis are called producers.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "D",
+    "explanation": "Only green plants and some bacteria can produce organic compounds from inorganic substances using sunlight. Not all organisms can. Assertion is false, Reason is true."
+  }
+]

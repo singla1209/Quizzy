@@ -1,0 +1,222 @@
+[
+  {
+    "question": "From the following, select a process in which combination reaction occurs:",
+    "options": {
+      "A": "Black and white photography",
+      "B": "Burning of carbon (coal)",
+      "C": "Burning of methane",
+      "D": "Refining of copper"
+    },
+    "correct": "B",
+    "explanation": "Burning of carbon in oxygen forms CO2 (C + O2 → CO2), which is a combination reaction. The other options involve decomposition or complex processes."
+  },
+  {
+    "question": "Select exothermic processes from the following: (i) Dilution of acid, (ii) Burning of natural gas, (iii) Evaporation of water, (iv) Electrolysis of water",
+    "options": {
+      "A": "(i) and (ii)",
+      "B": "(ii) and (iii)",
+      "C": "(iii) and (iv)",
+      "D": "(i) and (iv)"
+    },
+    "correct": "A",
+    "explanation": "Dilution of acid releases heat (exothermic). Burning of natural gas is combustion, also exothermic. Evaporation and electrolysis require energy, so they are endothermic."
+  },
+  {
+    "question": "The most malleable metals are:",
+    "options": {
+      "A": "Iron and gold",
+      "B": "Copper and silver",
+      "C": "Silver and gold",
+      "D": "Gold and copper"
+    },
+    "correct": "C",
+    "explanation": "Gold and silver are the most malleable metals, meaning they can be beaten into very thin sheets."
+  },
+  {
+    "question": "Consider the reactions of dilute hydrochloric acid with the following metals: Aluminium, Copper, Iron, Magnesium and Zinc. The correct observation is:",
+    "options": {
+      "A": "Most vigorous reaction with aluminium and no reaction with iron",
+      "B": "Most vigorous reaction with magnesium and no reaction with iron",
+      "C": "Most vigorous reaction with magnesium and no reaction with copper",
+      "D": "Most vigorous reaction with zinc and no reaction with copper"
+    },
+    "correct": "C",
+    "explanation": "Magnesium reacts most vigorously with dilute HCl. Copper does not react with dilute HCl because it is less reactive than hydrogen."
+  },
+  {
+    "question": "The number of covalent bond(s) present in a nitrogen molecule is/are:",
+    "options": {
+      "A": "1",
+      "B": "3",
+      "C": "5",
+      "D": "7"
+    },
+    "correct": "B",
+    "explanation": "A nitrogen molecule (N2) has a triple bond between two nitrogen atoms, i.e., three covalent bonds."
+  },
+  {
+    "question": "The valves in the human heart ensure that:",
+    "options": {
+      "A": "Oxygen-rich blood flows from left atrium to left ventricle only.",
+      "B": "Deoxygenated blood flows from left atrium to left ventricle only.",
+      "C": "Oxygen-rich blood flows from right atrium to right ventricle only.",
+      "D": "Deoxygenated blood flows from right atrium to right ventricle only."
+    },
+    "correct": "D",
+    "explanation": "Valves ensure unidirectional flow. Deoxygenated blood flows from right atrium to right ventricle, and oxygenated blood flows from left atrium to left ventricle. Hence option D is correct."
+  },
+  {
+    "question": "The part of the hindbrain present immediately above the medulla is:",
+    "options": {
+      "A": "Cerebellum",
+      "B": "Pons",
+      "C": "Cerebrum",
+      "D": "Spinal cord"
+    },
+    "correct": "B",
+    "explanation": "The pons lies just above the medulla oblongata in the hindbrain. It acts as a bridge between different parts of the brain."
+  },
+  {
+    "question": "Application of Abscisic acid on plants promotes:",
+    "options": {
+      "A": "Development of fruits",
+      "B": "Wilting of leaves",
+      "C": "Elongation of stem",
+      "D": "Formation of flowers"
+    },
+    "correct": "B",
+    "explanation": "Abscisic acid is a plant growth inhibitor. It promotes wilting of leaves and dormancy under stress conditions."
+  },
+  {
+    "question": "The end product of meiosis in a reproductive cell in plants is:",
+    "options": {
+      "A": "Zygote",
+      "B": "Pollen grains",
+      "C": "Sperms",
+      "D": "Egg"
+    },
+    "correct": "B",
+    "explanation": "In plants, meiosis in reproductive cells produces haploid spores or pollen grains (male gametophytes)."
+  },
+  {
+    "question": "In garden pea, violet colour flower is the dominant trait over white. When parent plant with violet flowers (Vv) is crossed with white flowers (vv), the possible percentage of occurrence of traits in F1 progeny is:",
+    "options": {
+      "A": "100% violet",
+      "B": "50% violet, 50% white",
+      "C": "25% violet, 75% white",
+      "D": "75% violet, 25% white"
+    },
+    "correct": "B",
+    "explanation": "Cross Vv × vv produces 50% Vv (violet) and 50% vv (white)."
+  },
+  {
+    "question": "A 5 cm long rod is placed vertically in front of a concave mirror. If its 5 cm long image is formed at 20 cm in front of the mirror, the focal length of the mirror is:",
+    "options": {
+      "A": "−20 cm",
+      "B": "−10 cm",
+      "C": "−5 cm",
+      "D": "20 cm"
+    },
+    "correct": "A",
+    "explanation": "Image size = object size → magnification = −1. For concave mirror, this happens when object is at 2F. Since image is at −20 cm, focal length f = 10 cm, but concave mirror focal length is taken negative → −10 cm."
+  },
+  {
+    "question": "An optical device which always produces images of m = +1 is:",
+    "options": {
+      "A": "Plane mirror",
+      "B": "Convex mirror",
+      "C": "Concave mirror",
+      "D": "Convex lens"
+    },
+    "correct": "A",
+    "explanation": "A plane mirror always produces images of the same size as the object (magnification m = +1), virtual and erect."
+  },
+  {
+    "question": "Which one of the following factors affects the electrical resistivity of a conductor?",
+    "options": {
+      "A": "Temperature",
+      "B": "Length",
+      "C": "Shape",
+      "D": "Thickness"
+    },
+    "correct": "A",
+    "explanation": "Resistivity is a material property and depends only on temperature. Length, shape, and thickness affect resistance, not resistivity."
+  },
+  {
+    "question": "The strength of the magnetic field inside a current carrying long straight solenoid is:",
+    "options": {
+      "A": "maximum at its centre.",
+      "B": "minimum at its centre.",
+      "C": "maximum at the ends and minimum at its centre.",
+      "D": "uniform throughout its length."
+    },
+    "correct": "D",
+    "explanation": "Inside a long solenoid, the magnetic field is nearly uniform throughout its length."
+  },
+  {
+    "question": "The organism occupying the fourth trophic level in a food chain operating in grassland is:",
+    "options": {
+      "A": "Green plants",
+      "B": "Frog",
+      "C": "Grasshopper",
+      "D": "Snake"
+    },
+    "correct": "D",
+    "explanation": "Grassland food chain: Grass (producers, 1st) → Grasshopper (primary consumer, 2nd) → Frog (secondary consumer, 3rd) → Snake (tertiary consumer, 4th)."
+  },
+  {
+    "question": "Which one of the following statements is incorrect about the effect on our environment as a result of our activities?",
+    "options": {
+      "A": "Improvement in our lifestyle has resulted in greater amounts of waste.",
+      "B": "Packaging of materials has resulted in lesser amount of non-biodegradable waste.",
+      "C": "Use of disposable cups/kulhads results in loss of fertile topsoil.",
+      "D": "Harmful wastes that are non-biodegradable persist in the environment for a long time."
+    },
+    "correct": "B",
+    "explanation": "Packaging increases non-biodegradable waste, not reduces it. Hence statement B is incorrect."
+  },
+  {
+    "question": "Assertion (A): Decomposition of vegetable matter into compost is an exothermic reaction. Reason (R): Decomposition reactions need energy to break down the reactants.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "C",
+    "explanation": "Composting releases heat, so it is exothermic. Decomposition usually requires energy, but in this case microorganisms release heat. So A is true, R is false."
+  },
+  {
+    "question": "Assertion (A): Transpirational pull helps in the absorption and upward movement of water and dissolved minerals in plants. Reason (R): The effect of root pressure in transport of water is more significant at night.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "B",
+    "explanation": "Both are true, but transpiration pull (daytime process) is the main force for upward water movement. Root pressure works mainly at night, so R is not the explanation of A."
+  },
+  {
+    "question": "Assertion (A): In our homes we receive supply of electric power through a main supply. One of the wires in this supply, usually with red insulation, is called live wire and another wire with green insulation is called neutral wire. Reason (R): In our country, the potential difference between the live wire and the neutral wire is 220 volts.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "C",
+    "explanation": "Live wire has red insulation, neutral wire is black (not green). Green is used for earth wire. Hence A is false. Potential difference is 220 V, so R is true."
+  },
+  {
+    "question": "Assertion (A): Due to scattering of sunlight, the clear sky predominantly appears blue. Reason (R): The wavelength of blue light is nearly 1.8 times the wavelength of red light.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "C",
+    "explanation": "Sky appears blue due to scattering of shorter wavelength light (blue). But the ratio given (1.8 times) is incorrect. So A is true, R is false."
+  }
+]

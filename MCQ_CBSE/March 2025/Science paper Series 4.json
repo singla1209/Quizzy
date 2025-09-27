@@ -1,0 +1,113 @@
+[
+  {
+    "question": "In which one of the following situations a chemical reaction does not occur?",
+    "options": {
+      "A": "Milk is left open at room temperature during summer",
+      "B": "Grapes get fermented",
+      "C": "An iron nail is left exposed to humid atmosphere",
+      "D": "Melting of glaciers"
+    },
+    "correct": "D",
+    "explanation": "Melting of glaciers is only a physical change (solid to liquid) and does not involve a chemical reaction. All other processes involve new substances being formed."
+  },
+  {
+    "question": "In order to prepare dry hydrogen chloride gas in humid atmosphere the gas produced is passed through a guard tube (drying tube) which contains :",
+    "options": {
+      "A": "Calcium chloride",
+      "B": "Calcium oxide",
+      "C": "Calcium hydroxide",
+      "D": "Calcium carbonate"
+    },
+    "correct": "A",
+    "explanation": "Calcium chloride is a strong dehydrating agent and is used to remove moisture, making HCl gas dry. The other substances are not efficient drying agents for HCl."
+  },
+  {
+    "question": "The property by virtue of which a solid material can be drawn into thin wires is called :",
+    "options": {
+      "A": "malleability",
+      "B": "ductility",
+      "C": "rigidity",
+      "D": "resistivity"
+    },
+    "correct": "B",
+    "explanation": "Ductility is the property of metals that allows them to be drawn into thin wires. Malleability refers to being hammered into sheets."
+  },
+  {
+    "question": "Select from the following a hydrocarbon having one C—C bond and one C≡C bond :",
+    "options": {
+      "A": "Benzene",
+      "B": "Cyclohexane",
+      "C": "Butyne",
+      "D": "Propyne"
+    },
+    "correct": "C",
+    "explanation": "Butyne (C4H6) has both a C–C single bond and a C≡C triple bond in its structure. Benzene has only double bonds, cyclohexane has only single bonds, and propyne has a triple bond but not a C–C single bond simultaneously."
+  },
+  {
+    "question": "The essential element taken up from the soil by the plants to synthesize proteins is :",
+    "options": {
+      "A": "Phosphorus",
+      "B": "Nitrogen",
+      "C": "Iron",
+      "D": "Magnesium"
+    },
+    "correct": "B",
+    "explanation": "Proteins are made up of amino acids, which contain nitrogen. Therefore, nitrogen absorbed from the soil is essential for protein synthesis in plants."
+  },
+  {
+    "question": "In which one of the following situations a chemical reaction does not occur?",
+    "options": {
+      "A": "Milk is left open at room temperature during summer",
+      "B": "Grapes get fermented",
+      "C": "An iron nail is left exposed to humid atmosphere",
+      "D": "Melting of glaciers"
+    },
+    "correct": "D",
+    "explanation": "Melting of glaciers is only a physical change (solid to liquid) and does not involve a chemical reaction. All other processes involve new substances being formed."
+  },
+  {
+    "question": "In order to prepare dry hydrogen chloride gas in humid atmosphere the gas produced is passed through a guard tube (drying tube) which contains :",
+    "options": {
+      "A": "Calcium chloride",
+      "B": "Calcium oxide",
+      "C": "Calcium hydroxide",
+      "D": "Calcium carbonate"
+    },
+    "correct": "A",
+    "explanation": "Calcium chloride is a strong dehydrating agent and is used to remove moisture, making HCl gas dry. The other substances are not efficient drying agents for HCl."
+  },
+  {
+    "question": "The property by virtue of which a solid material can be drawn into thin wires is called :",
+    "options": {
+      "A": "malleability",
+      "B": "ductility",
+      "C": "rigidity",
+      "D": "resistivity"
+    },
+    "correct": "B",
+    "explanation": "Ductility is the property of metals that allows them to be drawn into thin wires. Malleability refers to being hammered into sheets."
+  },
+  {
+    "question": "Select from the following a hydrocarbon having one C—C bond and one C≡C bond :",
+    "options": {
+      "A": "Benzene",
+      "B": "Cyclohexane",
+      "C": "Butyne",
+      "D": "Propyne"
+    },
+    "correct": "C",
+    "explanation": "Butyne (C4H6) has both a C–C single bond and a C≡C triple bond in its structure. Benzene has only double bonds, cyclohexane has only single bonds, and propyne has a triple bond but not a C–C single bond simultaneously."
+  },
+  {
+    "question": "The essential element taken up from the soil by the plants to synthesize proteins is :",
+    "options": {
+      "A": "Phosphorus",
+      "B": "Nitrogen",
+      "C": "Iron",
+      "D": "Magnesium"
+    },
+    "correct": "B",
+    "explanation": "Proteins are made up of amino acids, which contain nitrogen. Therefore, nitrogen absorbed from the soil is essential for protein synthesis in plants."
+  }
+]
+
