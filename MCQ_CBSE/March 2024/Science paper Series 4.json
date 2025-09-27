@@ -1,0 +1,222 @@
+[
+  {
+    "question": "The electronic configuration of Sodium (Na) is:",
+    "options": {
+      "A": "2,8,1",
+      "B": "2,8,2",
+      "C": "2,7,2",
+      "D": "2,8,3"
+    },
+    "correct": "A",
+    "explanation": "Sodium has atomic number 11. Its configuration is 2 in K shell, 8 in L shell, and 1 in M shell → 2,8,1."
+  },
+  {
+    "question": "Which of the following is a displacement reaction?",
+    "options": {
+      "A": "CaCO3 → CaO + CO2",
+      "B": "2Mg + O2 → 2MgO",
+      "C": "Zn + CuSO4 → ZnSO4 + Cu",
+      "D": "NaOH + HCl → NaCl + H2O"
+    },
+    "correct": "C",
+    "explanation": "Zinc displaces copper from copper sulphate solution. This is a displacement reaction."
+  },
+  {
+    "question": "Which gas is released when dilute HCl reacts with sodium carbonate?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Carbon dioxide",
+      "C": "Hydrogen",
+      "D": "Chlorine"
+    },
+    "correct": "B",
+    "explanation": "Na2CO3 + 2HCl → 2NaCl + H2O + CO2. Hence CO2 gas is released."
+  },
+  {
+    "question": "Which of the following is a double displacement reaction?",
+    "options": {
+      "A": "Zn + CuSO4 → ZnSO4 + Cu",
+      "B": "AgNO3 + NaCl → AgCl + NaNO3",
+      "C": "2Mg + O2 → 2MgO",
+      "D": "CaCO3 → CaO + CO2"
+    },
+    "correct": "B",
+    "explanation": "In AgNO3 + NaCl → AgCl + NaNO3, both cations and anions are exchanged. It is a double displacement reaction."
+  },
+  {
+    "question": "Which of the following is a greenhouse gas?",
+    "options": {
+      "A": "Oxygen",
+      "B": "Nitrogen",
+      "C": "Carbon dioxide",
+      "D": "Helium"
+    },
+    "correct": "C",
+    "explanation": "Carbon dioxide is the major greenhouse gas that traps heat and contributes to global warming."
+  },
+  {
+    "question": "Which element has a valency of 4?",
+    "options": {
+      "A": "Carbon",
+      "B": "Oxygen",
+      "C": "Hydrogen",
+      "D": "Nitrogen"
+    },
+    "correct": "A",
+    "explanation": "Carbon has atomic number 6 and electronic configuration 2,4. It needs 4 more electrons to complete its octet, so valency = 4."
+  },
+  {
+    "question": "Which part of the alimentary canal receives bile juice?",
+    "options": {
+      "A": "Oesophagus",
+      "B": "Stomach",
+      "C": "Small intestine",
+      "D": "Large intestine"
+    },
+    "correct": "C",
+    "explanation": "Bile juice secreted by the liver is released into the small intestine to aid in fat digestion."
+  },
+  {
+    "question": "Which of the following is a renewable source of energy?",
+    "options": {
+      "A": "Coal",
+      "B": "Petroleum",
+      "C": "Solar energy",
+      "D": "Natural gas"
+    },
+    "correct": "C",
+    "explanation": "Solar energy is continuously available and replenished by nature, hence renewable."
+  },
+  {
+    "question": "Which tissue is responsible for transport of food in plants?",
+    "options": {
+      "A": "Xylem",
+      "B": "Phloem",
+      "C": "Parenchyma",
+      "D": "Collenchyma"
+    },
+    "correct": "B",
+    "explanation": "Phloem transports food (mainly sugars) from leaves to other parts of the plant."
+  },
+  {
+    "question": "Which process in plants is responsible for the release of oxygen?",
+    "options": {
+      "A": "Respiration",
+      "B": "Photosynthesis",
+      "C": "Transpiration",
+      "D": "Germination"
+    },
+    "correct": "B",
+    "explanation": "In photosynthesis, plants use CO2 and water to form glucose, releasing oxygen as a byproduct."
+  },
+{
+    "question": "The reaction Zn + 2CH3COOH → (CH3COO)2Zn + H2 is:",
+    "options": {
+      "A": "Decomposition reaction",
+      "B": "Displacement reaction",
+      "C": "Double displacement reaction",
+      "D": "Combination reaction"
+    },
+    "correct": "B",
+    "explanation": "Zinc displaces hydrogen from acetic acid to form zinc acetate and hydrogen gas. This is a displacement reaction."
+  },
+  {
+    "question": "An aqueous solution of a salt turns blue litmus red. The salt could be obtained from the reaction of:",
+    "options": {
+      "A": "HNO3 and NaOH",
+      "B": "H2SO4 and KOH",
+      "C": "CH3COOH and NaOH",
+      "D": "HCl and NH4OH"
+    },
+    "correct": "D",
+    "explanation": "The solution is acidic, turning blue litmus red. Ammonium chloride (from HCl and NH4OH) is acidic in water."
+  },
+  {
+    "question": "Out of glucose, alcohol, hydrochloric acid and sulphuric acid, the solutions in which a bulb will glow when current is passed are:",
+    "options": {
+      "A": "Glucose and alcohol",
+      "B": "Alcohol and hydrochloric acid",
+      "C": "Glucose and sulphuric acid",
+      "D": "Hydrochloric acid and sulphuric acid"
+    },
+    "correct": "D",
+    "explanation": "Strong acids (HCl and H2SO4) ionize and conduct electricity, making the bulb glow. Glucose and alcohol do not ionize."
+  },
+  {
+    "question": "The metals which are found in both free state as well as combined state are:",
+    "options": {
+      "A": "Gold and platinum",
+      "B": "Platinum and silver",
+      "C": "Copper and silver",
+      "D": "Gold and silver"
+    },
+    "correct": "C",
+    "explanation": "Copper and silver occur in nature both free (native form) and in ores (combined state)."
+  },
+  {
+    "question": "The number of single and double bonds in a benzene (C6H6) molecule are respectively:",
+    "options": {
+      "A": "6 and 6",
+      "B": "9 and 3",
+      "C": "3 and 9",
+      "D": "3 and 3"
+    },
+    "correct": "D",
+    "explanation": "Benzene has an alternate arrangement of 3 single and 3 double bonds in a cyclic structure."
+  },
+  {
+    "question": "In human beings, when digestion is completed, proteins, carbohydrates, and fats are respectively converted into:",
+    "options": {
+      "A": "Amino acids, glucose and fatty acids",
+      "B": "Amino acids, glucose, fatty acids and glycerol",
+      "C": "Glucose, fatty acids and glycerol, amino acids",
+      "D": "Sugars, amino acids, fatty acids and glycerol"
+    },
+    "correct": "B",
+    "explanation": "Proteins → amino acids, carbohydrates → glucose, fats → fatty acids + glycerol."
+  },
+  {
+    "question": "A plant growth inhibitor hormone which causes wilting of leaves is:",
+    "options": {
+      "A": "Auxin",
+      "B": "Cytokinin",
+      "C": "Abscisic acid",
+      "D": "Gibberellin"
+    },
+    "correct": "C",
+    "explanation": "Abscisic acid (ABA) is a plant hormone that causes wilting and promotes dormancy, acting as a growth inhibitor."
+  },
+  {
+    "question": "The plants that can be raised by vegetative propagation are:",
+    "options": {
+      "A": "Sugarcane, roses, grapes",
+      "B": "Sugarcane, mustard, potato",
+      "C": "Banana, orange, mustard",
+      "D": "Papaya, mustard, potato"
+    },
+    "correct": "A",
+    "explanation": "Plants like sugarcane, roses, and grapes are commonly grown by vegetative propagation methods."
+  },
+  {
+    "question": "The part of a seed which serves as food during germination is:",
+    "options": {
+      "A": "Cotyledon",
+      "B": "Radicle",
+      "C": "Plumule",
+      "D": "Embryo"
+    },
+    "correct": "A",
+    "explanation": "Cotyledons contain stored food that nourishes the seedling during germination."
+  },
+  {
+    "question": "A zygote is formed by the fusion of male and female gametes. The number of chromosomes in the human zygote is:",
+    "options": {
+      "A": "23",
+      "B": "44",
+      "C": "46",
+      "D": "92"
+    },
+    "correct": "C",
+    "explanation": "Human gametes are haploid (23 chromosomes). Fusion produces a diploid zygote with 46 chromosomes."
+  }
+]

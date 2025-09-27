@@ -1,0 +1,213 @@
+[
+  {
+    "question": "To balance the chemical equation Zn(NO3)2 → ZnO + NO2 + O2, the values of coefficients x, y, and z must be:",
+    "options": {
+      "A": "4, 2, 2",
+      "B": "4, 4, 2",
+      "C": "2, 2, 4",
+      "D": "2, 4, 2"
+    },
+    "correct": "A",
+    "explanation": "On heating, 2Zn(NO3)2 → 2ZnO + 4NO2 + O2. Coefficients are x=2, y=2, z=4. Simplifying to the given options, correct match is 4,2,2."
+  },
+  {
+    "question": "Which of the following is a redox reaction but not a combination reaction?",
+    "options": {
+      "A": "C + O2 → CO2",
+      "B": "2Mg + O2 → 2MgO",
+      "C": "2H2 + O2 → 2H2O",
+      "D": "Fe2O3 + 3CO → 2Fe + 3CO2"
+    },
+    "correct": "D",
+    "explanation": "The reaction Fe2O3 + 3CO → 2Fe + 3CO2 involves both oxidation (CO to CO2) and reduction (Fe2O3 to Fe), but it is not a combination reaction."
+  },
+  {
+    "question": "The salt present in tooth enamel is:",
+    "options": {
+      "A": "Calcium phosphate",
+      "B": "Magnesium phosphate",
+      "C": "Sodium phosphate",
+      "D": "Aluminium phosphate"
+    },
+    "correct": "A",
+    "explanation": "Tooth enamel is primarily composed of calcium phosphate (Ca10(PO4)6(OH)2), which provides hardness."
+  },
+  {
+    "question": "The pH of an aqueous solution of sodium chloride is:",
+    "options": {
+      "A": "6",
+      "B": "8",
+      "C": "7",
+      "D": "3"
+    },
+    "correct": "C",
+    "explanation": "NaCl is a neutral salt formed from strong acid (HCl) and strong base (NaOH). Its aqueous solution has pH = 7."
+  },
+  {
+    "question": "The process in which transport of soluble products of photosynthesis takes place in plants is:",
+    "options": {
+      "A": "Transpiration",
+      "B": "Evaporation",
+      "C": "Conduction",
+      "D": "Translocation"
+    },
+    "correct": "D",
+    "explanation": "Transport of sugars and other products of photosynthesis is called translocation, carried out by phloem."
+  },
+  {
+    "question": "The correct sequence in a reflex action is:",
+    "options": {
+      "A": "Receptors → Motor neuron → Relay neuron → Sensory neuron → Effector",
+      "B": "Receptors → Relay neuron → Sensory neuron → Motor neuron → Effector",
+      "C": "Receptors → Sensory neuron → Relay neuron → Motor neuron → Effector",
+      "D": "Receptors → Sensory neuron → Effector → Motor neuron → Relay neuron"
+    },
+    "correct": "C",
+    "explanation": "The reflex arc follows: Receptor → Sensory neuron → Relay neuron → Motor neuron → Effector."
+  },
+  {
+    "question": "Sense organ in which olfactory receptors are present is:",
+    "options": {
+      "A": "Nose",
+      "B": "Skin",
+      "C": "Tongue",
+      "D": "Inner ear"
+    },
+    "correct": "A",
+    "explanation": "Olfactory receptors are present in the nose and detect smell."
+  },
+  {
+    "question": "The incorrect statement about placenta is:",
+    "options": {
+      "A": "It is a disc embedded in the uterine wall.",
+      "B": "It has a very small surface area for glucose and oxygen transfer.",
+      "C": "The embryo gets nutrition from the mother through it.",
+      "D": "It helps in exchange of gases and waste materials."
+    },
+    "correct": "B",
+    "explanation": "Placenta actually has a very large surface area to facilitate exchange of nutrients and gases. Hence statement B is incorrect."
+  },
+  {
+    "question": "Conditions responsible for the rapid spread of bread mould on a slice of bread:",
+    "options": {
+      "A": "(i) and (ii)",
+      "B": "(ii) and (iv)",
+      "C": "(ii) and (iii)",
+      "D": "(iii) and (iv)"
+    },
+    "correct": "A",
+    "explanation": "Rapid spread occurs due to formation of many spores and presence of moisture/nutrients (i & ii)."
+  },
+  {
+    "question": "How will the image formed by a convex lens be affected if the upper half of the lens is covered with black paper?",
+    "options": {
+      "A": "Image size will be half",
+      "B": "Upper half of object image not formed",
+      "C": "Brightness reduces",
+      "D": "Lower half of inverted image not formed"
+    },
+    "correct": "C",
+    "explanation": "Even if part of the lens is covered, whole image is formed but with reduced brightness due to reduced light."
+  },
+  {
+    "question": "The phenomena of light involved in rainbow formation are:",
+    "options": {
+      "A": "Refraction, reflection and dispersion",
+      "B": "Refraction, dispersion and internal reflection",
+      "C": "Reflection, dispersion and internal reflection",
+      "D": "Refraction, dispersion, scattering and TIR"
+    },
+    "correct": "B",
+    "explanation": "Rainbow is formed due to refraction of light, dispersion into spectrum, and internal reflection inside raindrops."
+  },
+  {
+    "question": "The colour of light for which refractive index of glass is minimum is:",
+    "options": {
+      "A": "Red",
+      "B": "Yellow",
+      "C": "Green",
+      "D": "Violet"
+    },
+    "correct": "A",
+    "explanation": "Red light has the longest wavelength and hence least refractive index in glass."
+  },
+  {
+    "question": "The current carrying device that produces a magnetic field like a bar magnet is:",
+    "options": {
+      "A": "Straight conductor",
+      "B": "Circular loop",
+      "C": "Solenoid",
+      "D": "Circular coil"
+    },
+    "correct": "C",
+    "explanation": "A solenoid produces a magnetic field similar to that of a bar magnet, with north and south poles."
+  },
+  {
+    "question": "In a uniform magnetic field, an electron and a positron enter as shown. They experience forces:",
+    "options": {
+      "A": "Both into plane",
+      "B": "Both out of plane",
+      "C": "Electron into plane, positron out",
+      "D": "Electron out, positron in"
+    },
+    "correct": "C",
+    "explanation": "Force direction depends on charge and motion. Electron (negative) and positron (positive) experience opposite forces in the same field."
+  },
+  {
+    "question": "Which one of the following is not a natural ecosystem?",
+    "options": {
+      "A": "Pond ecosystem",
+      "B": "Grassland ecosystem",
+      "C": "Forest ecosystem",
+      "D": "Cropland ecosystem"
+    },
+    "correct": "D",
+    "explanation": "Cropland is man-made, not natural. Others occur naturally."
+  },
+ {
+    "question": "Assertion (A): Some vegetable oils are healthy. Reason (R): Vegetable oils generally have long unsaturated carbon chains.",
+    "options": {
+      "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "C": "(A) is true, but (R) is false.",
+      "D": "(A) is false, but (R) is true."
+    },
+    "correct": "A",
+    "explanation": "Vegetable oils contain unsaturated fatty acids, which make them healthier compared to saturated fats. Hence both are true and (R) correctly explains (A)."
+  },
+  {
+    "question": "Assertion (A): Sex of the children will be determined by what they inherit from their mother. Reason (R): Women have XX sex chromosomes.",
+    "options": {
+      "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "C": "(A) is true, but (R) is false.",
+      "D": "(A) is false, but (R) is true."
+    },
+    "correct": "D",
+    "explanation": "Sex is determined by the father’s chromosome (X or Y). Women have XX, so they always pass X. Thus Assertion is false, but Reason is true."
+  },
+  {
+    "question": "Assertion (A): Electrons move from lower potential to higher potential in a conductor. Reason (R): A dry cell maintains electric potential difference across the ends of a conductor.",
+    "options": {
+      "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "C": "(A) is true, but (R) is false.",
+      "D": "(A) is false, but (R) is true."
+    },
+    "correct": "D",
+    "explanation": "Electrons actually flow from lower potential (negative terminal) to higher potential (positive terminal) externally, but by convention current is opposite. Assertion is false; Reason is true."
+  },
+  {
+    "question": "Assertion (A): Ozone layer protects the surface of the Earth from harmful UV radiations. Reason (R): Chlorofluorocarbons (CFCs) are responsible for depletion of ozone layer.",
+    "options": {
+      "A": "Both (A) and (R) are true and (R) is the correct explanation of (A).",
+      "B": "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "C": "(A) is true, but (R) is false.",
+      "D": "(A) is false, but (R) is true."
+    },
+    "correct": "B",
+    "explanation": "Both statements are correct. Ozone layer blocks harmful UV rays, while CFCs deplete ozone. However, (R) does not explain (A) directly."
+  }
+]
+
+

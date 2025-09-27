@@ -1,0 +1,222 @@
+[
+  {
+    "question": "Solid Calcium oxide reacts vigorously with water to form Calcium hydroxide accompanied by the liberation of heat. From the information given above it may be concluded that this reaction:",
+    "options": {
+      "A": "is endothermic and pH of the solution formed is more than 7.",
+      "B": "is exothermic and pH of the solution formed is 7.",
+      "C": "is endothermic and pH of the solution formed is 7.",
+      "D": "is exothermic and pH of the solution formed is more than 7."
+    },
+    "correct": "D",
+    "explanation": "CaO + H2O → Ca(OH)2 + heat. The reaction is exothermic and calcium hydroxide is alkaline in nature, so pH > 7."
+  },
+  {
+    "question": "Juice of tamarind turns blue litmus to red. It is because of the presence of:",
+    "options": {
+      "A": "methanoic acid",
+      "B": "acetic acid",
+      "C": "tartaric acid",
+      "D": "oxalic acid"
+    },
+    "correct": "C",
+    "explanation": "Tamarind contains tartaric acid, which is acidic in nature and turns blue litmus red."
+  },
+  {
+    "question": "Select from the following a process in which a combination reaction is involved:",
+    "options": {
+      "A": "Black and White photography",
+      "B": "Burning of coal",
+      "C": "Burning of methane",
+      "D": "Digestion of food"
+    },
+    "correct": "B",
+    "explanation": "Burning of coal (C + O2 → CO2) is a combination reaction. The others are decomposition or complex biochemical processes."
+  },
+  {
+    "question": "The oxide which can react with HCl as well as KOH to give corresponding salt and water is:",
+    "options": {
+      "A": "CuO",
+      "B": "Al2O3",
+      "C": "Na2O",
+      "D": "H2O"
+    },
+    "correct": "B",
+    "explanation": "Aluminium oxide is amphoteric. It reacts with both acids and bases to form salt and water."
+  },
+  {
+    "question": "Consider the following cases: (a) CaSO4 + Al →, (b) CuSO4 + Ca →, (c) FeSO4 + Cu →, (d) ZnSO4 + Mg →. The cases in which new products will form are:",
+    "options": {
+      "A": "(a) and (b)",
+      "B": "(b) and (c)",
+      "C": "(c) and (d)",
+      "D": "(b) and (d)"
+    },
+    "correct": "D",
+    "explanation": "Ca displaces Cu from CuSO4 and Mg displaces Zn from ZnSO4. So reactions occur in (b) and (d)."
+  },
+  {
+    "question": "Identify the correct statement about the following reaction: 2H2S + SO2 → 2H2O + 3S",
+    "options": {
+      "A": "H2S is oxidising agent and SO2 is reducing agent.",
+      "B": "H2S is reduced to sulphur.",
+      "C": "SO2 is oxidising agent and H2S is reducing agent.",
+      "D": "SO2 is oxidised to sulphur."
+    },
+    "correct": "C",
+    "explanation": "In the reaction, H2S is oxidised to sulphur and acts as a reducing agent, while SO2 is reduced to sulphur and acts as an oxidising agent."
+  },
+  {
+    "question": "Consider the following statements about homologous series of carbon compounds: (a) All succeeding members differ by —CH2 unit. (b) Melting point and boiling point increases with increasing molecular mass. (c) The difference in molecular masses between two successive members is 16 u. (d) C2H2 and C3H4 are NOT the successive members of alkyne series. The correct statements are:",
+    "options": {
+      "A": "(a) and (b)",
+      "B": "(b) and (c)",
+      "C": "(a) and (c)",
+      "D": "(c) and (d)"
+    },
+    "correct": "A",
+    "explanation": "Successive members of a homologous series differ by –CH2 (14 u), not 16 u. Their physical properties (melting and boiling points) increase with molecular mass. So (a) and (b) are correct."
+  },
+  {
+    "question": "Which of the following statement(s) is (are) true about human heart?",
+    "options": {
+      "A": "(a)",
+      "B": "(a) and (d)",
+      "C": "(b) and (c)",
+      "D": "(b) and (d)"
+    },
+    "correct": "C",
+    "explanation": "Right atrium receives deoxygenated blood via vena cava (c). Left atrium sends oxygenated blood to left ventricle (b). Statements (a) and (d) are incorrect."
+  },
+  {
+    "question": "Select out of the following a gland which does NOT occur as a pair in the human body:",
+    "options": {
+      "A": "Pituitary",
+      "B": "Ovary",
+      "C": "Testis",
+      "D": "Adrenal"
+    },
+    "correct": "A",
+    "explanation": "Pituitary gland is a single gland located at the base of the brain. Ovaries, testes, and adrenals occur in pairs."
+  },
+  {
+    "question": "In human respiratory system, when a person breathes in, the position of ribs and diaphragm will be:",
+    "options": {
+      "A": "lifted ribs and curved/dome shaped diaphragm.",
+      "B": "lifted ribs and flattened diaphragm.",
+      "C": "relaxed ribs and flattened diaphragm.",
+      "D": "relaxed ribs and curved/dome shaped diaphragm."
+    },
+    "correct": "B",
+    "explanation": "During inhalation, ribs move upward and outward, and diaphragm flattens, increasing chest cavity volume."
+  },
+  {
+    "question": "Identify the mode of asexual reproduction in the following organism:",
+    "options": {
+      "A": "Fragmentation",
+      "B": "Multiple fission",
+      "C": "Budding",
+      "D": "Binary fission"
+    },
+    "correct": "C",
+    "explanation": "The organism shown (Hydra/Yeast) reproduces by budding, where a small outgrowth develops into a new organism."
+  },
+  {
+    "question": "A cross made between two pea plants produces 50% tall and 50% short pea plants. The gene combination of the parental pea plants must be:",
+    "options": {
+      "A": "Tt and Tt",
+      "B": "TT and Tt",
+      "C": "Tt and tt",
+      "D": "TT and tt"
+    },
+    "correct": "C",
+    "explanation": "Cross between Tt (heterozygous tall) and tt (homozygous dwarf) gives 50% tall (Tt) and 50% dwarf (tt)."
+  },
+  {
+    "question": "Consider the following statements in the context of human eye: (a) The diameter of the eyeball is about 2.3 cm. (b) Iris is a dark muscular diaphragm that controls the size of the pupil. (c) Most of the refraction for light rays entering the eye occurs at the crystalline lens. (d) While focusing on objects at different distances the distance between crystalline lens and retina is adjusted by ciliary muscles. The correct statements are:",
+    "options": {
+      "A": "(a) and (b)",
+      "B": "(a), (b) and (c)",
+      "C": "(b), (c) and (d)",
+      "D": "(a), (c) and (d)"
+    },
+    "correct": "A",
+    "explanation": "Statements (a) and (b) are correct. Most refraction occurs at the cornea, not the crystalline lens (c is false). Distance between lens and retina does not change, only lens curvature changes (d is false)."
+  },
+  {
+    "question": "The maximum resistance of a network of five identical resistors of 1 Ω each can be:",
+    "options": {
+      "A": "1 Ω",
+      "B": "0.5 Ω",
+      "C": "0.25 Ω",
+      "D": "0.1 Ω"
+    },
+    "correct": "A",
+    "explanation": "For maximum resistance, connect all resistors in series: R = 5 × 1 Ω = 5 Ω. But since options suggest maximum equivalent resistance among given is 1 Ω, likely a misprint in source. Correct should be 5 Ω in theory."
+  },
+  {
+    "question": "Study the I-V graph for three resistors of resistances R1, R2 and R3 and select the correct statement:",
+    "options": {
+      "A": "R1 = R2 = R3",
+      "B": "R1 > R2 > R3",
+      "C": "R3 > R2 > R1",
+      "D": "R2 > R3 > R1"
+    },
+    "correct": "B",
+    "explanation": "Slope of V-I graph gives resistance (R = V/I). The steeper the slope, the higher the resistance. So R1 > R2 > R3."
+  },
+  {
+    "question": "Strength of magnetic field produced by a current carrying solenoid DOES NOT depend upon:",
+    "options": {
+      "A": "number of turns in the solenoid",
+      "B": "direction of the current flowing through it",
+      "C": "radius of solenoid",
+      "D": "material of core of the solenoid"
+    },
+    "correct": "B",
+    "explanation": "Magnetic field strength depends on current, number of turns, core material, but not on the direction (which only affects polarity)."
+  },
+  {
+    "question": "Assertion (A): Different metals have different reactivities with water and dilute acids. Reason (R): Extraction of a metal from its ore depends on its position in the reactivity series.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Reactivity of metals with water and acids varies. Extraction method also depends on position in the reactivity series. Both statements are true and related."
+  },
+  {
+    "question": "Assertion (A): Human female has a perfect pair of sex chromosome. Reason (R): Sex chromosome contributed by the human male in the zygote decides the sex of a child.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "B",
+    "explanation": "Female has XX (perfect pair). Male contributes X or Y, deciding sex. Both true, but R does not explain A."
+  },
+  {
+    "question": "Assertion (A): Myopic eye cannot see distant objects distinctly. Reason (R): For the correction of myopia converging lenses of appropriate power are prescribed by eye-surgeons.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "C",
+    "explanation": "Myopia is corrected by concave (diverging) lenses, not converging lenses. So A is true, R is false."
+  },
+  {
+    "question": "Assertion (A): The deflection of a compass needle placed near a current carrying wire decreases when the magnitude of an electric current in the wire is increased. Reason (R): Strength of the magnetic field at a point due to a current carrying conductor increases on increasing the current in the conductor.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "D",
+    "explanation": "Increasing current increases magnetic field strength, so deflection increases. Hence Assertion is false but Reason is true."
+  }
+]

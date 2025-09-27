@@ -1,0 +1,200 @@
+[
+  {
+    "question": "When 2 mL of sodium hydroxide solution is added to few pieces of granulated zinc in a test tube and then warmed, the reaction that occurs can be written in the form of a balanced chemical equation as:",
+    "options": {
+      "A": "NaOH + Zn → NaZnO2 + H2O",
+      "B": "2NaOH + Zn → Na2ZnO2 + H2",
+      "C": "2NaOH + Zn → NaZnO2 + H2",
+      "D": "2NaOH + Zn → Na2ZnO2 + H2O"
+    },
+    "correct": "B",
+    "explanation": "Zinc reacts with sodium hydroxide to form sodium zincate (Na2ZnO2) and hydrogen gas. Balanced reaction: Zn + 2NaOH → Na2ZnO2 + H2."
+  },
+  {
+    "question": "Select from the following a decomposition reaction in which source of energy for decomposition is light:",
+    "options": {
+      "A": "2FeSO4 → Fe2O3 + SO2 + SO3",
+      "B": "2H2O → 2H2 + O2",
+      "C": "2AgBr → 2Ag + Br2",
+      "D": "CaCO3 → CaO + CO2"
+    },
+    "correct": "C",
+    "explanation": "Silver bromide decomposes in presence of light to form silver and bromine. This is a photochemical decomposition reaction."
+  },
+  {
+    "question": "A metal and a non-metal that exist in liquid state at room temperature are respectively:",
+    "options": {
+      "A": "Bromine and Mercury",
+      "B": "Mercury and Iodine",
+      "C": "Mercury and Bromine",
+      "D": "Iodine and Mercury"
+    },
+    "correct": "C",
+    "explanation": "At room temperature, mercury (metal) and bromine (non-metal) exist in liquid state."
+  },
+  {
+    "question": "Carbon compounds:",
+    "options": {
+      "A": "are good conductors of electricity.",
+      "B": "are bad conductors of electricity.",
+      "C": "have strong forces of attraction between their molecules.",
+      "D": "have weak forces of attraction between their molecules."
+    },
+    "correct": "C",
+    "explanation": "Covalent compounds (like most carbon compounds) are generally poor conductors of electricity and have weak intermolecular forces, making them volatile."
+  },
+  {
+    "question": "Consider the following compounds: FeSO4, CuSO4, CaSO4, Na2CO3. The compound having maximum number of water of crystallisation in its crystalline form is:",
+    "options": {
+      "A": "FeSO4",
+      "B": "CuSO4",
+      "C": "CaSO4",
+      "D": "Na2CO3"
+    },
+    "correct": "D",
+    "explanation": "Na2CO3·10H2O (washing soda) has 10 water molecules of crystallisation, which is maximum among the given salts."
+  },
+  {
+    "question": "Oxides of aluminium and zinc are:",
+    "options": {
+      "A": "acidic",
+      "B": "basic",
+      "C": "amphoteric",
+      "D": "neutral"
+    },
+    "correct": "C",
+    "explanation": "Both aluminium oxide and zinc oxide react with acids as well as bases. Hence they are amphoteric oxides."
+  },
+  {
+    "question": "MnO2 + 4HCl → MnCl2 + 2H2O + Cl2. The reaction given above is a redox reaction because:",
+    "options": {
+      "A": "MnO2 is oxidised and HCl is reduced.",
+      "B": "HCl is oxidised.",
+      "C": "MnO2 is reduced.",
+      "D": "MnO2 is reduced and HCl is oxidised."
+    },
+    "correct": "D",
+    "explanation": "In this reaction, MnO2 is reduced to MnCl2, and HCl is oxidised to Cl2. Hence it is a redox reaction."
+  },
+  {
+    "question": "Consider the following statements: (i) The sex of a child is determined by what it inherits from the mother. (ii) The sex of a child is determined by what it inherits from the father. (iii) The probability of having a male child is more than that of a female child. (iv) The sex of a child is determined at the time of fertilisation when male and female gametes fuse to form a zygote. The correct statements are:",
+    "options": {
+      "A": "(i) and (iii)",
+      "B": "(ii) and (iv)",
+      "C": "(iii) and (iv)",
+      "D": "(i), (iii) and (iv)"
+    },
+    "correct": "B",
+    "explanation": "Mother always contributes an X chromosome. Sex is determined by the father’s gamete (X or Y). Hence (ii) and (iv) are correct."
+  },
+  {
+    "question": "Chromosomes:",
+    "options": {
+      "A": "carry hereditary information from parents to the next generation.",
+      "B": "are thread like structures located inside the nucleus of an animal cell.",
+      "C": "always exist in pairs in human reproductive cells.",
+      "D": "are involved in the process of cell division."
+    },
+    "correct": "C",
+    "explanation": "Chromosomes carry hereditary information, are thread-like structures in nucleus, and are involved in cell division. In gametes (reproductive cells), chromosomes are not in pairs but single set (haploid). Hence (i), (ii), and (iv) are correct."
+  },
+  {
+    "question": "In a nerve cell, the site where the electrical impulse is converted into a chemical signal is known as:",
+    "options": {
+      "A": "Axon",
+      "B": "Dendrites",
+      "C": "Neuromuscular junction",
+      "D": "Cell body"
+    },
+    "correct": "C",
+    "explanation": "At the neuromuscular junction (synapse), the electrical signal from neuron is converted into chemical signal using neurotransmitters."
+  },
+  {
+    "question": "A stomata closes when:",
+    "options": {
+      "A": "it needs carbon dioxide for photosynthesis.",
+      "B": "it does not need carbon dioxide for photosynthesis.",
+      "C": "water flows out of the guard cells.",
+      "D": "water flows into the guard cells."
+    },
+    "correct": "C",
+    "explanation": "Stomata close when guard cells lose water and become flaccid, which happens when water flows out of them."
+  },
+  {
+    "question": "At what distance from a convex lens should an object be placed to get an image of the same size as that of the object on a screen?",
+    "options": {
+      "A": "Beyond twice the focal length of the lens.",
+      "B": "At the principal focus of the lens.",
+      "C": "At twice the focal length of the lens.",
+      "D": "Between the optical centre of the lens and its principal focus."
+    },
+    "correct": "C",
+    "explanation": "When the object is placed at 2F of a convex lens, the image is real, inverted, and of the same size as the object."
+  },
+  {
+    "question": "The lens system of human eye forms an image on a light sensitive screen, which is called:",
+    "options": {
+      "A": "Cornea",
+      "B": "Ciliary muscles",
+      "C": "Optic nerves",
+      "D": "Retina"
+    },
+    "correct": "D",
+    "explanation": "The retina is the light-sensitive screen of the eye where images are formed. Cornea and ciliary muscles help in focusing; optic nerves carry impulses."
+  },
+  {
+    "question": "The pattern of the magnetic field produced inside a current carrying solenoid is:",
+    "options": {
+      "A": "Straight lines parallel to axis (uniform)",
+      "B": "Circular loops",
+      "C": "Maximum at ends",
+      "D": "Irregular"
+    },
+    "correct": "A",
+    "explanation": "Inside a solenoid, magnetic field lines are nearly straight and parallel to the axis, showing that the field is uniform."
+  },
+  {
+    "question": "Identify the food chain in which the organisms of the second trophic level are missing:",
+    "options": {
+      "A": "Grass, goat, lion",
+      "B": "Zooplankton, Phytoplankton, small fish, large fish",
+      "C": "Tiger, grass, snake, frog",
+      "D": "Grasshopper, grass, snake, frog, eagle"
+    },
+    "correct": "C",
+    "explanation": "In 'Tiger → Grass → Snake → Frog', the primary consumer (herbivore) is missing. Hence the second trophic level is absent."
+  },
+  {
+    "question": "In which of the following organisms, multiple fission is a means of asexual reproduction?",
+    "options": {
+      "A": "Yeast",
+      "B": "Leishmania",
+      "C": "Paramoecium",
+      "D": "Plasmodium"
+    },
+    "correct": "D",
+    "explanation": "Plasmodium (malarial parasite) reproduces by multiple fission inside host cells, releasing many daughter cells at once."
+  },
+  {
+    "question": "Assertion (A): Hydrogen gas is not evolved when zinc reacts with nitric acid. Reason (R): Nitric acid oxidises the hydrogen gas produced to water and itself gets reduced.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "A",
+    "explanation": "Nitric acid is a strong oxidising agent. Any hydrogen initially formed is oxidised to water, so hydrogen gas is not observed. Hence both A and R are true, and R explains A."
+  },
+  {
+    "question": "Assertion (A): Accumulation of harmful chemicals is maximum in the organisms at the highest trophic level of a food chain. Reason (R): Harmful chemicals are sprayed on the crops to protect them from diseases and pests.",
+    "options": {
+      "A": "Both A and R are true and R is the correct explanation of A",
+      "B": "Both A and R are true, but R is not the correct explanation of A",
+      "C": "A is true, but R is false",
+      "D": "A is false, but R is true"
+    },
+    "correct": "B",
+    "explanation": "Chemicals like pesticides enter food chains and their concentration increases at higher trophic levels (biomagnification). While harmful chemicals are sprayed on crops, this is not the direct explanation of why they accumulate more at higher levels."
+  }
+]
