@@ -30,8 +30,8 @@
   /* ====== Circular Timer Styles (aligned with JS radius=100) ====== */
   .timer-container {
     position: relative;
-    width: 220px;
-    height: 220px;
+    width: 110px;
+    height: 110px;
     margin: 16px auto;
   }
   .timer-container svg {
@@ -40,7 +40,7 @@
   }
   .timer-container circle {
     fill: none;
-    stroke-width: 12;
+    stroke-width: 8;
     stroke-linecap: round;
   }
   .timer-container .bg {
@@ -55,7 +55,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     font-weight: 800;
     color: #f8fafc;
     text-align: center;
@@ -141,9 +141,9 @@
 
           <!-- 🔵 Circular Timer (added here, above the question-card) -->
           <div class="timer-container">
-            <svg width="220" height="220">
-              <circle class="bg" cx="110" cy="110" r="100"></circle>
-              <circle class="progress" cx="110" cy="110" r="100"></circle>
+            <svg width="110" height="110">
+              <circle class="bg" cx="55" cy="55" r="50"></circle>
+              <circle class="progress" cx="55" cy="55" r="50"></circle>
             </svg>
             <div class="time" id="time-left">30</div>
           </div>
