@@ -69,8 +69,8 @@ function tsToDate(ts){
 const RAW_BASE = "https://singla1209.github.io/Quizzy/MCQ_CBSE/";
 /* ---------- Subjects ---------- */
 const SUBJECTS = [
-  { key:"class6",  label:"March 2025", path:"/" },
-  { key:"class7",  label:"September 2025", path:"/" },
+  { key:"class6",  label:"Science", path:"March 2025/" },
+  { key:"class7",  label:"Science", path:"September 2025/" },
   { key:"class8",  label:"SCIENCE Set - 3", path:"3/" },
   { key:"class9",  label:"SCIENCE Set - 4", path:"4/" },
   { key:"class10", label:"SCIENCE Set - 5", path:"5/" },
@@ -730,4 +730,5 @@ $("play-again-btn").onclick = () => {
   $("celebrate-overlay").style.display = "none";
   show("subjects");
 };
+
 
