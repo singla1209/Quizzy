@@ -350,7 +350,7 @@ function handleTimeUp() {
 }
 
 /* ---------- Timer (Circular, wrong on timeout) ---------- */
-const radius = 100;
+const radius = 50;
 const circumference = 2 * Math.PI * radius;
 
 function startTimer(totalTime) {
