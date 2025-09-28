@@ -103,3 +103,49 @@ tr:hover{background:rgba(255,255,255,.06);cursor:pointer}
 /* ===== Toggle Button ===== */
 #theme-toggle {position:fixed;bottom:15px;right:15px;width:44px;height:44px;border-radius:50%;border:none;background:rgba(255,255,255,0.2);color:#fff;font-size:20px;cursor:pointer;box-shadow:0 0 12px var(--accent);backdrop-filter:blur(6px);transition:all .3s ease;z-index:1000}
 #theme-toggle:hover {background:rgba(255,255,255,0.35);transform:scale(1.1)}
+
+/* ===== Timer + Lifelines Row ===== */
+.quiz-top-row {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+/* Lifeline box styling */
+#lifeline-box {
+  background: rgba(4,23,56,0.7);
+  padding: 12px;
+  border-radius: 12px;
+  width: 140px;
+  text-align: center;
+}
+#lifeline-box .btn {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* ✅ Responsive adjustments for very small screens */
+@media (max-width: 420px) {
+  .quiz-top-row {
+    gap: 12px;
+  }
+  .timer-container {
+    width: 90px;
+    height: 90px;
+  }
+  .timer-container .time {
+    font-size: 1.2rem;
+  }
+  #lifeline-box {
+    width: 120px;
+    padding: 10px;
+  }
+  #lifeline-box .btn {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
