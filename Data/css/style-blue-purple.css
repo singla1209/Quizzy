@@ -149,3 +149,30 @@ tr:hover{background:rgba(255,255,255,.06);cursor:pointer}
   }
 }
 
+
+
+
+/* Speaker Toggle Button */
+.sound-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+  transition: all 0.3s ease;
+}
+.sound-btn:hover {
+  background: rgba(255,255,255,0.35);
+  transform: scale(1.05);
+}
+.sound-btn.muted {
+  color: #ff5555; /* red when muted */
+}
+
