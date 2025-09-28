@@ -230,7 +230,7 @@ async function beginQuizFromUrl(url, subjectLabel, chapterTitle){
   $("bar-inner").style.width = "0%";
 
    $("welcome-banner").innerHTML =
-    `Welcome <span class="name">${userName}</span> in Quizzy App of <b>‘${subjectLabel}’ : ${chapterTitle.replace(/^Chapter\s*\d+\s*:\s*/i,'')}</b>`;
+    `Welcome <span class="name">${userName}</span> in Quizzy App of <span class="name"><b>${subjectLabel}</b></span>`;
 
   // ✅ NEW LIFELINE CODE: Reset lifelines
   lifelinesUsed = { fiftyFifty: false, geminiHint: false };
