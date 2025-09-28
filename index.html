@@ -143,45 +143,45 @@
         </div>
       </section>
 
-      <!-- ======= QUIZ SECTION ======= -->
-      <section id="quiz">
-        <div id="quiz-wrapper">
-          <h2 id="welcome-banner"></h2>
-          <div class="stats" id="stats">✅ Correct: 0   |   ❌ Incorrect: 0</div>
-          <div class="muted" id="qprogress" style="text-align:center">Question 1/1</div>
-          <div class="bar"><div id="bar-inner"></div></div>
+     <!-- ======= QUIZ SECTION ======= -->
+<section id="quiz">
+  <div id="quiz-wrapper">
+    <h2 id="welcome-banner"></h2>
+    <div class="stats" id="stats">✅ Correct: 0   |   ❌ Incorrect: 0</div>
+    <div class="muted" id="qprogress" style="text-align:center">Question 1/1</div>
+    <div class="bar"><div id="bar-inner"></div></div>
 
-          <!-- 🔵 Circular Timer -->
-          <div class="timer-container">
-            <svg width="110" height="110">
-              <circle class="bg" cx="55" cy="55" r="50"></circle>
-              <circle class="progress" cx="55" cy="55" r="50"></circle>
-            </svg>
-            <div class="time" id="time-left">30</div>
-          </div>
+    <!-- ✅ Row with Timer + Lifelines -->
+    <div class="quiz-top-row">
+      <!-- Timer -->
+      <div class="timer-container">
+        <svg width="110" height="110">
+          <circle class="bg" cx="55" cy="55" r="50"></circle>
+          <circle class="progress" cx="55" cy="55" r="50"></circle>
+        </svg>
+        <div class="time" id="time-left">30</div>
+      </div>
 
-          <div style="display:flex; justify-content:center; gap:20px; align-items:flex-start; flex-wrap:wrap;">
+      <!-- Lifelines -->
+      <div id="lifeline-box">
+        <p class="muted" style="margin-bottom:12px;">Lifelines</p>
+        <button class="btn" id="fifty-fifty-btn">50:50</button>
+        <button class="btn" id="gemini-hint-btn">Hint</button>
+      </div>
+    </div>
+    <!-- ✅ End Timer + Lifelines Row -->
 
-            <!-- ✅ Lifeline Box -->
-            <div id="lifeline-box">
-              <p class="muted" style="margin-bottom:12px;">Lifelines</p>
-              <button class="btn" id="fifty-fifty-btn">50:50</button>
-              <button class="btn" id="gemini-hint-btn">Hint</button>
-            </div>
+    <!-- Quiz Content -->
+    <div class="quiz-card">
+      <div id="question">Loading…</div>
+      <div id="options"></div>
+    </div>
 
-            <!-- ✅ Quiz Main Content -->
-            <div style="flex:1; max-width:650px;">
-              <div class="quiz-card">
-                <div id="question">Loading…</div>
-                <div id="options"></div>
-              </div>
-            </div>
+    <div id="end-screen" style="display:none;margin-top:14px;text-align:center"></div>
 
-          </div>
+  
 
-          <div id="end-screen" style="display:none;margin-top:14px;text-align:center"></div>
-
-          <div id="results-panel">
+        <div id="results-panel">
             <h3>Last 5 Results</h3>
             <div class="results-box">
               <table>
@@ -265,6 +265,9 @@
       localStorage.setItem("theme", next);
     });
   </script>
+
+
+
 
 </body>
 </html>
