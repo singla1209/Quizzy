@@ -1,9 +1,9 @@
-<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/> <!-- Sets character encoding to UTF-8 -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Makes page responsive -->
-  <title>Quizzy</title> <!-- Title shown in browser tab -->
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quizzy</title>
 
   <!-- Linking theme CSS (default theme first) -->
   <link id="theme-link" rel="stylesheet" href="Data/css/style-default.css">
@@ -61,14 +61,27 @@
     text-align: center;
     line-height: 1;
   }
+
+  /* ====== Lifeline Box ====== */
+  #lifeline-box {
+    background: rgba(4,23,56,0.7);
+    padding: 12px;
+    border-radius: 12px;
+    width: 140px;
+    text-align: center;
+  }
+  #lifeline-box .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
   </style>
 </head>
 <body>
   <div class="container">
     <main>
 
-      <!-- ======= AUTH SECTION (Login & Signup) ======= -->
-      <section class="active" id="auth"> <!-- By default active -->
+      <!-- ======= AUTH SECTION ======= -->
+      <section class="active" id="auth">
         <div class="shell">
           <div class="card-auth">
 
@@ -76,7 +89,7 @@
               <img src="Data/images/brand-logo.png" 
                    alt="CyberQuiz" 
                    style="width:220px; height:auto; display:block; margin:0 auto;" />
-            </div> <!-- App name -->
+            </div>
             <div class="subtitle">Sign in to start your quizzes</div>
 
             <!-- Login inputs -->
@@ -84,7 +97,7 @@
             <input id="login-pass" type="password" placeholder="Password*"/>
             <button class="btn" id="login-btn" style="width:100%">Log In</button>
 
-            <div class="splitter"></div> <!-- Divider line -->
+            <div class="splitter"></div>
 
             <!-- Google Sign-In button -->
             <button class="google-btn" id="google-btn" aria-label="Sign in with Google">
@@ -92,7 +105,7 @@
               Sign in with Google
             </button>
 
-            <div class="splitter"></div> <!-- Divider line -->
+            <div class="splitter"></div>
 
             <!-- Signup form -->
             <div class="tiny" style="margin-bottom:6px">Don't have an account? Create one:</div>
@@ -101,7 +114,6 @@
             <input id="signup-pass" type="password" placeholder="Password (min 6)*"/>
             <button class="btn" id="signup-btn" style="width:100%">Sign Up</button>
 
-            <!-- Message for errors/success -->
             <p id="auth-msg" style="min-height:22px;margin:.6rem 0 0;color:#ffd966"></p>
           </div>
         </div>
@@ -110,9 +122,9 @@
       <!-- ======= SUBJECTS SECTION ======= -->
       <section id="subjects">
         <div>
-          <h2 id="hello"></h2> <!-- Will show: Hello [User Name] -->
+          <h2 id="hello"></h2>
           <p>Select a Class to begin:</p>
-          <div id="subject-list"></div> <!-- Subjects added dynamically -->
+          <div id="subject-list"></div>
           <div class="top-actions">
             <button class="btn secondary" id="logout-1">Logout</button>
           </div>
@@ -139,7 +151,7 @@
           <div class="muted" id="qprogress" style="text-align:center">Question 1/1</div>
           <div class="bar"><div id="bar-inner"></div></div>
 
-          <!-- 🔵 Circular Timer (added here, above the question-card) -->
+          <!-- 🔵 Circular Timer -->
           <div class="timer-container">
             <svg width="110" height="110">
               <circle class="bg" cx="55" cy="55" r="50"></circle>
@@ -147,11 +159,24 @@
             </svg>
             <div class="time" id="time-left">30</div>
           </div>
-          <!-- 🔵 End Timer -->
 
-          <div class="quiz-card">
-            <div id="question">Loading…</div>
-            <div id="options"></div>
+          <div style="display:flex; justify-content:center; gap:20px; align-items:flex-start; flex-wrap:wrap;">
+
+            <!-- ✅ Lifeline Box -->
+            <div id="lifeline-box">
+              <p class="muted" style="margin-bottom:12px;">Lifelines</p>
+              <button class="btn" id="fifty-fifty-btn">50:50</button>
+              <button class="btn" id="gemini-hint-btn">Hint</button>
+            </div>
+
+            <!-- ✅ Quiz Main Content -->
+            <div style="flex:1; max-width:650px;">
+              <div class="quiz-card">
+                <div id="question">Loading…</div>
+                <div id="options"></div>
+              </div>
+            </div>
+
           </div>
 
           <div id="end-screen" style="display:none;margin-top:14px;text-align:center"></div>
@@ -184,7 +209,7 @@
 
           <audio id="correct-sound" preload="auto" src="Data/sound/correct.mp3"></audio>
           <audio id="wrong-sound" preload="auto" src="Data/sound/wrong.mp3"></audio>
-	  <audio id="tick-sound" preload="auto" src="Data/sound/tick.mp3"></audio>
+          <audio id="tick-sound" preload="auto" src="Data/sound/tick.mp3"></audio>
 
         </div>
       </section>
@@ -192,13 +217,13 @@
     </main>
   </div>
 
-   <!-- ===== CONFETTI / MODAL / FOOTER ===== -->
+  <!-- ===== CONFETTI / MODAL / FOOTER ===== -->
   <canvas id="confetti"></canvas>
   <div id="celebrate-overlay" aria-hidden="true">
     <div id="celebrate-card">
-      <div id="big-name"></div> <!-- Shows user name -->
-      <div id="motivation"></div> <!-- Motivational text -->
-      <canvas id="donut" width="180" height="180"></canvas> <!-- Chart for score -->
+      <div id="big-name"></div>
+      <div id="motivation"></div>
+      <canvas id="donut" width="180" height="180"></canvas>
       <div style="display:flex;gap:10px;justify-content:center;margin-top:8px">
         <button class="btn" id="play-again-btn">Play Again</button>
         <button class="btn secondary" id="celebrate-close">Close</button>
@@ -206,7 +231,6 @@
     </div>
   </div>
 
-  <!-- ======= MODAL POPUP ======= -->
   <div class="modal-overlay" id="modal-overlay">
     <div class="modal">
       <button class="close" id="modal-close" aria-label="Close">✕</button>
@@ -214,12 +238,10 @@
     </div>
   </div>
 
-  <!-- ================== SCRIPTS ================== -->
   <script src="js/include.js"></script>
   <script type="module" src="Data/js/app.js"></script>
   <div class="developer-name">© 2025 GSSSS Chappar</div>
 
-  <!-- === Theme Toggle Button === -->
   <button id="theme-toggle" aria-label="Switch Theme">🎨</button>
 
   <script>
@@ -233,7 +255,6 @@
     const themeLink = document.getElementById("theme-link");
     const toggleBtn = document.getElementById("theme-toggle");
 
-    // Load saved theme or default
     let current = localStorage.getItem("theme") || themes[0];
     themeLink.href = current;
 
@@ -247,4 +268,3 @@
 
 </body>
 </html>
-
