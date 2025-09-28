@@ -1,0 +1,223 @@
+[
+  {
+    "question": "In the following case(s) the combination reaction occurs in : \n\nI. CuO + H2 → \nII. ZnO + C → \nIII. Na + O2 → \nIV. CH4 + O2 →",
+    "options": {
+      "A": "Only III",
+      "B": "Only IV",
+      "C": "II and III",
+      "D": "I, III and IV"
+    },
+    "correct": "A",
+    "explanation": "A combination reaction involves two or more reactants forming a single product. Only reaction III (2Na + O2 → Na2O2 or 4Na + O2 → 2Na2O) represents two elements combining to form one compound. The other reactions are displacement/redox (I, II) and combustion/redox (IV)."
+  },
+  {
+    "question": "A few drops of turmeric solution are added to a colourless liquid. If the liquid becomes red, the liquid may be:",
+    "options": {
+      "A": "Hydrochloric acid",
+      "B": "Distilled water",
+      "C": "Ammonium hydroxide",
+      "D": "Lemon juice"
+    },
+    "correct": "C",
+    "explanation": "Turmeric is a natural indicator that turns red in basic (alkaline) solutions. Hydrochloric acid (A) and Lemon juice (D) are acidic. Distilled water (B) is neutral. Ammonium hydroxide (C) is a weak base, so it would cause the turmeric to turn red."
+  },
+  {
+    "question": "The acid present in nettle sting is :",
+    "options": {
+      "A": "Acetic acid",
+      "B": "Methanoic acid",
+      "C": "Tartaric acid",
+      "D": "Citric acid"
+    },
+    "correct": "B",
+    "explanation": "Nettle leaves inject methanoic acid (also known as formic acid) when they touch the skin, causing a burning pain. The pain is treated by applying a mild base, like rubbing the area with a dock leaf."
+  },
+  {
+    "question": "A hydrocarbon which contains two C — C single bonds and one C $\\equiv$ C triple bond is:",
+    "options": {
+      "A": "Ethyne",
+      "B": "Propyne",
+      "C": "Butyne",
+      "D": "Benzene"
+    },
+    "correct": "C",
+    "explanation": "The formula for Butyne is C4H6. The chain is C $\\equiv$ C - C - C. This structure has one C$\\equiv$C triple bond and two C-C single bonds. Ethyne (C2H2) has zero C-C single bonds, and Propyne (C3H4) has one C-C single bond."
+  },
+  {
+    "question": "When aqueous solutions of barium chloride and sodium sulphate react together, an insoluble substance along with aqueous solution of sodium chloride is formed. This reaction is an example of a:",
+    "options": {
+      "A": "combination reaction",
+      "B": "decomposition reaction",
+      "C": "displacement reaction",
+      "D": "double displacement reaction"
+    },
+    "correct": "D",
+    "explanation": "The reaction is: BaCl2(aq) + Na2SO4(aq) → BaSO4(s) + 2NaCl(aq). In this reaction, the ions are exchanged between the two reactant compounds to form two new products (barium sulphate and sodium chloride). The formation of the insoluble substance (BaSO4) is a precipitation reaction, which is a type of double displacement reaction."
+  },
+  {
+    "question": "The name of the compound 'A' formed in the following reaction is: \n\nNaCl + NH3 + H2O + CO2 → 'A' + NH4Cl",
+    "options": {
+      "A": "Sodium carbonate",
+      "B": "Ammonium carbonate",
+      "C": "Sodium hydrogen carbonate",
+      "D": "Ammonium hydrogen carbonate"
+    },
+    "correct": "C",
+    "explanation": "This reaction is the first step of the Solvay process for manufacturing sodium carbonate. The compound 'A' formed is sodium hydrogen carbonate (NaHCO3). The balanced equation is: NaCl + NH3 + H2O + CO2 → NaHCO3 + NH4Cl."
+  },
+  {
+    "question": "Select the correct statement from the following about the reaction: \n\nCuO + H2 → Cu + H2O",
+    "options": {
+      "A": "CuO is getting oxidised and H2 is getting reduced.",
+      "B": "H2 is getting oxidised and CuO is getting reduced.",
+      "C": "CuO is a reducing agent.",
+      "D": "H2 is an oxidising agent."
+    },
+    "correct": "B",
+    "explanation": "In this reaction: $\\text{CuO}$ loses oxygen to become $\\text{Cu}$, so $\\text{CuO}$ is **reduced**. $\\text{H2}$ gains oxygen to become $\\text{H2O}$, so $\\text{H2}$ is **oxidised**. The substance that causes reduction ($\\text{H2}$) is the **reducing agent**. The substance that causes oxidation ($\\text{CuO}$) is the **oxidising agent**."
+  },
+  {
+    "question": "In the human respiratory system, the path taken by air when we breathe in is :",
+    "options": {
+      "A": "Nostrils → Larynx → Trachea → Pharynx → Alveoli",
+      "B": "Nostrils → Trachea → Larynx → Pharynx → Alveoli",
+      "C": "Nostrils → Pharynx → Larynx → Trachea → Alveoli",
+      "D": "Nostrils → Larynx → Pharynx → Trachea → Alveoli"
+    },
+    "correct": "C",
+    "explanation": "The correct sequence of air passage from the outside to the lungs is: Nostrils (or mouth) → Pharynx (common passage for food and air) → Larynx (voice box) → Trachea (windpipe) → Bronchi → Bronchioles → Alveoli (air sacs for gas exchange)."
+  },
+  {
+    "question": "A doctor advised a person to take an injection of insulin because :",
+    "options": {
+      "A": "his heart was beating slowly.",
+      "B": "his blood pressure was low.",
+      "C": "he was looking short in height.",
+      "D": "his pancreas was not secreting the required hormone in proper amounts."
+    },
+    "correct": "D",
+    "explanation": "Insulin is a hormone secreted by the pancreas. It regulates blood sugar levels. A person with Type 1 Diabetes has a pancreas that does not produce enough insulin, requiring external injections to manage their condition."
+  },
+  {
+    "question": "The movement of sunflowers is in response to a stimulus such as :",
+    "options": {
+      "A": "gravity",
+      "B": "chemicals",
+      "C": "day or night",
+      "D": "water"
+    },
+    "correct": "C",
+    "explanation": "The phenomenon where sunflowers track the sun is called **heliotropism**. The flower heads face the east in the morning and follow the sun across the sky to the west in the evening, in response to the **day/light** cycle."
+  },
+  {
+    "question": "In bread mould, the structures labelled A and B respectively are :",
+    "options": {
+      "A": "hyphae and spore",
+      "B": "root and sporangium",
+      "C": "hyphae and sporangium",
+      "D": "root and spores"
+    },
+    "correct": "C",
+    "explanation": "Bread mould is a fungus. The network of thread-like filaments (the vegetative body) is called **hyphae** (A). The structures at the top, which contain and release spores, are the **sporangia** (B). The terms 'root' and 'spore' are incorrect for the labels A and B, respectively."
+  },
+  {
+    "question": "In plants, waste products like resins and gums are stored in :",
+    "options": {
+      "A": "leaves that fall off",
+      "B": "old xylem",
+      "C": "phloem",
+      "D": "cellular vacuoles"
+    },
+    "correct": "B",
+    "explanation": "Plants use several methods for excretion. **Resins and gums** are commonly stored in the **old xylem** (non-functional water-conducting tissue) of the plant, often as the plant ages, becoming part of the heartwood."
+  },
+  {
+    "question": "The image formed by a concave mirror of focal length 50 cm is real and of magnification = -1. In this case the distance between the object from its own image is :",
+    "options": {
+      "A": "50 cm",
+      "B": "100 cm",
+      "C": "200 cm",
+      "D": "Zero"
+    },
+    "correct": "D",
+    "explanation": "For a real image with magnification $m = -1$, the object is placed at the **centre of curvature** ($C$). For a concave mirror, the centre of curvature is $C = 2f$. Given $f = 50 \\text{ cm}$, the object distance is $u = -100 \\text{ cm}$ and the image distance is $v = -100 \\text{ cm}$ (the image is also formed at $C$). Since the object and its image are at the same position, the distance between them is **Zero**."
+  },
+  {
+    "question": "When we connect too many electrical appliances to a single socket in a circuit having a fixed value of current rating :",
+    "options": {
+      "A": "the total resistance of the circuit increases.",
+      "B": "the current drawn from the source decreases.",
+      "C": "the current increases beyond the rated value.",
+      "D": "each appliance starts drawing more and more current from the source."
+    },
+    "correct": "C",
+    "explanation": "When too many appliances are connected to a single socket, they are connected in parallel. This causes the **total resistance of the circuit to decrease** (A is false). According to Ohm's law ($I = V/R$), a decrease in total resistance leads to a **large increase in the current** drawn from the source (B is false), which can exceed the circuit's safe **rated value**, leading to **overloading** (C is correct). Each appliance draws its rated current, but the total current is too high (D is false)."
+  },
+  {
+    "question": "Consider the following statements: \n\nI. Every step in a food chain is called a trophic level. \nII. Decomposers convert complex inorganic matter in dead remains of organisms into simple substances that go into the soil. \nIII. In a food chain, energy level increases from lower trophic level to higher trophic level. \nIV. Linkages between various food chains constitute a food web. \n\nThe correct statements is/are:",
+    "options": {
+      "A": "I only",
+      "B": "I and IV",
+      "C": "I, II and IV",
+      "D": "II and IV"
+    },
+    "correct": "B",
+    "explanation": "**Statement I** is correct: Trophic levels define the position an organism occupies in a food chain (e.g., producer, primary consumer, etc.). **Statement II** is incorrect: Decomposers convert complex **organic** matter into simple **inorganic** substances. **Statement III** is incorrect: Energy **decreases** at each successive trophic level (the 10% law). **Statement IV** is correct: A food web is an interconnected network of several food chains."
+  },
+  {
+    "question": "Biomagnification refers to the increase in the :",
+    "options": {
+      "A": "body weight of an organism.",
+      "B": "growth of phytoplanktons.",
+      "C": "the amount of harmful chemicals in the successive trophic levels of a food chain.",
+      "D": "number of plants and animals in an area."
+    },
+    "correct": "C",
+    "explanation": "**Biomagnification** (or bioaccumulation) is the increase in the concentration of **harmful, non-biodegradable chemicals** (like DDT or mercury) in the body of organisms at successively higher **trophic levels** of a food chain. This occurs because the chemical cannot be metabolised or excreted and its concentration builds up over time."
+  },
+
+{
+    "question": "Assertion (A): Soaps do not form lather (foam) with hard water. \n\nReason (R): Hard water has calcium and magnesium salts dissolved in it which on reacting with soap form scum.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "correct": "A",
+    "explanation": "Both the Assertion and the Reason are correct, and the Reason correctly explains the Assertion. **Soaps** react with the **calcium and magnesium salts** present in hard water to form an insoluble, sticky precipitate called **scum**. This process consumes the soap and prevents it from forming a lather (foam)."
+  },
+  {
+    "question": "Assertion (A): Chemical co-ordination is seen in both plants and animals. \n\nReason (R): Plant hormones control directional growth, whereas in animals, growth is never seen in one direction only.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "correct": "B",
+    "explanation": "Both the Assertion and the Reason are true statements, but the Reason is not the correct explanation for the Assertion. **Assertion (A)** is true: Chemical co-ordination via hormones exists in both kingdoms. **Reason (R)** is true: Plant hormones (like auxins) control directional growth (tropisms), which is different from general animal growth. However, this difference in growth patterns does not explain *why* both organisms use chemical co-ordination; chemical co-ordination is used for overall control and integration of body functions."
+  },
+  {
+    "question": "Assertion (A): The commercial unit of electric energy is kilowatt hour (kWh). \n\nReason (R): 1 kWh = $10^6$ joule (J)",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "correct": "C",
+    "explanation": "**Assertion (A)** is true: The kilowatt-hour ($\\text{kWh}$) is the common commercial unit for measuring electrical energy consumption. **Reason (R)** is false: The conversion is $1 \\text{ kWh} = 1 \\text{ kW} \\times 1 \\text{ h} = 1000 \\text{ W} \\times 3600 \\text{ s} = 3,600,000 \\text{ J}$, or $3.6 \\times 10^6 \\text{ J}$ (not $10^6 \\text{ J}$). Since the Reason is false, the correct option is C."
+  },
+  {
+    "question": "Assertion (A): Ozone (O3) is a molecule formed by the three atoms of oxygen. \n\nReason (R): Ozone shields the surface of the Earth from ultraviolet (UV) radiation from the Sun.",
+    "options": {
+      "A": "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "B": "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "C": "Assertion (A) is true, but Reason (R) is false.",
+      "D": "Assertion (A) is false, but Reason (R) is true."
+    },
+    "correct": "B",
+    "explanation": "Both the Assertion and the Reason are individually true statements, but the Reason does not explain the Assertion. **Assertion (A)** is true: Ozone has the chemical formula $\\text{O3}$. **Reason (R)** is true: The ozone layer in the atmosphere protects life from harmful UV radiation. However, the molecule's composition (three oxygen atoms) is a structural fact and is not explained by its function (UV shielding)."
+  }
+]
