@@ -95,6 +95,13 @@ let questions = [];
 let idx = 0, correct = 0, incorrect = 0, responses = [];
 let quizStartMs = null;
 
+// ✅ NEW LIFELINE CODE: Lifeline state
+let lifelinesUsed = {
+    fiftyFifty: false,
+    geminiHint: false
+};
+// ✅ END NEW LIFELINE CODE
+
 /* ---------- Timer state ---------- */
 let timerId = null;
 
@@ -225,6 +232,11 @@ async function beginQuizFromUrl(url, subjectLabel, chapterTitle){
    $("welcome-banner").innerHTML =
     `Welcome <span class="name">${userName}</span> in Quizzy App of <b>‘${subjectLabel}’ : ${chapterTitle.replace(/^Chapter\s*\d+\s*:\s*/i,'')}</b>`;
 
+  // ✅ NEW LIFELINE CODE: Reset lifelines
+  lifelinesUsed = { fiftyFifty: false, geminiHint: false };
+  updateLifelineButtons();
+  // ✅ END NEW LIFELINE CODE
+
   show("quiz");
 
   try{
@@ -255,6 +267,14 @@ async function beginQuizFromUrl(url, subjectLabel, chapterTitle){
 
   renderQuestion();
 }
+
+// ✅ NEW LIFELINE CODE: Function to check and update button states
+function updateLifelineButtons() {
+    $("fifty-fifty-btn").disabled = lifelinesUsed.fiftyFifty;
+    $("gemini-hint-btn").disabled = lifelinesUsed.geminiHint;
+}
+// ✅ END NEW LIFELINE CODE
+
 function renderQuestion(){
   const q = questions[idx];
   $("question").textContent = `Q${idx+1}. ${q.question}`;
@@ -265,6 +285,7 @@ function renderQuestion(){
     const div = document.createElement("div");
     div.className = "option";
     div.textContent = opt.text;
+    div.dataset.key = opt.key; // ✅ Store key as data attribute
     div.onclick = () => choose(opt.key, div);
     optionsDiv.appendChild(div);
   });
@@ -272,7 +293,10 @@ function renderQuestion(){
   $("qprogress").textContent = `Question ${idx+1}/${questions.length}`;
   $("bar-inner").style.width = `${((idx)/questions.length)*100}%`;
   if(quizStartMs === null) quizStartMs = Date.now();
-
+  
+  // ✅ NEW LIFELINE CODE: Re-enable options pointer events
+  document.querySelectorAll(".option").forEach(o => o.style.pointerEvents = "auto"); 
+  
   // 🔹 Start timer for this question (30 sec)
   startTimer(30);
 }
@@ -309,7 +333,9 @@ function recordAnswer(q, selectedKey, isTimeout = false) {
   });
 
   document.querySelectorAll(".option").forEach(o => {
-    const isCorrect = q._optionsArr.find(x => x.text === o.textContent)?.key === correctKey;
+    // Determine if the option's key matches the correct key
+    const optionKey = o.dataset.key; // ✅ Use data attribute
+    const isCorrect = optionKey === correctKey;
     if (isCorrect) o.classList.add("correct");
   });
 
@@ -318,6 +344,7 @@ function recordAnswer(q, selectedKey, isTimeout = false) {
 }
 
 function choose(selectedKey, el) {
+  stopTimer(); // Stop timer when answer is chosen
   document.querySelectorAll(".option").forEach(o => o.style.pointerEvents = "none");
   const q = questions[idx];
 
@@ -348,6 +375,68 @@ function handleTimeUp() {
     }
   }, 800);
 }
+
+// ✅ NEW LIFELINE CODE: 50:50 Logic
+$("fifty-fifty-btn").onclick = () => {
+    if (lifelinesUsed.fiftyFifty) return;
+    
+    const q = questions[idx];
+    const optionsDivs = Array.from(document.querySelectorAll("#options .option"));
+    const correctKey = q._correctKey;
+    
+    // Find incorrect options
+    const incorrectOptions = optionsDivs.filter(o => o.dataset.key !== correctKey);
+    
+    // Select one incorrect option to keep
+    const keptIncorrect = incorrectOptions[Math.floor(Math.random() * incorrectOptions.length)];
+    
+    // Find the two options to remove (the rest of the incorrect ones)
+    const removedOptions = incorrectOptions.filter(o => o !== keptIncorrect);
+    
+    // Remove (visually hide) the options
+    removedOptions.forEach(o => {
+        o.style.opacity = '0.3'; // Optional: Just dim them
+        o.style.pointerEvents = 'none';
+        o.onclick = null; // Disable click event
+        o.textContent += " (Eliminated)"; // Indicate they're gone
+    });
+
+    lifelinesUsed.fiftyFifty = true;
+    updateLifelineButtons();
+};
+// ✅ END NEW LIFELINE CODE
+
+
+// ✅ NEW LIFELINE CODE: Gemini Hint Logic (using explanation from JSON)
+document.getElementById("gemini-hint-btn").onclick = () => {
+    if (lifelinesUsed.geminiHint) return;
+
+    const q = questions[idx];  // current question
+    let hint = q.explanation || "No explanation available for this question.";
+
+    // Show the modal with explanation
+    const overlay = document.getElementById("modal-overlay");
+    overlay.innerHTML = `
+      <div class="modal">
+        <button class="close" id="modal-close" aria-label="Close">✕</button>
+        <div id="modal-content">
+          <h2>🧠 Hint</h2>
+          <p style="text-align:left; line-height:1.6; font-size:1.1rem">${hint}</p>
+          <p class="muted" style="margin-top:15px;">(Close this to continue the quiz)</p>
+        </div>
+      </div>
+    `;
+    overlay.style.display = "flex";  // make it visible
+
+    document.getElementById("modal-close").onclick = () => {
+        overlay.style.display = "none";
+    };
+
+    lifelinesUsed.geminiHint = true;
+    updateLifelineButtons();
+};
+// ✅ END NEW LIFELINE CODE
+
 
 /* ---------- Timer (Circular, wrong on timeout) ---------- */
 const radius = 50;
@@ -730,7 +819,3 @@ $("play-again-btn").onclick = () => {
   $("celebrate-overlay").style.display = "none";
   show("subjects");
 };
-
-
-
-
