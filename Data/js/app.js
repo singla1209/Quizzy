@@ -275,13 +275,25 @@ function updateLifelineButtons() {
 }
 // ✅ END NEW LIFELINE CODE
 
-function renderQuestion(){
+function renderQuestion() {
   const q = questions[idx];
-  $("question").textContent = `Q${idx+1}. ${q.question}`;
+
+  // Set question text
+  $("question").textContent = `Q${idx + 1}. ${q.question}`;
+
+  // Display image if present
+  const imageContainer = $("question-image");
+  if (q.image) {
+    imageContainer.innerHTML = `<img src="${q.image}" alt="Question Image" style="max-width:100%; height:auto;">`;
+  } else {
+    imageContainer.innerHTML = "";
+  }
+
+  // Render options
   const optionsDiv = $("options");
   optionsDiv.innerHTML = "";
 
-  q._optionsArr.forEach(opt=>{
+  q._optionsArr.forEach(opt => {
     const div = document.createElement("div");
     div.className = "option";
     div.textContent = opt.text;
@@ -290,9 +302,14 @@ function renderQuestion(){
     optionsDiv.appendChild(div);
   });
 
-  $("qprogress").textContent = `Question ${idx+1}/${questions.length}`;
-  $("bar-inner").style.width = `${((idx)/questions.length)*100}%`;
-  if(quizStartMs === null) quizStartMs = Date.now();
+  // Update progress bar and text
+  $("qprogress").textContent = `Question ${idx + 1}/${questions.length}`;
+  $("bar-inner").style.width = `${(idx / questions.length) * 100}%`;
+
+  // Start quiz timer if not already started
+  if (quizStartMs === null) quizStartMs = Date.now();
+}
+
   
   // ✅ NEW LIFELINE CODE: Re-enable options pointer events
   document.querySelectorAll(".option").forEach(o => o.style.pointerEvents = "auto"); 
@@ -818,4 +835,5 @@ $("celebrate-close").onclick = () => {
 $("play-again-btn").onclick = () => {
   $("celebrate-overlay").style.display = "none";
   show("subjects");
+
 };
