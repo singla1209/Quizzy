@@ -237,3 +237,13 @@
 .sound-btn.muted {
   color: #ff5555; /* red when muted */
 }
+
+
+/* styling of picture in question */
+#question-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
