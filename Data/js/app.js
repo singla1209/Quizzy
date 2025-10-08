@@ -308,7 +308,6 @@ function renderQuestion() {
 
   // Start quiz timer if not already started
   if (quizStartMs === null) quizStartMs = Date.now();
-}
 
   
   // ✅ NEW LIFELINE CODE: Re-enable options pointer events
@@ -837,3 +836,4 @@ $("play-again-btn").onclick = () => {
   show("subjects");
 
 };
+
