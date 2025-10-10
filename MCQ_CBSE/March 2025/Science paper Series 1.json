@@ -1,109 +1,107 @@
 [
-{
-  "question": "Electrolysis of water is a decomposition reaction. The mass ratio (MH : MO) of hydrogen and oxygen gases liberated at the electrodes during electrolysis of water is:",
-  "options": {
-    "A": "8 : 1",
-    "B": "2 : 1",
-    "C": "1 : 2",
-    "D": "1 : 8"
+  {
+    "question": "Electrolysis of water is a decomposition reaction. The mass ratio (MH : MO) of hydrogen and oxygen gases liberated at the electrodes during electrolysis of water is:",
+    "options": {
+      "A": "8 : 1",
+      "B": "2 : 1",
+      "C": "1 : 2",
+      "D": "1 : 8"
+    },
+    "correct": "D",
+    "explanation": "From 2H2O → 2H2 + O2, 4 g H2 and 32 g O2 are formed. Mass ratio H:O = 4:32 = 1:8."
   },
-
-  "correct": "D",
-  "explanation": "From 2H2O → 2H2 + O2, 4 g H2 and 32 g O2 are formed. Mass ratio H:O = 4:32 = 1:8."
-},
-{
-  "question": "The products formed when Aluminium and Magnesium are burnt in the presence of air respectively are:",
-  "options": {
-    "A": "Al₃O₄ and MgO₂",
-    "B": "Al₂O₃ and MgO",
-    "C": "Al₃O₄ and MgO",
-    "D": "Al₂O₃ and MgO₂"
+  {
+    "question": "The products formed when Aluminium and Magnesium are burnt in the presence of air respectively are:",
+    "options": {
+      "A": "Al₃O₄ and MgO₂",
+      "B": "Al₂O₃ and MgO",
+      "C": "Al₃O₄ and MgO",
+      "D": "Al₂O₃ and MgO₂"
+    },
+    "correct": "B",
+    "explanation": "Aluminium burns to give Al2O3 (aluminium oxide) and Magnesium burns to give MgO (magnesium oxide)."
   },
-  "correct": "B",
-  "explanation": "Aluminium burns to give Al2O3 (aluminium oxide) and Magnesium burns to give MgO (magnesium oxide)."
-},
-{
-  "question": "The following table shows the pH values of four solutions A, B, C and D on a pH scale: and the solutions A, B, C and D respectively are given below: ",
-   "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_1.png",
-  "options": {
-    "A": "Strong acid, weak acid, neutral, strong base",
-    "B": "Weak acid, neutral, weak base, strong base",
-    "C": "Weak acid, neutral, strong base, weak base",
-    "D": "Weak acid, neutral, strong base, strong acid"
+  {
+    "question": "The following table shows the pH values of four solutions A, B, C and D on a pH scale: and the solutions A, B, C and D respectively are given below:",
+    "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_1.png",
+    "options": {
+      "A": "Strong acid, weak acid, neutral, strong base",
+      "B": "Weak acid, neutral, weak base, strong base",
+      "C": "Weak acid, neutral, strong base, weak base",
+      "D": "Weak acid, neutral, strong base, strong acid"
+    },
+    "correct": "C",
+    "explanation": "pH < 7 → acidic, pH = 7 → neutral, pH > 7 → basic. A (pH 5) is weak acid, B (pH 7) neutral, C (pH 13) strong base, D (pH 3) weak acid."
   },
-  "correct": "C",
-  "explanation": "pH < 7 → acidic, pH = 7 → neutral, pH > 7 → basic. A (pH 5) is weak acid, B (pH 7) neutral, C (pH 13) strong base, D (pH 3) weak acid."
-},
-{
-  "question": "Consider the reactions: (i) Dilute hydrochloric acid reacts with sodium hydroxide (HCl + NaOH → NaCl + H2O) (ii) MgO + Magnesium oxide reacts with dilute hydrochloric acid (2HCl → MgCl2 + H2O) (iii) Carbon dioxide reacts with sodium hydroxide (CO2 + 2NaOH → Na2CO3 + H2O). In each case:",
-  "options": {
-    "A": "Salt and water is formed",
-    "B": "Neutral salts are formed",
-    "C": "Hydrogen gas is formed",
-    "D": "Acidic salts are formed"
+  {
+    "question": "Consider the reactions: (i) Dilute hydrochloric acid reacts with sodium hydroxide (HCl + NaOH → NaCl + H2O) (ii) MgO + Magnesium oxide reacts with dilute hydrochloric acid (2HCl → MgCl2 + H2O) (iii) Carbon dioxide reacts with sodium hydroxide (CO2 + 2NaOH → Na2CO3 + H2O). In each case:",
+    "options": {
+      "A": "Salt and water is formed",
+      "B": "Neutral salts are formed",
+      "C": "Hydrogen gas is formed",
+      "D": "Acidic salts are formed"
+    },
+    "correct": "A",
+    "explanation": "All three reactions are neutralisation reactions forming salt and water."
   },
-  "correct": "A",
-  "explanation": "All three reactions are neutralisation reactions forming salt and water."
-},
-{
-  "question": "Reaction between elements A and B forms compound C. A loses electrons, B gains electrons. Which property will NOT be shown by C?",
-  "options": {
-    "A": "It has high melting point",
-    "B": "It is highly soluble in water",
-    "C": "It has weak electrostatic forces of attraction between ions",
-    "D": "It conducts electricity in molten or aqueous state"
+  {
+    "question": "Reaction between elements A and B forms compound C. A loses electrons, B gains electrons. Which property will NOT be shown by C?",
+    "options": {
+      "A": "It has high melting point",
+      "B": "It is highly soluble in water",
+      "C": "It has weak electrostatic forces of attraction between ions",
+      "D": "It conducts electricity in molten or aqueous state"
+    },
+    "correct": "C",
+    "explanation": "Compound C is ionic. Ionic compounds have strong electrostatic forces, not weak ones."
   },
-  "correct": "C",
-  "explanation": "Compound C is ionic. Ionic compounds have strong electrostatic forces, not weak ones."
-},
-{
-  "question": "The metals obtained from their molten chlorides by electrolytic reduction are:",
-  "options": {
-    "A": "Gold and silver",
-    "B": "Calcium and magnesium",
-    "C": "Aluminium and silver",
-    "D": "Sodium and iron"
+  {
+    "question": "The metals obtained from their molten chlorides by electrolytic reduction are:",
+    "options": {
+      "A": "Gold and silver",
+      "B": "Calcium and magnesium",
+      "C": "Aluminium and silver",
+      "D": "Sodium and iron"
+    },
+    "correct": "B",
+    "explanation": "Electrolytic reduction is used for highly reactive metals (alkali and alkaline earth metals) like Ca and Mg."
   },
-  "correct": "B",
-  "explanation": "Electrolytic reduction is used for highly reactive metals (alkali and alkaline earth metals) like Ca and Mg."
-},
-{
-  "question": "The formation of magnesium oxide is correctly shown in option:",
-  "options": {
-    "A": "Mg → Mg2+ + O2-",
-    "B": "Mg → Mg+ + O-",
-    "C": "Mg → Mg2+ + [O2-]2",
-    "D": "2Mg + O2 → [Mg2+]2 [O2-]2"
+  {
+    "question": "The formation of magnesium oxide is correctly shown in option:",
+    "options": {
+      "A": "Mg → Mg2+ + O2-",
+      "B": "Mg → Mg+ + O-",
+      "C": "Mg → Mg2+ + [O2-]2",
+      "D": "2Mg + O2 → [Mg2+]2 [O2-]2"
+    },
+    "correct": "D",
+    "explanation": "Magnesium loses 2 electrons (Mg2+), oxygen gains 2 electrons (O2-). Balanced equation: 2Mg + O2 → 2MgO."
   },
-  "correct": "D",
-  "explanation": "Magnesium loses 2 electrons (Mg2+), oxygen gains 2 electrons (O2-). Balanced equation: 2Mg + O2 → 2MgO."
-},
-{
-  "question": "Secretion of less saliva in mouth will affect the conversion of:",
-  "options": {
-    "A": "Proteins into amino acids",
-    "B": "Fats into fatty acids and glycerol",
-    "C": "Starch into simple sugars",
-    "D": "Sugars into alcohol"
+  {
+    "question": "Secretion of less saliva in mouth will affect the conversion of:",
+    "options": {
+      "A": "Proteins into amino acids",
+      "B": "Fats into fatty acids and glycerol",
+      "C": "Starch into simple sugars",
+      "D": "Sugars into alcohol"
+    },
+    "correct": "C",
+    "explanation": "Saliva contains enzyme amylase which converts starch into maltose/simple sugars."
   },
-  "correct": "C",
-  "explanation": "Saliva contains enzyme amylase which converts starch into maltose/simple sugars."
-},
-{
-  "question": "The plant hormone that stimulates cells to grow longer on the shaded side of a shoot (away from light) is:",
-  "options": {
-    "A": "Cytokinins",
-    "B": "Gibberellins",
-    "C": "Adrenaline",
-    "D": "Auxins"
+  {
+    "question": "The plant hormone that stimulates cells to grow longer on the shaded side of a shoot (away from light) is:",
+    "options": {
+      "A": "Cytokinins",
+      "B": "Gibberellins",
+      "C": "Adrenaline",
+      "D": "Auxins"
+    },
+    "correct": "D",
+    "explanation": "Auxins accumulate on the shaded side, causing cell elongation and bending towards light (phototropism)."
   },
-  "correct": "D",
-  "explanation": "Auxins accumulate on the shaded side, causing cell elongation and bending towards light (phototropism)."
-},
-
-{
+  {
     "question": "The correct/true statement(s) for a bisexual flower is/are:",
-     "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_2.png",
+    "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_2.png",
     "options": {
       "A": "(i) only",
       "B": "(iv) only",
@@ -126,7 +124,7 @@
   },
   {
     "question": "The breakdown of glucose has taken the following pathway:",
-     "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_2.png",
+    "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_2.png",
     "options": {
       "A": "Mitochondria and Oxygen deficient muscle cells",
       "B": "Cytoplasm and Oxygen rich muscle cells",
@@ -137,13 +135,7 @@
     "explanation": "Glycolysis occurs in cytoplasm. In absence of oxygen (anaerobic), lactic acid is formed in muscles."
   },
   {
-    "question": "Mirror ‘X’ is used to concentrate sunlight in solar furnace and Mirror ‘Y’ 
-		is fitted on the side of the vehicle to see the traffic behind the driver. 
-		Which of the following statements are true for the two mirrors ?   
-		(i) The image formed by mirror ‘X’ is real, diminished and at its focus.  
-		(ii) The image formed by mirror ‘Y’ is virtual, diminished and erect.   
-		(iii) The image formed by mirror ‘X’ is virtual, diminished and erect.     
-		(iv) The image formed by mirror ‘Y’ is real, diminished and at its focus",
+    "question": "Mirror ‘X’ is used to concentrate sunlight in solar furnace and Mirror ‘Y’ is fitted on the side of the vehicle to see the traffic behind the driver. Which of the following statements are true for the two mirrors? (i) The image formed by mirror ‘X’ is real, diminished and at its focus. (ii) The image formed by mirror ‘Y’ is virtual, diminished and erect. (iii) The image formed by mirror ‘X’ is virtual, diminished and erect. (iv) The image formed by mirror ‘Y’ is real, diminished and at its focus.",
     "options": {
       "A": "(i) and (ii)",
       "B": "(ii) and (iii)",
@@ -165,11 +157,7 @@
     "explanation": "Presbyopia is age-related and corrected using bifocal lenses."
   },
   {
-    "question": "Which of the following groups do NOT constitute a food chain?
-      (i) Wolf, rabbit, grass, lion 
-      (ii) Plankton, man, grasshopper, fish 
-      (iii) Hawk, grass, snake, grasshopper, frog    
-       (iv) Grass, snake, wolf, tiger  ",
+    "question": "Which of the following groups do NOT constitute a food chain? (i) Wolf, rabbit, grass, lion (ii) Plankton, man, grasshopper, fish (iii) Hawk, grass, snake, grasshopper, frog (iv) Grass, snake, wolf, tiger",
     "options": {
       "A": "(i) and (iv)",
       "B": "(i) and (iii)",
@@ -235,5 +223,3 @@
     "explanation": "It is true that ozone depletion began in the 1980s, but the given reason is not the cause. The depletion was mainly due to chlorofluorocarbons (CFCs) releasing chlorine atoms, which destroy ozone molecules."
   }
 ]
-
-
