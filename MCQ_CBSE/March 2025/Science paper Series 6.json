@@ -36,9 +36,8 @@
   "explanation": "Aluminium burns to give Al2O3 (aluminium oxide) and Magnesium burns to give MgO (magnesium oxide)."
 },
 {
-  "question": "The following table shows the pH values of four solutions A, B, C and D on a pH scale: ",
+  "question": "The following table shows the pH values of four solutions A, B, C and D on a pH scale: and the solutions A, B, C and D respectively are given below: ",
    "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_1.png",
-  "question": "The solutions A, B, C and D respectively are:",
   "options": {
     "A": "Strong acid, weak acid, neutral, strong base",
     "B": "Weak acid, neutral, weak base, strong base",
