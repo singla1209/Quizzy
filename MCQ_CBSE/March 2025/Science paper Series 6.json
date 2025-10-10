@@ -13,7 +13,7 @@
 },
 {
   "question": "Electrolysis of water is a decomposition reaction. The mass ratio (MH : MO) of hydrogen and oxygen gases liberated at the electrodes during electrolysis of water is:",
-  "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img.png",
+  "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_2.png",
   "options": {
     "A": "8 : 1",
     "B": "2 : 1",
@@ -27,16 +27,18 @@
 {
   "question": "The products formed when Aluminium and Magnesium are burnt in the presence of air respectively are:",
   "options": {
-    "A": "Al3O4 and MgO2",
-    "B": "Al2O3 and MgO",
-    "C": "Al3O4 and MgO",
-    "D": "Al2O3 and MgO2"
+    "A": "Al₃O₄ and MgO₂",
+    "B": "Al₂O₃ and MgO",
+    "C": "Al₃O₄ and MgO",
+    "D": "Al₂O₃ and MgO₂"
   },
   "correct": "B",
   "explanation": "Aluminium burns to give Al2O3 (aluminium oxide) and Magnesium burns to give MgO (magnesium oxide)."
 },
 {
-  "question": "The following table shows the pH values of four solutions A, B, C and D on a pH scale: A=5, B=7, C=13, D=3. The solutions A, B, C and D respectively are:",
+  "question": "The following table shows the pH values of four solutions A, B, C and D on a pH scale: ",
+   "image": "https://raw.githubusercontent.com/singla1209/Quizzy/main/picture/img_1.png",
+  "question": "The solutions A, B, C and D respectively are:",
   "options": {
     "A": "Strong acid, weak acid, neutral, strong base",
     "B": "Weak acid, neutral, weak base, strong base",
