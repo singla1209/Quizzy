@@ -174,3 +174,12 @@ tr:hover{background:rgba(255,255,255,.06);cursor:pointer}
 .sound-btn.muted {
   color: #ff5555; /* red when muted */
 }
+
+/* for styling of picture float in question */
+#question-image img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px auto;        /* Top and bottom 10px, left and right auto to center */
+  display: block;           /* Make the image a block element to enable margin auto centering */
+  border-radius: 8px;
+}
